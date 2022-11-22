@@ -7,6 +7,7 @@ using System.Linq;
 public class CalcularRespuesta : MonoBehaviour
 {
     public string[] url;
+    public VideoClip[] videos;
     public VideoPlayer videoPlayer;
     int[] respuestas = new int[3];
     //0 = auditivo  , 1 = visual , 2 = kinestesico;
@@ -22,7 +23,8 @@ public class CalcularRespuesta : MonoBehaviour
         int maxValue = respuestas.Max();
         int index = respuestas.ToList().IndexOf(maxValue);
 
-        videoPlayer.url = url[index];
+        //videoPlayer.url = url[index];
+        videoPlayer.clip = videos[index];
         videoPlayer.gameObject.SetActive(true);
     }
 }

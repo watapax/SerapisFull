@@ -192,7 +192,7 @@ VideoPlayer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 95215364}
   m_Enabled: 1
-  m_VideoClip: {fileID: 0}
+  m_VideoClip: {fileID: 32900000, guid: 574c137fbcb6ce4438b5b6acd2f72704, type: 3}
   m_TargetCameraAlpha: 1
   m_TargetCamera3DLayout: 0
   m_TargetCamera: {fileID: 961739752}
@@ -202,7 +202,7 @@ VideoPlayer:
   m_TargetMaterialProperty: <noninit>
   m_RenderMode: 1
   m_AspectRatio: 2
-  m_DataSource: 1
+  m_DataSource: 0
   m_PlaybackSpeed: 1
   m_AudioOutputMode: 2
   m_TargetAudioSources:
@@ -294,6 +294,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   moveToMatchPosition: 0
+  disableOnMatch: 0
 --- !u!114 &155273117
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -576,6 +577,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   moveToMatchPosition: 0
+  disableOnMatch: 0
 --- !u!114 &298809236
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -751,7 +753,7 @@ VideoPlayer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 431943413}
   m_Enabled: 1
-  m_VideoClip: {fileID: 0}
+  m_VideoClip: {fileID: 32900000, guid: 208e4d77d6245d94d91c45a288756d28, type: 3}
   m_TargetCameraAlpha: 1
   m_TargetCamera3DLayout: 0
   m_TargetCamera: {fileID: 961739752}
@@ -761,7 +763,7 @@ VideoPlayer:
   m_TargetMaterialProperty: <noninit>
   m_RenderMode: 0
   m_AspectRatio: 2
-  m_DataSource: 1
+  m_DataSource: 0
   m_PlaybackSpeed: 1
   m_AudioOutputMode: 2
   m_TargetAudioSources:
@@ -829,6 +831,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   moveToMatchPosition: 0
+  disableOnMatch: 0
 --- !u!114 &557120791
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1016,6 +1019,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   moveToMatchPosition: 0
+  disableOnMatch: 0
 --- !u!114 &575288165
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1581,6 +1585,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   moveToMatchPosition: 0
+  disableOnMatch: 0
 --- !u!114 &1269658957
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1781,6 +1786,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   moveToMatchPosition: 0
+  disableOnMatch: 0
 --- !u!114 &1786175786
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1941,6 +1947,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   moveToMatchPosition: 0
+  disableOnMatch: 0
 --- !u!114 &1932387843
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2105,6 +2112,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   moveToMatchPosition: 0
+  disableOnMatch: 0
 --- !u!114 &2030131050
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2246,6 +2254,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   moveToMatchPosition: 0
+  disableOnMatch: 0
 --- !u!114 &2030131053
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2381,6 +2390,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   moveToMatchPosition: 0
+  disableOnMatch: 0
 --- !u!114 &2145970714
 MonoBehaviour:
   m_ObjectHideFlags: 0

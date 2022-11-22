@@ -772,7 +772,7 @@ VideoPlayer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1567851699}
   m_Enabled: 1
-  m_VideoClip: {fileID: 0}
+  m_VideoClip: {fileID: 32900000, guid: ee18b41adb228774dbf67f9d7a7fbdfa, type: 3}
   m_TargetCameraAlpha: 1
   m_TargetCamera3DLayout: 0
   m_TargetCamera: {fileID: 961739752}
@@ -782,7 +782,7 @@ VideoPlayer:
   m_TargetMaterialProperty: <noninit>
   m_RenderMode: 0
   m_AspectRatio: 2
-  m_DataSource: 1
+  m_DataSource: 0
   m_PlaybackSpeed: 1
   m_AudioOutputMode: 2
   m_TargetAudioSources:
@@ -883,7 +883,7 @@ VideoPlayer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1816284943}
   m_Enabled: 1
-  m_VideoClip: {fileID: 0}
+  m_VideoClip: {fileID: 32900000, guid: dab95f3e308230941bfb1e09fd713a62, type: 3}
   m_TargetCameraAlpha: 1
   m_TargetCamera3DLayout: 0
   m_TargetCamera: {fileID: 961739752}
@@ -893,7 +893,7 @@ VideoPlayer:
   m_TargetMaterialProperty: <noninit>
   m_RenderMode: 0
   m_AspectRatio: 2
-  m_DataSource: 1
+  m_DataSource: 0
   m_PlaybackSpeed: 1
   m_AudioOutputMode: 2
   m_TargetAudioSources:
@@ -1956,6 +1956,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   moveToMatchPosition: 1
+  disableOnMatch: 0
 --- !u!114 &4184759915789607821
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2629,6 +2630,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   moveToMatchPosition: 1
+  disableOnMatch: 0
 --- !u!114 &7035041152413847939
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2786,6 +2788,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   moveToMatchPosition: 1
+  disableOnMatch: 0
 --- !u!114 &7623019049056239517
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2958,6 +2961,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   moveToMatchPosition: 1
+  disableOnMatch: 0
 --- !u!114 &7873967861400984758
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3153,6 +3157,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   moveToMatchPosition: 1
+  disableOnMatch: 0
 --- !u!114 &8199647099397031277
 MonoBehaviour:
   m_ObjectHideFlags: 0
