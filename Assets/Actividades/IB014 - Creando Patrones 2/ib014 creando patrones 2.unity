@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.18028378, g: 0.22571412, b: 0.30692285, a: 1}
+  m_IndirectSpecularColor: {r: 0.18028334, g: 0.2257134, b: 0.30692226, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -235,6 +235,7 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
   moveToMatchPosition: 0
+  disableOnMatch: 0
 --- !u!50 &20632437
 Rigidbody2D:
   serializedVersion: 4
@@ -664,6 +665,7 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
   moveToMatchPosition: 0
+  disableOnMatch: 0
 --- !u!50 &67858713
 Rigidbody2D:
   serializedVersion: 4
@@ -866,6 +868,7 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
   moveToMatchPosition: 0
+  disableOnMatch: 0
 --- !u!50 &79558228
 Rigidbody2D:
   serializedVersion: 4
@@ -1010,7 +1013,7 @@ VideoPlayer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 87806692}
   m_Enabled: 1
-  m_VideoClip: {fileID: 0}
+  m_VideoClip: {fileID: 32900000, guid: 6af7bf9887406294894dbc4fe3ab821b, type: 3}
   m_TargetCameraAlpha: 1
   m_TargetCamera3DLayout: 0
   m_TargetCamera: {fileID: 961739752}
@@ -1020,7 +1023,7 @@ VideoPlayer:
   m_TargetMaterialProperty: <noninit>
   m_RenderMode: 0
   m_AspectRatio: 2
-  m_DataSource: 1
+  m_DataSource: 0
   m_PlaybackSpeed: 1
   m_AudioOutputMode: 2
   m_TargetAudioSources:
@@ -1352,7 +1355,7 @@ MonoBehaviour:
   onVideoEnd:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1818526673}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: ManagerEscenas, Assembly-CSharp
         m_MethodName: CargarEscena
         m_Mode: 5
@@ -1372,7 +1375,7 @@ VideoPlayer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 221245861}
   m_Enabled: 1
-  m_VideoClip: {fileID: 0}
+  m_VideoClip: {fileID: 32900000, guid: 765ed5fb50979cd42948727a6122b2b4, type: 3}
   m_TargetCameraAlpha: 1
   m_TargetCamera3DLayout: 0
   m_TargetCamera: {fileID: 961739752}
@@ -1382,7 +1385,7 @@ VideoPlayer:
   m_TargetMaterialProperty: <noninit>
   m_RenderMode: 0
   m_AspectRatio: 2
-  m_DataSource: 1
+  m_DataSource: 0
   m_PlaybackSpeed: 1
   m_AudioOutputMode: 2
   m_TargetAudioSources:
@@ -1749,6 +1752,7 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
   moveToMatchPosition: 0
+  disableOnMatch: 0
 --- !u!50 &328389713
 Rigidbody2D:
   serializedVersion: 4
@@ -2529,6 +2533,7 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
   moveToMatchPosition: 0
+  disableOnMatch: 0
 --- !u!50 &505530482
 Rigidbody2D:
   serializedVersion: 4
@@ -2774,6 +2779,7 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
   moveToMatchPosition: 0
+  disableOnMatch: 0
 --- !u!50 &550196888
 Rigidbody2D:
   serializedVersion: 4
@@ -2921,7 +2927,6 @@ MonoBehaviour:
           m_BoolArgument: 1
         m_CallState: 2
   cantidadDeRespuestas: 9
-  respuestasAsignadas: 0
 --- !u!4 &560238601
 Transform:
   m_ObjectHideFlags: 0
@@ -3053,6 +3058,7 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
   moveToMatchPosition: 0
+  disableOnMatch: 0
 --- !u!50 &619301289
 Rigidbody2D:
   serializedVersion: 4
@@ -3265,6 +3271,7 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
   moveToMatchPosition: 0
+  disableOnMatch: 0
 --- !u!50 &621583935
 Rigidbody2D:
   serializedVersion: 4
@@ -4026,6 +4033,7 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
   moveToMatchPosition: 0
+  disableOnMatch: 0
 --- !u!50 &696672223
 Rigidbody2D:
   serializedVersion: 4
@@ -4238,6 +4246,7 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
   moveToMatchPosition: 0
+  disableOnMatch: 0
 --- !u!50 &699596209
 Rigidbody2D:
   serializedVersion: 4
@@ -4645,6 +4654,7 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
   moveToMatchPosition: 0
+  disableOnMatch: 0
 --- !u!50 &787494011
 Rigidbody2D:
   serializedVersion: 4
@@ -4847,6 +4857,7 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
   moveToMatchPosition: 0
+  disableOnMatch: 0
 --- !u!50 &891407173
 Rigidbody2D:
   serializedVersion: 4
@@ -5049,6 +5060,7 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
   moveToMatchPosition: 0
+  disableOnMatch: 0
 --- !u!50 &932561736
 Rigidbody2D:
   serializedVersion: 4
@@ -5389,6 +5401,7 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
   moveToMatchPosition: 0
+  disableOnMatch: 0
 --- !u!50 &937763531
 Rigidbody2D:
   serializedVersion: 4
@@ -5897,6 +5910,7 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
   moveToMatchPosition: 0
+  disableOnMatch: 0
 --- !u!50 &1065176649
 Rigidbody2D:
   serializedVersion: 4
@@ -6099,6 +6113,7 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
   moveToMatchPosition: 0
+  disableOnMatch: 0
 --- !u!50 &1099519222
 Rigidbody2D:
   serializedVersion: 4
@@ -6311,6 +6326,7 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
   moveToMatchPosition: 0
+  disableOnMatch: 0
 --- !u!50 &1134840921
 Rigidbody2D:
   serializedVersion: 4
@@ -6578,6 +6594,7 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
   moveToMatchPosition: 0
+  disableOnMatch: 0
 --- !u!50 &1259350262
 Rigidbody2D:
   serializedVersion: 4
@@ -6799,7 +6816,7 @@ VideoPlayer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1283486107}
   m_Enabled: 1
-  m_VideoClip: {fileID: 0}
+  m_VideoClip: {fileID: 32900000, guid: 6898e7187cb1f2447aa20b8c27f733a4, type: 3}
   m_TargetCameraAlpha: 1
   m_TargetCamera3DLayout: 0
   m_TargetCamera: {fileID: 961739752}
@@ -6809,7 +6826,7 @@ VideoPlayer:
   m_TargetMaterialProperty: <noninit>
   m_RenderMode: 0
   m_AspectRatio: 2
-  m_DataSource: 1
+  m_DataSource: 0
   m_PlaybackSpeed: 1
   m_AudioOutputMode: 2
   m_TargetAudioSources:
@@ -7020,6 +7037,7 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
   moveToMatchPosition: 0
+  disableOnMatch: 0
 --- !u!50 &1361173027
 Rigidbody2D:
   serializedVersion: 4
@@ -7325,6 +7343,7 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
   moveToMatchPosition: 0
+  disableOnMatch: 0
 --- !u!50 &1521629322
 Rigidbody2D:
   serializedVersion: 4
@@ -7537,6 +7556,7 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
   moveToMatchPosition: 0
+  disableOnMatch: 0
 --- !u!50 &1533126644
 Rigidbody2D:
   serializedVersion: 4
@@ -7748,7 +7768,7 @@ VideoPlayer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1647470634}
   m_Enabled: 1
-  m_VideoClip: {fileID: 0}
+  m_VideoClip: {fileID: 32900000, guid: ae87722abc9be994d9b76a1fa0954a5c, type: 3}
   m_TargetCameraAlpha: 1
   m_TargetCamera3DLayout: 0
   m_TargetCamera: {fileID: 961739752}
@@ -7758,7 +7778,7 @@ VideoPlayer:
   m_TargetMaterialProperty: <noninit>
   m_RenderMode: 0
   m_AspectRatio: 2
-  m_DataSource: 1
+  m_DataSource: 0
   m_PlaybackSpeed: 1
   m_AudioOutputMode: 2
   m_TargetAudioSources:
@@ -7902,6 +7922,7 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
   moveToMatchPosition: 0
+  disableOnMatch: 0
 --- !u!50 &1691613676
 Rigidbody2D:
   serializedVersion: 4
@@ -8253,18 +8274,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   audioSource: {fileID: 1818526670}
---- !u!114 &1818526673 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 5571647218732192614, guid: adcb7cb029a087b43a239b54e1197571,
-    type: 3}
-  m_PrefabInstance: {fileID: 691856471}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1818526669}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9ca15e74e0d95094db0ef8208cb963a9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1830353197 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -5065966988749515473, guid: adc233fb9649c06409e5bfefac570a5d,
@@ -8444,6 +8453,7 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
   moveToMatchPosition: 0
+  disableOnMatch: 0
 --- !u!50 &1861499701
 Rigidbody2D:
   serializedVersion: 4
@@ -8740,6 +8750,7 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
   moveToMatchPosition: 0
+  disableOnMatch: 0
 --- !u!50 &1940406674
 Rigidbody2D:
   serializedVersion: 4
@@ -8864,7 +8875,7 @@ MonoBehaviour:
   onVideoEnd:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1818526673}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: ManagerEscenas, Assembly-CSharp
         m_MethodName: CargarEscena
         m_Mode: 5
@@ -9038,6 +9049,7 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
   moveToMatchPosition: 0
+  disableOnMatch: 0
 --- !u!50 &1956472476
 Rigidbody2D:
   serializedVersion: 4
@@ -9185,7 +9197,6 @@ MonoBehaviour:
           m_BoolArgument: 1
         m_CallState: 2
   cantidadDeRespuestas: 11
-  respuestasAsignadas: 0
 --- !u!4 &1966397659
 Transform:
   m_ObjectHideFlags: 0
@@ -9270,7 +9281,6 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
   cantidadDeRespuestas: 7
-  respuestasAsignadas: 0
 --- !u!114 &1996842311
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9804,6 +9814,7 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
   moveToMatchPosition: 0
+  disableOnMatch: 0
 --- !u!50 &2068254217
 Rigidbody2D:
   serializedVersion: 4
@@ -10144,6 +10155,7 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
   moveToMatchPosition: 0
+  disableOnMatch: 0
 --- !u!50 &2133854770
 Rigidbody2D:
   serializedVersion: 4

@@ -668,7 +668,7 @@ VideoPlayer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 285060284}
   m_Enabled: 1
-  m_VideoClip: {fileID: 32900000, guid: 608cce565a64d0f4596ff6c195abf2b9, type: 3}
+  m_VideoClip: {fileID: 32900000, guid: 406f2ec715b4adf49a02a34b2d315a50, type: 3}
   m_TargetCameraAlpha: 1
   m_TargetCamera3DLayout: 0
   m_TargetCamera: {fileID: 1728177094}
@@ -678,7 +678,7 @@ VideoPlayer:
   m_TargetMaterialProperty: <noninit>
   m_RenderMode: 0
   m_AspectRatio: 2
-  m_DataSource: 1
+  m_DataSource: 0
   m_PlaybackSpeed: 1
   m_AudioOutputMode: 2
   m_TargetAudioSources:
@@ -1764,6 +1764,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   moveToMatchPosition: 0
+  disableOnMatch: 0
 --- !u!114 &643242363
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3119,7 +3120,7 @@ VideoPlayer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1161309167}
   m_Enabled: 1
-  m_VideoClip: {fileID: 32900000, guid: 608cce565a64d0f4596ff6c195abf2b9, type: 3}
+  m_VideoClip: {fileID: 32900000, guid: e87492092f29ac640961d456a517738e, type: 3}
   m_TargetCameraAlpha: 1
   m_TargetCamera3DLayout: 0
   m_TargetCamera: {fileID: 1728177094}
@@ -3129,7 +3130,7 @@ VideoPlayer:
   m_TargetMaterialProperty: <noninit>
   m_RenderMode: 0
   m_AspectRatio: 2
-  m_DataSource: 1
+  m_DataSource: 0
   m_PlaybackSpeed: 1
   m_AudioOutputMode: 2
   m_TargetAudioSources:
@@ -3552,7 +3553,7 @@ VideoPlayer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1303195006}
   m_Enabled: 1
-  m_VideoClip: {fileID: 32900000, guid: 608cce565a64d0f4596ff6c195abf2b9, type: 3}
+  m_VideoClip: {fileID: 32900000, guid: 27a9e3d0edea65d4c9d4e39881890305, type: 3}
   m_TargetCameraAlpha: 1
   m_TargetCamera3DLayout: 0
   m_TargetCamera: {fileID: 1728177094}
@@ -3562,7 +3563,7 @@ VideoPlayer:
   m_TargetMaterialProperty: <noninit>
   m_RenderMode: 0
   m_AspectRatio: 2
-  m_DataSource: 1
+  m_DataSource: 0
   m_PlaybackSpeed: 1
   m_AudioOutputMode: 2
   m_TargetAudioSources:
@@ -4023,6 +4024,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   moveToMatchPosition: 0
+  disableOnMatch: 0
 --- !u!114 &1621499640
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4355,6 +4357,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   moveToMatchPosition: 0
+  disableOnMatch: 0
 --- !u!114 &1722195914
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5226,7 +5229,7 @@ VideoPlayer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1862008453}
   m_Enabled: 1
-  m_VideoClip: {fileID: 32900000, guid: 608cce565a64d0f4596ff6c195abf2b9, type: 3}
+  m_VideoClip: {fileID: 32900000, guid: 7a6401606a7786a41a3dcbda8fb1c0e2, type: 3}
   m_TargetCameraAlpha: 1
   m_TargetCamera3DLayout: 0
   m_TargetCamera: {fileID: 1728177094}
@@ -5236,7 +5239,7 @@ VideoPlayer:
   m_TargetMaterialProperty: <noninit>
   m_RenderMode: 0
   m_AspectRatio: 2
-  m_DataSource: 1
+  m_DataSource: 0
   m_PlaybackSpeed: 1
   m_AudioOutputMode: 2
   m_TargetAudioSources:
@@ -5483,6 +5486,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   moveToMatchPosition: 0
+  disableOnMatch: 0
 --- !u!114 &1971554876
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5935,6 +5939,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   moveToMatchPosition: 0
+  disableOnMatch: 0
 --- !u!50 &3213326241023270265
 Rigidbody2D:
   serializedVersion: 4

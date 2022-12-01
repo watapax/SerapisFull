@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.18028378, g: 0.22571412, b: 0.30692285, a: 1}
+  m_IndirectSpecularColor: {r: 0.18028334, g: 0.2257134, b: 0.30692226, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -519,6 +519,7 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
   moveToMatchPosition: 0
+  disableOnMatch: 0
 --- !u!114 &29555602
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -861,6 +862,7 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
   moveToMatchPosition: 0
+  disableOnMatch: 0
 --- !u!114 &53635786
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1717,6 +1719,7 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
   moveToMatchPosition: 0
+  disableOnMatch: 0
 --- !u!114 &97001022
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1891,6 +1894,7 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
   moveToMatchPosition: 0
+  disableOnMatch: 0
 --- !u!114 &101400269
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2150,6 +2154,7 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
   moveToMatchPosition: 0
+  disableOnMatch: 0
 --- !u!114 &123226188
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2577,6 +2582,7 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
   moveToMatchPosition: 0
+  disableOnMatch: 0
 --- !u!114 &148729160
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2919,6 +2925,7 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
   moveToMatchPosition: 0
+  disableOnMatch: 0
 --- !u!114 &165811636
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3566,6 +3573,7 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
   moveToMatchPosition: 0
+  disableOnMatch: 0
 --- !u!114 &184785251
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4119,6 +4127,7 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
   moveToMatchPosition: 0
+  disableOnMatch: 0
 --- !u!114 &209980788
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4299,6 +4308,7 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
   moveToMatchPosition: 0
+  disableOnMatch: 0
 --- !u!114 &216033922
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4729,6 +4739,7 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
   moveToMatchPosition: 0
+  disableOnMatch: 0
 --- !u!114 &231241419
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5281,6 +5292,7 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
   moveToMatchPosition: 0
+  disableOnMatch: 0
 --- !u!114 &287635407
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5793,6 +5805,7 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
   moveToMatchPosition: 0
+  disableOnMatch: 0
 --- !u!114 &324794849
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5967,6 +5980,7 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
   moveToMatchPosition: 0
+  disableOnMatch: 0
 --- !u!114 &324843992
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6818,6 +6832,7 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
   moveToMatchPosition: 0
+  disableOnMatch: 0
 --- !u!114 &385054599
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6992,6 +7007,7 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
   moveToMatchPosition: 0
+  disableOnMatch: 0
 --- !u!114 &389040202
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7166,6 +7182,7 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
   moveToMatchPosition: 0
+  disableOnMatch: 0
 --- !u!114 &392321213
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8228,6 +8245,7 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
   moveToMatchPosition: 0
+  disableOnMatch: 0
 --- !u!114 &446482665
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8745,6 +8763,7 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
   moveToMatchPosition: 0
+  disableOnMatch: 0
 --- !u!114 &470418435
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9003,6 +9022,7 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
   moveToMatchPosition: 0
+  disableOnMatch: 0
 --- !u!114 &486051559
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10512,6 +10532,7 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
   moveToMatchPosition: 0
+  disableOnMatch: 0
 --- !u!114 &572255208
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11023,6 +11044,7 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
   moveToMatchPosition: 0
+  disableOnMatch: 0
 --- !u!114 &593309398
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11832,6 +11854,7 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
   moveToMatchPosition: 0
+  disableOnMatch: 0
 --- !u!114 &634943348
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12012,6 +12035,7 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
   moveToMatchPosition: 0
+  disableOnMatch: 0
 --- !u!114 &642904334
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13114,6 +13138,7 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
   moveToMatchPosition: 0
+  disableOnMatch: 0
 --- !u!114 &716328000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13288,6 +13313,7 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
   moveToMatchPosition: 0
+  disableOnMatch: 0
 --- !u!114 &717130769
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13673,6 +13699,7 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
   moveToMatchPosition: 0
+  disableOnMatch: 0
 --- !u!114 &730229184
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13905,18 +13932,6 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
---- !u!114 &742024288 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 5571647218732192614, guid: adcb7cb029a087b43a239b54e1197571,
-    type: 3}
-  m_PrefabInstance: {fileID: 742024282}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 742024283}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9ca15e74e0d95094db0ef8208cb963a9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &745585900
 GameObject:
   m_ObjectHideFlags: 0
@@ -14127,6 +14142,7 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
   moveToMatchPosition: 0
+  disableOnMatch: 0
 --- !u!114 &770586652
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14470,6 +14486,7 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
   moveToMatchPosition: 0
+  disableOnMatch: 0
 --- !u!114 &792586229
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15067,6 +15084,7 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
   moveToMatchPosition: 0
+  disableOnMatch: 0
 --- !u!114 &817600874
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15241,6 +15259,7 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
   moveToMatchPosition: 0
+  disableOnMatch: 0
 --- !u!114 &821046836
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15415,6 +15434,7 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
   moveToMatchPosition: 0
+  disableOnMatch: 0
 --- !u!114 &836527158
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15758,6 +15778,7 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
   moveToMatchPosition: 0
+  disableOnMatch: 0
 --- !u!114 &853395870
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15932,6 +15953,7 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
   moveToMatchPosition: 0
+  disableOnMatch: 0
 --- !u!114 &854367482
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -16106,6 +16128,7 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
   moveToMatchPosition: 0
+  disableOnMatch: 0
 --- !u!114 &860698074
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -16370,6 +16393,7 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
   moveToMatchPosition: 0
+  disableOnMatch: 0
 --- !u!114 &876936426
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -16626,6 +16650,7 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
   moveToMatchPosition: 0
+  disableOnMatch: 0
 --- !u!114 &883712008
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -17137,6 +17162,7 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
   moveToMatchPosition: 0
+  disableOnMatch: 0
 --- !u!114 &922336102
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -17396,6 +17422,7 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
   moveToMatchPosition: 0
+  disableOnMatch: 0
 --- !u!114 &929299173
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -18665,7 +18692,7 @@ VideoPlayer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1019252653}
   m_Enabled: 1
-  m_VideoClip: {fileID: 0}
+  m_VideoClip: {fileID: 32900000, guid: 4985c8f1eec03c6418dfdb894d599055, type: 3}
   m_TargetCameraAlpha: 1
   m_TargetCamera3DLayout: 0
   m_TargetCamera: {fileID: 961739752}
@@ -18675,7 +18702,7 @@ VideoPlayer:
   m_TargetMaterialProperty: <noninit>
   m_RenderMode: 0
   m_AspectRatio: 2
-  m_DataSource: 1
+  m_DataSource: 0
   m_PlaybackSpeed: 1
   m_AudioOutputMode: 2
   m_TargetAudioSources:
@@ -19734,6 +19761,7 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
   moveToMatchPosition: 0
+  disableOnMatch: 0
 --- !u!114 &1090549820
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -19914,6 +19942,7 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
   moveToMatchPosition: 0
+  disableOnMatch: 0
 --- !u!114 &1095729073
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -20088,6 +20117,7 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
   moveToMatchPosition: 0
+  disableOnMatch: 0
 --- !u!114 &1097733770
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -20346,6 +20376,7 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
   moveToMatchPosition: 0
+  disableOnMatch: 0
 --- !u!114 &1109330537
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -21365,6 +21396,7 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
   moveToMatchPosition: 0
+  disableOnMatch: 0
 --- !u!114 &1145266405
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -21624,6 +21656,7 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
   moveToMatchPosition: 0
+  disableOnMatch: 0
 --- !u!114 &1155460235
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -22221,6 +22254,7 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
   moveToMatchPosition: 0
+  disableOnMatch: 0
 --- !u!114 &1198650600
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -22395,6 +22429,7 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
   moveToMatchPosition: 0
+  disableOnMatch: 0
 --- !u!114 &1202767160
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -23475,6 +23510,7 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
   moveToMatchPosition: 0
+  disableOnMatch: 0
 --- !u!114 &1263826584
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -23722,6 +23758,7 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
   moveToMatchPosition: 0
+  disableOnMatch: 0
 --- !u!114 &1273287100
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -23896,6 +23933,7 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
   moveToMatchPosition: 0
+  disableOnMatch: 0
 --- !u!114 &1282973043
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -24313,6 +24351,7 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
   moveToMatchPosition: 0
+  disableOnMatch: 0
 --- !u!114 &1330535202
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -24625,6 +24664,7 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
   moveToMatchPosition: 0
+  disableOnMatch: 0
 --- !u!114 &1356786149
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -24884,6 +24924,7 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
   moveToMatchPosition: 0
+  disableOnMatch: 0
 --- !u!114 &1366250690
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -25058,6 +25099,7 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
   moveToMatchPosition: 0
+  disableOnMatch: 0
 --- !u!114 &1367480745
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -25610,6 +25652,7 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
   moveToMatchPosition: 0
+  disableOnMatch: 0
 --- !u!114 &1398752795
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -25784,6 +25827,7 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
   moveToMatchPosition: 0
+  disableOnMatch: 0
 --- !u!114 &1407757298
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -26125,6 +26169,7 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
   moveToMatchPosition: 0
+  disableOnMatch: 0
 --- !u!114 &1431837726
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -26467,6 +26512,7 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
   moveToMatchPosition: 0
+  disableOnMatch: 0
 --- !u!114 &1438009848
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -26810,6 +26856,7 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
   moveToMatchPosition: 0
+  disableOnMatch: 0
 --- !u!114 &1457761636
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -26875,7 +26922,7 @@ MonoBehaviour:
   onVideoEnd:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 742024288}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: ManagerEscenas, Assembly-CSharp
         m_MethodName: CargarEscena
         m_Mode: 5
@@ -26895,7 +26942,7 @@ VideoPlayer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1465070870}
   m_Enabled: 1
-  m_VideoClip: {fileID: 0}
+  m_VideoClip: {fileID: 32900000, guid: 96901431a4331344c9536d9d9c232dc2, type: 3}
   m_TargetCameraAlpha: 1
   m_TargetCamera3DLayout: 0
   m_TargetCamera: {fileID: 961739752}
@@ -26905,7 +26952,7 @@ VideoPlayer:
   m_TargetMaterialProperty: <noninit>
   m_RenderMode: 0
   m_AspectRatio: 2
-  m_DataSource: 1
+  m_DataSource: 0
   m_PlaybackSpeed: 1
   m_AudioOutputMode: 2
   m_TargetAudioSources:
@@ -27330,6 +27377,7 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
   moveToMatchPosition: 0
+  disableOnMatch: 0
 --- !u!114 &1468920422
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -27504,6 +27552,7 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
   moveToMatchPosition: 0
+  disableOnMatch: 0
 --- !u!114 &1470760302
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -27678,6 +27727,7 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
   moveToMatchPosition: 0
+  disableOnMatch: 0
 --- !u!114 &1471984356
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -27978,6 +28028,7 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
   moveToMatchPosition: 0
+  disableOnMatch: 0
 --- !u!114 &1490049104
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -28702,6 +28753,7 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
   moveToMatchPosition: 0
+  disableOnMatch: 0
 --- !u!114 &1509710394
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -29414,6 +29466,7 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
   moveToMatchPosition: 0
+  disableOnMatch: 0
 --- !u!114 &1549935849
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -30534,6 +30587,7 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
   moveToMatchPosition: 0
+  disableOnMatch: 0
 --- !u!114 &1619236151
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -31000,6 +31054,7 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
   moveToMatchPosition: 0
+  disableOnMatch: 0
 --- !u!114 &1637032205
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -32653,6 +32708,7 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
   moveToMatchPosition: 0
+  disableOnMatch: 0
 --- !u!114 &1705625225
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -32827,6 +32883,7 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
   moveToMatchPosition: 0
+  disableOnMatch: 0
 --- !u!114 &1712498491
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -33254,6 +33311,7 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
   moveToMatchPosition: 0
+  disableOnMatch: 0
 --- !u!114 &1715958933
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -33868,6 +33926,7 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
   moveToMatchPosition: 0
+  disableOnMatch: 0
 --- !u!114 &1749337652
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -34296,6 +34355,7 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
   moveToMatchPosition: 0
+  disableOnMatch: 0
 --- !u!114 &1759623335
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -34470,6 +34530,7 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
   moveToMatchPosition: 0
+  disableOnMatch: 0
 --- !u!114 &1763174886
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -35057,6 +35118,7 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
   moveToMatchPosition: 0
+  disableOnMatch: 0
 --- !u!114 &1790794674
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -35231,6 +35293,7 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
   moveToMatchPosition: 0
+  disableOnMatch: 0
 --- !u!114 &1793685808
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -35656,6 +35719,7 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
   moveToMatchPosition: 0
+  disableOnMatch: 0
 --- !u!114 &1816546143
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -35830,6 +35894,7 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
   moveToMatchPosition: 0
+  disableOnMatch: 0
 --- !u!114 &1819515492
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -37198,6 +37263,7 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
   moveToMatchPosition: 0
+  disableOnMatch: 0
 --- !u!114 &1892756011
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -37456,6 +37522,7 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
   moveToMatchPosition: 0
+  disableOnMatch: 0
 --- !u!114 &1910181016
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -37715,6 +37782,7 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
   moveToMatchPosition: 0
+  disableOnMatch: 0
 --- !u!114 &1913214686
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -38098,6 +38166,7 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
   moveToMatchPosition: 0
+  disableOnMatch: 0
 --- !u!114 &1947210875
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -38272,6 +38341,7 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
   moveToMatchPosition: 0
+  disableOnMatch: 0
 --- !u!114 &1947703576
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -39120,6 +39190,7 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
   moveToMatchPosition: 0
+  disableOnMatch: 0
 --- !u!114 &2001712252
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -39549,6 +39620,7 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
   moveToMatchPosition: 0
+  disableOnMatch: 0
 --- !u!114 &2014484106
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -40395,6 +40467,7 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
   moveToMatchPosition: 0
+  disableOnMatch: 0
 --- !u!114 &2068008174
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -40906,6 +40979,7 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
   moveToMatchPosition: 0
+  disableOnMatch: 0
 --- !u!114 &2074523116
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -41254,6 +41328,7 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
   moveToMatchPosition: 0
+  disableOnMatch: 0
 --- !u!114 &2094028877
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -41428,6 +41503,7 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
   moveToMatchPosition: 0
+  disableOnMatch: 0
 --- !u!114 &2102787606
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -41888,6 +41964,7 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
   moveToMatchPosition: 0
+  disableOnMatch: 0
 --- !u!114 &2122267626
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -42661,6 +42738,7 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
   moveToMatchPosition: 0
+  disableOnMatch: 0
 --- !u!50 &216236262207255341
 Rigidbody2D:
   serializedVersion: 4
