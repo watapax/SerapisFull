@@ -9,7 +9,7 @@ public class CheckBloque : MonoBehaviour
     public int cantidad = 0;
     public int total;
     bool checking;
-    float waitTime = 3;
+    float waitTime = 2;
     bool stop;
     private void Update()
     {
