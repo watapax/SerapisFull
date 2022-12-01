@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.12731749, g: 0.13414757, b: 0.1210787, a: 1}
+  m_IndirectSpecularColor: {r: 0.1273174, g: 0.13414761, b: 0.12107885, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -533,7 +533,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5cdf518e79036a84eb166043d684c33e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  videoPlayer: {fileID: 0}
+  videoPlayer: {fileID: 251738569}
   onVideoEnd:
     m_PersistentCalls:
       m_Calls:
@@ -557,7 +557,7 @@ VideoPlayer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 251738567}
   m_Enabled: 1
-  m_VideoClip: {fileID: 0}
+  m_VideoClip: {fileID: 32900000, guid: 82ce967b6d1052d4cbbd1076f19cf427, type: 3}
   m_TargetCameraAlpha: 1
   m_TargetCamera3DLayout: 0
   m_TargetCamera: {fileID: 66525892}
@@ -567,7 +567,7 @@ VideoPlayer:
   m_TargetMaterialProperty: <noninit>
   m_RenderMode: 0
   m_AspectRatio: 2
-  m_DataSource: 1
+  m_DataSource: 0
   m_PlaybackSpeed: 1
   m_AudioOutputMode: 2
   m_TargetAudioSources:
@@ -731,6 +731,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   startPoint: {fileID: 93768680}
   endPoint: {fileID: 1691274677}
+  ropeSegLen: 0.25
+  segmentLength: 35
   anchoCuerda: 0.15
   gravedad: -4
 --- !u!114 &319734993
@@ -2215,7 +2217,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5cdf518e79036a84eb166043d684c33e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  videoPlayer: {fileID: 0}
+  videoPlayer: {fileID: 1775746426}
   onVideoEnd:
     m_PersistentCalls:
       m_Calls:
@@ -2251,7 +2253,7 @@ VideoPlayer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1775746423}
   m_Enabled: 1
-  m_VideoClip: {fileID: 0}
+  m_VideoClip: {fileID: 32900000, guid: a59603f164f898646b16ea19fbddee31, type: 3}
   m_TargetCameraAlpha: 1
   m_TargetCamera3DLayout: 0
   m_TargetCamera: {fileID: 66525892}
@@ -2261,7 +2263,7 @@ VideoPlayer:
   m_TargetMaterialProperty: <noninit>
   m_RenderMode: 0
   m_AspectRatio: 2
-  m_DataSource: 1
+  m_DataSource: 0
   m_PlaybackSpeed: 1
   m_AudioOutputMode: 2
   m_TargetAudioSources:
@@ -2662,7 +2664,11 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+  onUnmatch:
+    m_PersistentCalls:
+      m_Calls: []
   moveToMatchPosition: 1
+  disableOnMatch: 0
 --- !u!114 &1906687666
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3047,7 +3053,11 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+  onUnmatch:
+    m_PersistentCalls:
+      m_Calls: []
   moveToMatchPosition: 1
+  disableOnMatch: 0
 --- !u!114 &2132984957
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3268,6 +3278,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   startPoint: {fileID: 2090588012}
   endPoint: {fileID: 728635096}
+  ropeSegLen: 0.25
+  segmentLength: 35
   anchoCuerda: 0.15
   gravedad: -4
 --- !u!114 &2138204894
@@ -3804,6 +3816,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+  debugMode: 0
 --- !u!114 &5571647219209365914
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4224,7 +4237,11 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+  onUnmatch:
+    m_PersistentCalls:
+      m_Calls: []
   moveToMatchPosition: 1
+  disableOnMatch: 0
 --- !u!1 &8019427522971263121
 GameObject:
   m_ObjectHideFlags: 0
@@ -4325,5 +4342,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   startPoint: {fileID: 1357892032356719003}
   endPoint: {fileID: 323888782161356012}
+  ropeSegLen: 0.25
+  segmentLength: 35
   anchoCuerda: 0.15
   gravedad: -4

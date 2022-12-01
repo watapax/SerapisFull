@@ -416,6 +416,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   moveToMatchPosition: 0
+  disableOnMatch: 0
 --- !u!212 &151155026
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -650,6 +651,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   moveToMatchPosition: 0
+  disableOnMatch: 0
 --- !u!212 &219968695
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -807,6 +809,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   moveToMatchPosition: 0
+  disableOnMatch: 0
 --- !u!114 &246793410
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1288,6 +1291,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   moveToMatchPosition: 0
+  disableOnMatch: 0
 --- !u!212 &423130772
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1445,6 +1449,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   moveToMatchPosition: 0
+  disableOnMatch: 0
 --- !u!114 &424207947
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2216,6 +2221,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   moveToMatchPosition: 0
+  disableOnMatch: 0
 --- !u!212 &679792790
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2647,6 +2653,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   moveToMatchPosition: 0
+  disableOnMatch: 0
 --- !u!212 &778119194
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2835,6 +2842,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   moveToMatchPosition: 0
+  disableOnMatch: 0
 --- !u!212 &818045811
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -3687,6 +3695,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   moveToMatchPosition: 0
+  disableOnMatch: 0
 --- !u!212 &1079850427
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -3844,6 +3853,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   moveToMatchPosition: 0
+  disableOnMatch: 0
 --- !u!114 &1160711120
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4063,6 +4073,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   moveToMatchPosition: 0
+  disableOnMatch: 0
 --- !u!212 &1169295440
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -4576,6 +4587,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   moveToMatchPosition: 0
+  disableOnMatch: 0
 --- !u!114 &1347414846
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4861,7 +4873,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5cdf518e79036a84eb166043d684c33e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  videoPlayer: {fileID: 0}
+  videoPlayer: {fileID: 1362510581}
   onVideoEnd:
     m_PersistentCalls:
       m_Calls:
@@ -4897,7 +4909,7 @@ VideoPlayer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1362510577}
   m_Enabled: 1
-  m_VideoClip: {fileID: 0}
+  m_VideoClip: {fileID: 32900000, guid: c2c388ca62330de499368be1501ec1b9, type: 3}
   m_TargetCameraAlpha: 1
   m_TargetCamera3DLayout: 0
   m_TargetCamera: {fileID: 66525892}
@@ -4907,17 +4919,15 @@ VideoPlayer:
   m_TargetMaterialProperty: <noninit>
   m_RenderMode: 0
   m_AspectRatio: 2
-  m_DataSource: 1
+  m_DataSource: 0
   m_PlaybackSpeed: 1
   m_AudioOutputMode: 2
-  m_TargetAudioSources:
-  - {fileID: 0}
-  m_DirectAudioVolumes:
-  - 1
+  m_TargetAudioSources: []
+  m_DirectAudioVolumes: []
   m_Url: https://storage.googleapis.com/videosactividades/Patrones0/oruga3.mp4
-  m_EnabledAudioTracks: 01
-  m_DirectAudioMutes: 00
-  m_ControlledAudioTrackCount: 1
+  m_EnabledAudioTracks: 
+  m_DirectAudioMutes: 
+  m_ControlledAudioTrackCount: 0
   m_PlayOnAwake: 1
   m_SkipOnDrop: 1
   m_Looping: 0
@@ -5134,6 +5144,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   moveToMatchPosition: 0
+  disableOnMatch: 0
 --- !u!212 &1387026745
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -5322,6 +5333,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   moveToMatchPosition: 0
+  disableOnMatch: 0
 --- !u!212 &1391854190
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -5971,6 +5983,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   moveToMatchPosition: 0
+  disableOnMatch: 0
 --- !u!212 &1544623512
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -6211,7 +6224,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5cdf518e79036a84eb166043d684c33e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  videoPlayer: {fileID: 0}
+  videoPlayer: {fileID: 1613271648}
   onVideoEnd:
     m_PersistentCalls:
       m_Calls:
@@ -6247,7 +6260,7 @@ VideoPlayer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1613271645}
   m_Enabled: 1
-  m_VideoClip: {fileID: 0}
+  m_VideoClip: {fileID: 32900000, guid: 055f1049457bc8041812c07c4e459a52, type: 3}
   m_TargetCameraAlpha: 1
   m_TargetCamera3DLayout: 0
   m_TargetCamera: {fileID: 66525892}
@@ -6257,17 +6270,15 @@ VideoPlayer:
   m_TargetMaterialProperty: <noninit>
   m_RenderMode: 0
   m_AspectRatio: 2
-  m_DataSource: 1
+  m_DataSource: 0
   m_PlaybackSpeed: 1
   m_AudioOutputMode: 2
-  m_TargetAudioSources:
-  - {fileID: 0}
-  m_DirectAudioVolumes:
-  - 1
+  m_TargetAudioSources: []
+  m_DirectAudioVolumes: []
   m_Url: https://storage.googleapis.com/videosactividades/Patrones0/oruga1.mp4
-  m_EnabledAudioTracks: 01
-  m_DirectAudioMutes: 00
-  m_ControlledAudioTrackCount: 1
+  m_EnabledAudioTracks: 
+  m_DirectAudioMutes: 
+  m_ControlledAudioTrackCount: 0
   m_PlayOnAwake: 1
   m_SkipOnDrop: 1
   m_Looping: 0
@@ -6656,6 +6667,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   moveToMatchPosition: 0
+  disableOnMatch: 0
 --- !u!212 &1758153487
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -6802,7 +6814,7 @@ VideoPlayer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1775746423}
   m_Enabled: 1
-  m_VideoClip: {fileID: 0}
+  m_VideoClip: {fileID: 32900000, guid: a4f135433e591754ebb9bc1a8b453642, type: 3}
   m_TargetCameraAlpha: 1
   m_TargetCamera3DLayout: 0
   m_TargetCamera: {fileID: 66525892}
@@ -6812,7 +6824,7 @@ VideoPlayer:
   m_TargetMaterialProperty: <noninit>
   m_RenderMode: 0
   m_AspectRatio: 2
-  m_DataSource: 1
+  m_DataSource: 0
   m_PlaybackSpeed: 1
   m_AudioOutputMode: 2
   m_TargetAudioSources:
@@ -6934,6 +6946,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   moveToMatchPosition: 0
+  disableOnMatch: 0
 --- !u!114 &1814374171
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7129,7 +7142,7 @@ VideoPlayer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1827635439}
   m_Enabled: 1
-  m_VideoClip: {fileID: 0}
+  m_VideoClip: {fileID: 32900000, guid: 6ade8ac382466f74a8148a806fa1c39e, type: 3}
   m_TargetCameraAlpha: 1
   m_TargetCamera3DLayout: 0
   m_TargetCamera: {fileID: 66525892}
@@ -7139,17 +7152,15 @@ VideoPlayer:
   m_TargetMaterialProperty: <noninit>
   m_RenderMode: 0
   m_AspectRatio: 2
-  m_DataSource: 1
+  m_DataSource: 0
   m_PlaybackSpeed: 1
   m_AudioOutputMode: 2
-  m_TargetAudioSources:
-  - {fileID: 0}
-  m_DirectAudioVolumes:
-  - 1
+  m_TargetAudioSources: []
+  m_DirectAudioVolumes: []
   m_Url: https://storage.googleapis.com/videosactividades/Patrones0/oruga2.mp4
-  m_EnabledAudioTracks: 01
-  m_DirectAudioMutes: 00
-  m_ControlledAudioTrackCount: 1
+  m_EnabledAudioTracks: 
+  m_DirectAudioMutes: 
+  m_ControlledAudioTrackCount: 0
   m_PlayOnAwake: 1
   m_SkipOnDrop: 1
   m_Looping: 0
@@ -7685,6 +7696,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   moveToMatchPosition: 0
+  disableOnMatch: 0
 --- !u!212 &1963051843
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -8124,6 +8136,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   moveToMatchPosition: 0
+  disableOnMatch: 0
 --- !u!114 &1995989737
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8298,7 +8311,7 @@ VideoPlayer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2051507518}
   m_Enabled: 1
-  m_VideoClip: {fileID: 0}
+  m_VideoClip: {fileID: 32900000, guid: dc7008ab04338ed4890c1b2bf9739847, type: 3}
   m_TargetCameraAlpha: 1
   m_TargetCamera3DLayout: 0
   m_TargetCamera: {fileID: 66525892}
@@ -8308,7 +8321,7 @@ VideoPlayer:
   m_TargetMaterialProperty: <noninit>
   m_RenderMode: 0
   m_AspectRatio: 2
-  m_DataSource: 1
+  m_DataSource: 0
   m_PlaybackSpeed: 1
   m_AudioOutputMode: 2
   m_TargetAudioSources:
@@ -8762,6 +8775,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+  debugMode: 0
 --- !u!114 &5571647219209365914
 MonoBehaviour:
   m_ObjectHideFlags: 0
