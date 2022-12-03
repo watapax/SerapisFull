@@ -583,6 +583,7 @@ GameObject:
   - component: {fileID: 207909623}
   - component: {fileID: 207909622}
   - component: {fileID: 207909624}
+  - component: {fileID: 207909625}
   m_Layer: 0
   m_Name: AudioFinal
   m_TagString: Untagged
@@ -716,9 +717,9 @@ MonoBehaviour:
   onEndAudio:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1829587628}
-        m_TargetAssemblyTypeName: ManagerEscenas, Assembly-CSharp
-        m_MethodName: CargarUltimaEscena
+      - m_Target: {fileID: 207909625}
+        m_TargetAssemblyTypeName: CambiadorEscenas, Assembly-CSharp
+        m_MethodName: CambiarDeEscena
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -729,6 +730,20 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
   audioSource: {fileID: 207909622}
+--- !u!114 &207909625
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 207909621}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2de81c3b212b2a143b11e365107729a5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nombreEscenaDestino: 
+  IDAnclaDestino: 
 --- !u!1 &286529300
 GameObject:
   m_ObjectHideFlags: 0
@@ -2396,7 +2411,7 @@ VideoPlayer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1163583717}
   m_Enabled: 1
-  m_VideoClip: {fileID: 0}
+  m_VideoClip: {fileID: 32900000, guid: 2cad65b3ee0c97140b5a70d74927a774, type: 3}
   m_TargetCameraAlpha: 1
   m_TargetCamera3DLayout: 0
   m_TargetCamera: {fileID: 961739752}
@@ -2406,7 +2421,7 @@ VideoPlayer:
   m_TargetMaterialProperty: <noninit>
   m_RenderMode: 0
   m_AspectRatio: 2
-  m_DataSource: 1
+  m_DataSource: 0
   m_PlaybackSpeed: 1
   m_AudioOutputMode: 2
   m_TargetAudioSources:
@@ -4537,18 +4552,6 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 165da1d8890a57447ba70bb928ff781c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &1829587628 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 3145418622729942800, guid: da9fa41114dd4e34db9e3f384369a013,
-    type: 3}
-  m_PrefabInstance: {fileID: 1829587626}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9ca15e74e0d95094db0ef8208cb963a9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &1862906997

@@ -10,6 +10,7 @@ public class SecuenciaVideos : MonoBehaviour
     public UnityEvent onEndSequence;
     public float delayTime;
     public string[] urlVideos;
+    public VideoClip[] clips;
     int index = 0;
 
     private void Start()
@@ -24,13 +25,14 @@ public class SecuenciaVideos : MonoBehaviour
 
     public void NextVideo()
     {
-        if (index == urlVideos.Length)
+        if (index == clips.Length)
         {
             onEndSequence.Invoke();
             return;
         }
 
-        videoPlayer.url = urlVideos[index];
+        videoPlayer.clip = clips[index];
+        //videoPlayer.url = urlVideos[index];
         videoPlayer.Prepare();
 
         index++;
@@ -54,4 +56,12 @@ public class SecuenciaVideos : MonoBehaviour
         videoPlayer.Play();
     }
 
+    public void CheckFinalVideo()
+    {
+        if (index == clips.Length)
+        {
+            onEndSequence.Invoke();
+            return;
+        }
+    }
 }

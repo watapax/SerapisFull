@@ -56,7 +56,11 @@ public class DragNdrop : MonoBehaviour
     public void BloquearDrag() => blockDrag = true;
     public void DesbloquearDrag() => blockDrag = false;
     public void BloquearComponente() => blockComponent = true;
-
+    public void DesbloquearComponent() => blockComponent = false;
+    public void RemoverComponente()
+    {
+        Destroy(GetComponent<DragNdrop>());
+    }
 
     public void SwitchDestacador(bool state)
     {

@@ -1,9 +1,11 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Events;
 
 public class FuncionesAudio : MonoBehaviour
 {
+    public UnityEvent onEndAudioPlay, onStartAudioPlay;
     public AudioSource audioSource;
     public void SetClip(AudioClip _clip)
     {
@@ -19,5 +21,19 @@ public class FuncionesAudio : MonoBehaviour
     {
         audioSource.clip = _clip;
         audioSource.Play();
+        onStartAudioPlay.Invoke();
+        StartCoroutine(EndAudioCheck());
+
+    }
+
+    IEnumerator EndAudioCheck()
+    {
+ 
+        while(audioSource.isPlaying)
+        {
+            yield return null;
+        }
+
+        onEndAudioPlay.Invoke();
     }
 }
