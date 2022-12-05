@@ -42987,7 +42987,7 @@ PrefabInstance:
     - target: {fileID: 6114149556244325602, guid: fcb4726d80944f847809bb89b983e7ac,
         type: 3}
       propertyPath: nombreAncla
-      value: Figuras Geometricas
+      value: "Figuras Geom\xE9tricas"
       objectReference: {fileID: 0}
     - target: {fileID: 6114149556244325602, guid: fcb4726d80944f847809bb89b983e7ac,
         type: 3}
@@ -66089,6 +66089,7 @@ Transform:
   - {fileID: 1794198388}
   - {fileID: 1524759587}
   - {fileID: 1833863364}
+  - {fileID: 2068337610}
   - {fileID: 565546404}
   - {fileID: 872453138}
   - {fileID: 986822970}
@@ -66134,7 +66135,6 @@ Transform:
   - {fileID: 257791104}
   - {fileID: 1523870242}
   - {fileID: 778371955}
-  - {fileID: 2068337610}
   - {fileID: 32779671}
   - {fileID: 2121978261}
   - {fileID: 855560577}
@@ -79964,7 +79964,7 @@ Transform:
   - {fileID: 94115535}
   - {fileID: 198279204}
   m_Father: {fileID: 1729667254}
-  m_RootOrder: 127
+  m_RootOrder: 82
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &2082488042
 PrefabInstance:
