@@ -1,0 +1,472 @@
+fileFormatVersion: 2
+guid: afde8afc6680a3f468d530bfe8ada621
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: b2a9591990af98743ba3ff7cf1000886, type: 3}
+  textureImporterSettings:
+    alphaSource: 1
+    mipMapMode: 0
+    enableMipMap: 1
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+    convertToNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    isReadable: 0
+    streamingMipmaps: 1
+    streamingMipmapsPriority: 0
+    vTOnly: 0
+    ignoreMasterTextureLimit: 0
+    nPOTScale: 1
+    sRGBTexture: 1
+    spriteMode: 2
+    spriteExtrude: 1
+    spriteMeshType: 1
+    alignment: 0
+    spritePivot: {x: 0.5, y: 0.5}
+    spritePixelsToUnits: 100
+    spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+    spriteGenerateFallbackPhysicsShape: 0
+    generateCubemap: 6
+    cubemapConvolution: 0
+    seamlessCubemap: 0
+    alphaIsTransparency: 1
+    spriteTessellationDetail: -1
+    textureType: 8
+    textureShape: 1
+    singleChannelComponent: 0
+    flipbookRows: 0
+    flipbookColumns: 0
+    ignorePngGamma: 0
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 0
+    wrapV: 0
+    wrapW: 0
+    normalMap: 0
+    textureFormat: 0
+    maxTextureSize: 0
+    lightmap: 0
+    compressionQuality: 0
+    linearTexture: 0
+    grayScaleToAlpha: 0
+    rGBM: 0
+    cubemapConvolutionSteps: 0
+    cubemapConvolutionExponent: 0
+    maxTextureSizeSet: 0
+    compressionQualitySet: 0
+    textureFormatSet: 0
+    applyGammaDecoding: 0
+  spriteImportData:
+  - name: 
+    originalName: 
+    pivot: {x: 0, y: 0}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    spriteID: 
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 0, y: 0}
+  mosaicSpriteImportData: []
+  rigSpriteImportData:
+  - name: radio
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1229
+      y: 1092
+      width: 193
+      height: 184
+    spriteID: bf1046229e6dd854a81e15da0c37e5a2
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -18, y: 642}
+  - name: mariposa
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1631
+      y: 1092
+      width: 191
+      height: 183
+    spriteID: b65ec8e112f0bab4490b88fdd1d5565a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 389, y: 1060}
+  - name: limon
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1027
+      y: 1092
+      width: 194
+      height: 184
+    spriteID: 366eb8fb2045ff6469987b36308bfdc7
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -221, y: 444}
+  - name: helado
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 417
+      y: 1092
+      width: 196
+      height: 187
+    spriteID: dac5fa87112bbd14c8be9fa3b03fee7b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -1055, y: 448}
+  - name: gato
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 211
+      y: 1092
+      width: 198
+      height: 188
+    spriteID: 2a58a28d1217f5e4b974a4ed555b3d43
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -1264, y: 238}
+  - name: flor
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1430
+      y: 1092
+      width: 193
+      height: 184
+    spriteID: da51a42bd26bd0c409244811200b49a0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -34, y: 1063}
+  - name: celular
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 1092
+      width: 199
+      height: 189
+    spriteID: 72e8326eb19031e4cb5bc6faad2e5d2a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -1244, y: 238}
+  - name: cactus
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 621
+      y: 1092
+      width: 195
+      height: 186
+    spriteID: 5b90c60ad92420644a55a35e7e416bc9
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -848, y: 646}
+  - name: arcoiris
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 824
+      y: 1092
+      width: 195
+      height: 186
+    spriteID: c68b0b237d0b668479cb03ebf4b8008b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -641, y: 866}
+  - name: perfume
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1830
+      y: 1092
+      width: 190
+      height: 181
+    spriteID: 889fd2a6e5aaf0040bbfddf00c54da41
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 584, y: 859}
+  - name: fondo
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4
+      width: 1920
+      height: 1080
+    spriteID: d2a522e039de28b43b74bbbb5b7c6131
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 4, y: 4}
+  characterData:
+    bones: []
+    parts: []
+    dimension: {x: 0, y: 0}
+    characterGroups: []
+    boneReadOnly: 0
+  sharedRigSpriteImportData: []
+  sharedRigCharacterData:
+    bones: []
+    parts: []
+    dimension: {x: 0, y: 0}
+    characterGroups: []
+    boneReadOnly: 0
+  platformSettings: []
+  mosaicLayers: 1
+  characterMode: 1
+  documentPivot: {x: 0, y: 0}
+  documentAlignment: 7
+  importHiddenLayers: 0
+  layerMappingOption: 2
+  generatePhysicsShape: 0
+  paperDollMode: 0
+  keepDupilcateSpriteName: 1
+  skeletonAssetReferenceID: 
+  spriteCategoryList:
+    categories: []
+  spritePackingTag: 
+  resliceFromLayer: 0
+  mosaicPSDLayers: []
+  rigPSDLayers:
+  - name: radio
+    spriteName: radio
+    isGroup: 0
+    parentIndex: -1
+    spriteID: bf1046229e6dd854a81e15da0c37e5a2
+    layerID: 17
+    mosaicPosition: {x: 1229, y: 1092}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: mariposa
+    spriteName: mariposa
+    isGroup: 0
+    parentIndex: -1
+    spriteID: b65ec8e112f0bab4490b88fdd1d5565a
+    layerID: 13
+    mosaicPosition: {x: 1631, y: 1092}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: limon
+    spriteName: limon
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 366eb8fb2045ff6469987b36308bfdc7
+    layerID: 12
+    mosaicPosition: {x: 1027, y: 1092}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: helado
+    spriteName: helado
+    isGroup: 0
+    parentIndex: -1
+    spriteID: dac5fa87112bbd14c8be9fa3b03fee7b
+    layerID: 11
+    mosaicPosition: {x: 417, y: 1092}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: gato
+    spriteName: gato
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 2a58a28d1217f5e4b974a4ed555b3d43
+    layerID: 9
+    mosaicPosition: {x: 211, y: 1092}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: flor
+    spriteName: flor
+    isGroup: 0
+    parentIndex: -1
+    spriteID: da51a42bd26bd0c409244811200b49a0
+    layerID: 7
+    mosaicPosition: {x: 1430, y: 1092}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: celular
+    spriteName: celular
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 72e8326eb19031e4cb5bc6faad2e5d2a
+    layerID: 6
+    mosaicPosition: {x: 4, y: 1092}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: cactus
+    spriteName: cactus
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 5b90c60ad92420644a55a35e7e416bc9
+    layerID: 5
+    mosaicPosition: {x: 621, y: 1092}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: arcoiris
+    spriteName: arcoiris
+    isGroup: 0
+    parentIndex: -1
+    spriteID: c68b0b237d0b668479cb03ebf4b8008b
+    layerID: 4
+    mosaicPosition: {x: 824, y: 1092}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: perfume
+    spriteName: perfume
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 889fd2a6e5aaf0040bbfddf00c54da41
+    layerID: 18
+    mosaicPosition: {x: 1830, y: 1092}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: fondo
+    spriteName: fondo
+    isGroup: 0
+    parentIndex: -1
+    spriteID: d2a522e039de28b43b74bbbb5b7c6131
+    layerID: 8
+    mosaicPosition: {x: 4, y: 4}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  sharedRigPSDLayers: []
+  pSDLayerImportSetting: []
+  generateGOHierarchy: 0
+  textureAssetName: 
+  prefabAssetName: 
+  spriteLibAssetName: 
+  skeletonAssetName: 
+  secondarySpriteTextures: []

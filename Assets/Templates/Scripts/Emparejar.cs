@@ -42,7 +42,8 @@ public class Emparejar : MonoBehaviour
             onMatch.Invoke();
             if(disableOnMatch)
             {
-                gameObject.GetComponent<Collider2D>().enabled = false;
+                Destroy(gameObject.GetComponent<Collider2D>());
+                //gameObject.GetComponent<Collider2D>().enabled = false;
             }
         }
         else

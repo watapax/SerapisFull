@@ -14,7 +14,7 @@ public class EmparejarConTag : MonoBehaviour
 
     bool emparejado;
     bool onRange;
-
+    
     private void Awake()
     {
         startPosition = transform.position;
@@ -25,7 +25,10 @@ public class EmparejarConTag : MonoBehaviour
     public void BuscarPareja()
     {
         if (emparejado) return;
-        
+
+        //chequear si el objeto se movio o si solo fue un click
+
+
         if(onRange)
         {
             if(moveToMatchPosition) StartCoroutine(Interpolar(pareja.position));
@@ -52,8 +55,12 @@ public class EmparejarConTag : MonoBehaviour
 
     IEnumerator Interpolar(Vector3 target)
     {
-        if (!onRange)
-            onTry.Invoke();
+        if(Vector3.Distance(startPosition, transform.position)> 0.5f)
+        {
+            if (!onRange)
+                onTry.Invoke();
+        }
+
 
         Vector3 from = transform.position;
         float t = 0;
