@@ -9,7 +9,9 @@ public class HUD:MonoBehaviour
     public GameObject InfoGameObject;
     public TextMeshProUGUI sceneTypeText;
     public TextMeshProUGUI sceneNametext;
-    public Image image;
+    public RectTransform background;
+    public Image previewImage;
+    public GameObject preview;
     public bool isShowing;
 
     //Singleton stuff
@@ -47,18 +49,22 @@ public class HUD:MonoBehaviour
     {
         sceneTypeText.SetText(newType);
         sceneNametext.SetText(newName);
-        image.sprite = newSprite;
+        previewImage.sprite = newSprite;
 
         if (newType == "ACTIVIDAD")
         {
             sceneNametext.color = new Color(1, 0.950f, 0.350f);
-            //sceneNametext.color = new Color32(255,235,83);
+            preview.SetActive(false);
+            background.localPosition = new Vector3(background.localPosition.x, 600, background.localPosition.z);
         } else
         {
             sceneNametext.color = new Color(0.55f, 0.85f, 1f);
-            //sceneNametext.color = new Color32(58,200,81);
+            preview.SetActive(true);
+            background.localPosition = new Vector3(background.localPosition.x, 375, background.localPosition.z);
+            
         }
     }
+
 
     
 

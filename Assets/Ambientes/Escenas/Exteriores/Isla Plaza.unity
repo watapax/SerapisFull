@@ -138,6 +138,51 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 4976587314934848232, guid: 342d85cf7c962f94b85cf689de275be9,
+        type: 3}
+      propertyPath: m_Color.a
+      value: 0.8509804
+      objectReference: {fileID: 0}
+    - target: {fileID: 4976587314934848235, guid: 342d85cf7c962f94b85cf689de275be9,
+        type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4976587314934848235, guid: 342d85cf7c962f94b85cf689de275be9,
+        type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4976587314934848235, guid: 342d85cf7c962f94b85cf689de275be9,
+        type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4976587314934848235, guid: 342d85cf7c962f94b85cf689de275be9,
+        type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4976587314934848235, guid: 342d85cf7c962f94b85cf689de275be9,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 1820
+      objectReference: {fileID: 0}
+    - target: {fileID: 4976587314934848235, guid: 342d85cf7c962f94b85cf689de275be9,
+        type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 610
+      objectReference: {fileID: 0}
+    - target: {fileID: 4976587314934848235, guid: 342d85cf7c962f94b85cf689de275be9,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 375
+      objectReference: {fileID: 0}
+    - target: {fileID: 4976587315097599132, guid: 342d85cf7c962f94b85cf689de275be9,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4976587315502620040, guid: 342d85cf7c962f94b85cf689de275be9,
         type: 3}
       propertyPath: m_Name
@@ -2705,7 +2750,7 @@ PrefabInstance:
     - target: {fileID: 6114149556244325602, guid: fcb4726d80944f847809bb89b983e7ac,
         type: 3}
       propertyPath: nombreAncla
-      value: Separacion Silabas
+      value: "Separaci\xF3n s\xEDlabas"
       objectReference: {fileID: 0}
     - target: {fileID: 6114149556244325602, guid: fcb4726d80944f847809bb89b983e7ac,
         type: 3}
@@ -7016,7 +7061,7 @@ PrefabInstance:
     - target: {fileID: 6114149556244325602, guid: fcb4726d80944f847809bb89b983e7ac,
         type: 3}
       propertyPath: nombreAncla
-      value: Lenguaje Artistico
+      value: "Lenguaje Art\xEDstico"
       objectReference: {fileID: 0}
     - target: {fileID: 6114149556244325602, guid: fcb4726d80944f847809bb89b983e7ac,
         type: 3}
@@ -7182,7 +7227,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 961739753, guid: b88d641e298e3df4e8e48bd8c4667bc3, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.7228825
+      value: -0.72288245
       objectReference: {fileID: 0}
     - target: {fileID: 961739753, guid: b88d641e298e3df4e8e48bd8c4667bc3, type: 3}
       propertyPath: m_LocalPosition.z
@@ -7237,12 +7282,12 @@ PrefabInstance:
     - target: {fileID: 4041088058104152307, guid: b88d641e298e3df4e8e48bd8c4667bc3,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0.007056701
+      value: 0.0070567015
       objectReference: {fileID: 0}
     - target: {fileID: 4041088058158218106, guid: b88d641e298e3df4e8e48bd8c4667bc3,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.7228825
+      value: -0.72288245
       objectReference: {fileID: 0}
     - target: {fileID: 4041088058158218106, guid: b88d641e298e3df4e8e48bd8c4667bc3,
         type: 3}
@@ -7252,17 +7297,17 @@ PrefabInstance:
     - target: {fileID: 4041088058319947045, guid: b88d641e298e3df4e8e48bd8c4667bc3,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.0000022121762
+      value: -0.0000023304167
       objectReference: {fileID: 0}
     - target: {fileID: 4041088058319947045, guid: b88d641e298e3df4e8e48bd8c4667bc3,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.00000042211994
+      value: 0.00000042126038
       objectReference: {fileID: 0}
     - target: {fileID: 4041088058319947045, guid: b88d641e298e3df4e8e48bd8c4667bc3,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -0.0000073961137
+      value: -0.000007380972
       objectReference: {fileID: 0}
     - target: {fileID: 4041088058319947045, guid: b88d641e298e3df4e8e48bd8c4667bc3,
         type: 3}
@@ -7282,7 +7327,7 @@ PrefabInstance:
     - target: {fileID: 4041088058319947045, guid: b88d641e298e3df4e8e48bd8c4667bc3,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0.012348257
+      value: 0.012348255
       objectReference: {fileID: 0}
     - target: {fileID: 4041088059068408101, guid: b88d641e298e3df4e8e48bd8c4667bc3,
         type: 3}
@@ -7701,7 +7746,7 @@ PrefabInstance:
     - target: {fileID: 6114149556244325602, guid: fcb4726d80944f847809bb89b983e7ac,
         type: 3}
       propertyPath: nombreAncla
-      value: Reconociendo silabas 2
+      value: "Reconociendo s\xEDlabas 2"
       objectReference: {fileID: 0}
     - target: {fileID: 6114149556244325602, guid: fcb4726d80944f847809bb89b983e7ac,
         type: 3}
@@ -8639,7 +8684,7 @@ PrefabInstance:
     - target: {fileID: 6114149556244325602, guid: fcb4726d80944f847809bb89b983e7ac,
         type: 3}
       propertyPath: nombreAncla
-      value: Pueblos Originarios
+      value: Pueblos originarios
       objectReference: {fileID: 0}
     - target: {fileID: 6114149556244325602, guid: fcb4726d80944f847809bb89b983e7ac,
         type: 3}
@@ -10084,6 +10129,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6765435323272671638, guid: da9fa41114dd4e34db9e3f384369a013,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -11.211914
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: da9fa41114dd4e34db9e3f384369a013, type: 3}
 --- !u!1001 &1797792331
@@ -11242,7 +11292,7 @@ PrefabInstance:
     - target: {fileID: 6114149556244325602, guid: fcb4726d80944f847809bb89b983e7ac,
         type: 3}
       propertyPath: nombreAncla
-      value: Reconociendo silabas 1
+      value: "Reconociendo S\xEDlabas 1"
       objectReference: {fileID: 0}
     - target: {fileID: 6114149556244325602, guid: fcb4726d80944f847809bb89b983e7ac,
         type: 3}
