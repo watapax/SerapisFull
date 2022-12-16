@@ -2064,7 +2064,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1967305260
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2841,7 +2841,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &4328725520512567925
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3463,7 +3463,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 20a5cfaf160244c47a8e644222eae8a2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tagPareja: 5
+  tagPareja: 3
   onMatch:
     m_PersistentCalls:
       m_Calls:
@@ -3632,7 +3632,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 20a5cfaf160244c47a8e644222eae8a2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tagPareja: 3
+  tagPareja: 5
   onMatch:
     m_PersistentCalls:
       m_Calls:
