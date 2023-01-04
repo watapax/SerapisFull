@@ -26,6 +26,12 @@ public class FuncionesAudio : MonoBehaviour
 
     }
 
+    public void PlayFromStart()
+    {
+        audioSource.Stop();
+        audioSource.Play();
+    }
+
     IEnumerator EndAudioCheck()
     {
  
