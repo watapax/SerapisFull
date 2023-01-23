@@ -6039,8 +6039,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2de81c3b212b2a143b11e365107729a5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nombreEscenaDestino: 
-  IDAnclaDestino: 
+  nombreEscenaDestino: Interior Casa del Arbol
+  IDAnclaDestino: CUADRO
 --- !u!114 &1619869460
 MonoBehaviour:
   m_ObjectHideFlags: 0

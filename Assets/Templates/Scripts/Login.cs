@@ -25,6 +25,8 @@ public class Login : MonoBehaviour
     string errorUsuario = "El nombre de usuario o la password no coinciden";
     string errorLimite = "Se ha completado el limite de usuarios activos para esta cuenta";
 
+    public string _user, _pass;
+
     private void Start()
     {
         inputClave.inputType = TMP_InputField.InputType.Password;
@@ -34,13 +36,13 @@ public class Login : MonoBehaviour
     {
         emptyInput = false;
        // Validar Campos
-       if(inputClave.text == "")
+       if(inputClave.text != _pass)
         {
             inputClave.GetComponent<Animator>().Play("emptyInput");
             emptyInput = true;
         }
 
-        if (inputUser.text == "")
+        if (inputUser.text != _user)
         {
             inputUser.GetComponent<Animator>().Play("emptyInput");
             emptyInput = true;
@@ -131,7 +133,8 @@ public class Login : MonoBehaviour
 
     public void LoadAplicacion()
     {
-        SceneManager.LoadScene("inicio");
+        SceneManager.LoadScene(primeraEscena);
     }
 
+    public string primeraEscena;
 }

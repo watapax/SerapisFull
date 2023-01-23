@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.1273174, g: 0.13414761, b: 0.12107885, a: 1}
+  m_IndirectSpecularColor: {r: 0.12731749, g: 0.13414757, b: 0.1210787, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -154,7 +154,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5cdf518e79036a84eb166043d684c33e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  videoPlayer: {fileID: 0}
+  videoPlayer: {fileID: 316534119}
   onVideoEnd:
     m_PersistentCalls:
       m_Calls:
@@ -232,8 +232,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2de81c3b212b2a143b11e365107729a5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nombreEscenaDestino: 
-  IDAnclaDestino: 
+  nombreEscenaDestino: Isla Plaza
+  IDAnclaDestino: GLOBO
 --- !u!1 &1420403868
 GameObject:
   m_ObjectHideFlags: 0

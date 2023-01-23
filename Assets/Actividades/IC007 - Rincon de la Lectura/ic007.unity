@@ -1439,7 +1439,6 @@ GameObject:
   - component: {fileID: 1548146638}
   - component: {fileID: 1548146637}
   - component: {fileID: 1548146636}
-  - component: {fileID: 1548146641}
   m_Layer: 0
   m_Name: chanchitos
   m_TagString: Untagged
@@ -1539,7 +1538,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: ic007
+          m_StringArgument: Interior Casa
           m_BoolArgument: 0
         m_CallState: 2
   delayTime: 0
@@ -1623,18 +1622,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1548146641
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1548146635}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 49543d6a893253a4ea5ac38f25d4a057, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1625892043
 GameObject:
   m_ObjectHideFlags: 0
@@ -1833,7 +1820,6 @@ GameObject:
   - component: {fileID: 1684300619}
   - component: {fileID: 1684300618}
   - component: {fileID: 1684300617}
-  - component: {fileID: 1684300622}
   m_Layer: 0
   m_Name: caperucita
   m_TagString: Untagged
@@ -1933,7 +1919,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: ic007
+          m_StringArgument: Interior Casa
           m_BoolArgument: 0
         m_CallState: 2
   delayTime: 0
@@ -2009,18 +1995,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1684300622
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1684300616}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 49543d6a893253a4ea5ac38f25d4a057, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1700551899
 GameObject:
   m_ObjectHideFlags: 0
@@ -2153,7 +2127,6 @@ GameObject:
   - component: {fileID: 1984981268}
   - component: {fileID: 1984981267}
   - component: {fileID: 1984981271}
-  - component: {fileID: 1984981272}
   m_Layer: 0
   m_Name: tortillaCorredora
   m_TagString: Untagged
@@ -2226,7 +2199,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: ic007
+          m_StringArgument: Interior Casa
           m_BoolArgument: 0
         m_CallState: 2
   delayTime: 0
@@ -2343,18 +2316,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
---- !u!114 &1984981272
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1984981266}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 49543d6a893253a4ea5ac38f25d4a057, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!4 &2061213923 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1493265562392235133, guid: 2422effe03725c1488a26b96024b68d2,

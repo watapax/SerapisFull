@@ -14,6 +14,11 @@ public class MenuAnclas:MonoBehaviour
     CursorLockMode prevMouseLockMode;
     bool prevMouseVisibleState;
 
+    private void Start()
+    {
+        ApagarMenu();
+    }
+
     // Update is called once per frame
     void Update()
     {
@@ -53,5 +58,15 @@ public class MenuAnclas:MonoBehaviour
             }
         }
 
+    }
+
+    public void ApagarMenu()
+    {
+        is_open = false;
+        menu.SetActive(false);
+        graphicRaycaster.enabled = false;
+
+        Cursor.lockState = prevMouseLockMode;
+        Cursor.visible = prevMouseVisibleState;
     }
 }

@@ -20,7 +20,10 @@ public class Emparejar : MonoBehaviour
         startPosition = transform.position;
     }
 
-
+    public void SetStartPosition()
+    {
+        startPosition = transform.position;
+    }
 
     public void BuscarPareja()
     {

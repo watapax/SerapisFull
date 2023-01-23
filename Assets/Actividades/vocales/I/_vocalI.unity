@@ -252,8 +252,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2de81c3b212b2a143b11e365107729a5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nombreEscenaDestino: 
-  IDAnclaDestino: 
+  nombreEscenaDestino: Isla Plaza
+  IDAnclaDestino: GLOBOAZUL
 --- !u!114 &309838837
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5314,6 +5314,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fcf2216e6eb597e4ba79b41259e1eb06, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  onEndAudioPlay:
+    m_PersistentCalls:
+      m_Calls: []
+  onStartAudioPlay:
+    m_PersistentCalls:
+      m_Calls: []
   audioSource: {fileID: 8730273376038255713}
 --- !u!82 &8730273376038255713
 AudioSource:

@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.1273174, g: 0.13414761, b: 0.12107885, a: 1}
+  m_IndirectSpecularColor: {r: 0.12731749, g: 0.13414757, b: 0.1210787, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -514,6 +514,7 @@ GameObject:
   - component: {fileID: 251738570}
   - component: {fileID: 251738569}
   - component: {fileID: 251738568}
+  - component: {fileID: 251738571}
   m_Layer: 0
   m_Name: VideoFinal
   m_TagString: Untagged
@@ -537,10 +538,10 @@ MonoBehaviour:
   onVideoEnd:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 5571647219209365912}
-        m_TargetAssemblyTypeName: ManagerEscenas, Assembly-CSharp
-        m_MethodName: CargarEscena
-        m_Mode: 5
+      - m_Target: {fileID: 251738571}
+        m_TargetAssemblyTypeName: CambiadorEscenas, Assembly-CSharp
+        m_MethodName: CambiarDeEscena
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -599,6 +600,20 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &251738571
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 251738567}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2de81c3b212b2a143b11e365107729a5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nombreEscenaDestino: Isla Bosque
+  IDAnclaDestino: MAGALLANICO
 --- !u!1 &319734990
 GameObject:
   m_ObjectHideFlags: 0

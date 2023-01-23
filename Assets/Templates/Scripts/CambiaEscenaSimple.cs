@@ -7,6 +7,9 @@ public class CambiaEscenaSimple : MonoBehaviour
 {
     public void CargarEscena(string escena)
     {
+        if(GetComponentInParent<MenuAnclas>())
+            GetComponentInParent<MenuAnclas>().ApagarMenu();
+
         SceneManager.LoadScene(escena);
     }
 }
