@@ -29,6 +29,7 @@ public class Login : MonoBehaviour
 
     private void Start()
     {
+        
         inputClave.inputType = TMP_InputField.InputType.Password;
     }
 
@@ -134,6 +135,12 @@ public class Login : MonoBehaviour
     public void LoadAplicacion()
     {
         SceneManager.LoadScene(primeraEscena);
+    }
+
+
+    private void Update()
+    {
+        Cursor.visible = true;
     }
 
     public string primeraEscena;
