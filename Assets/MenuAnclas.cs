@@ -33,10 +33,12 @@ public class MenuAnclas:MonoBehaviour
                     menu.SetActive(true);
                     graphicRaycaster.enabled = true;
 
+                    /*
                     prevMouseLockMode = Cursor.lockState;
                     prevMouseVisibleState = Cursor.visible;
                     Cursor.lockState = CursorLockMode.Confined;
                     Cursor.visible = true;
+                    */
                     
                 }
             }
@@ -51,10 +53,10 @@ public class MenuAnclas:MonoBehaviour
                 key_press_time = 0;
                 is_open = false;
                 menu.SetActive(false);
-                graphicRaycaster.enabled = false;
+                //graphicRaycaster.enabled = false;
 
-                Cursor.lockState = prevMouseLockMode;
-                Cursor.visible = prevMouseVisibleState;
+               // Cursor.lockState = prevMouseLockMode;
+                //Cursor.visible = prevMouseVisibleState;
             }
         }
 
@@ -62,11 +64,12 @@ public class MenuAnclas:MonoBehaviour
 
     public void ApagarMenu()
     {
+        key_press_time = 0;
         is_open = false;
         menu.SetActive(false);
-        graphicRaycaster.enabled = false;
+        //graphicRaycaster.enabled = false;
 
-        Cursor.lockState = prevMouseLockMode;
-        Cursor.visible = prevMouseVisibleState;
+        //Cursor.lockState = prevMouseLockMode;
+        //Cursor.visible = prevMouseVisibleState;
     }
 }

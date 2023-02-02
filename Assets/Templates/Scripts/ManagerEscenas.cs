@@ -34,7 +34,7 @@ public class ManagerEscenas : MonoBehaviour
     }
     private void Start()
     {
-        Cursor.visible = true;
+        
         waitTime = GetComponent<ManagerTransicionCanvas>().duracionFade +1;
         SceneManager.sceneLoaded += TerminarCarga;
     }
@@ -72,8 +72,7 @@ public class ManagerEscenas : MonoBehaviour
         
         if (tipoEscena == "ZONA") //Esto no toma en cuenta el retorno de una actividad, OJO
         {
-            Cursor.lockState = CursorLockMode.Locked;
-            GameObject player = GameObject.FindGameObjectWithTag("Player");
+                     GameObject player = GameObject.FindGameObjectWithTag("Player");
 
             if (player != null)
             {
@@ -96,10 +95,12 @@ public class ManagerEscenas : MonoBehaviour
         }
         else
         {
-            Cursor.lockState = CursorLockMode.None;
+           // Cursor.lockState = CursorLockMode.None;
         }
 
     }
+
+
 
 
     [SerializeField]
@@ -107,8 +108,11 @@ public class ManagerEscenas : MonoBehaviour
 
     private void Update()
     {
-        if (Input.GetKeyDown(KeyCode.UpArrow)) Time.timeScale = 3;
-        if (Input.GetKeyDown(KeyCode.DownArrow)) Time.timeScale = 1;
+
+        Cursor.visible = true;
+
+       // if (Input.GetKeyDown(KeyCode.UpArrow)) Time.timeScale = 3;
+       // if (Input.GetKeyDown(KeyCode.DownArrow)) Time.timeScale = 1;
 
     }
 

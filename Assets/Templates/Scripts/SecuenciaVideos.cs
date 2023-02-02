@@ -9,7 +9,7 @@ public class SecuenciaVideos : MonoBehaviour
     public VideoPlayer videoPlayer;
     public UnityEvent onEndSequence;
     public float delayTime;
-    public string[] urlVideos;
+    //public string[] urlVideos;
     public VideoClip[] clips;
     int index = 0;
 
@@ -30,7 +30,8 @@ public class SecuenciaVideos : MonoBehaviour
             onEndSequence.Invoke();
             return;
         }
-
+        videoPlayer.Stop();
+        videoPlayer.clip = null;
         videoPlayer.clip = clips[index];
         //videoPlayer.url = urlVideos[index];
         videoPlayer.Prepare();

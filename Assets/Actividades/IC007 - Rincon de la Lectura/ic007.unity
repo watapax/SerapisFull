@@ -891,6 +891,135 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &1000363244
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 5362757902948386211, guid: 0883910d9ac3a5b45ab09916225adf9e,
+        type: 3}
+      propertyPath: IDAnclaDestino
+      value: RINCONLECTURA
+      objectReference: {fileID: 0}
+    - target: {fileID: 5362757902948386211, guid: 0883910d9ac3a5b45ab09916225adf9e,
+        type: 3}
+      propertyPath: nombreEscenaDestino
+      value: Interior Casa
+      objectReference: {fileID: 0}
+    - target: {fileID: 6336093518291532496, guid: 0883910d9ac3a5b45ab09916225adf9e,
+        type: 3}
+      propertyPath: m_Name
+      value: CanvasVolver
+      objectReference: {fileID: 0}
+    - target: {fileID: 6336093518291532500, guid: 0883910d9ac3a5b45ab09916225adf9e,
+        type: 3}
+      propertyPath: m_Pivot.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6336093518291532500, guid: 0883910d9ac3a5b45ab09916225adf9e,
+        type: 3}
+      propertyPath: m_Pivot.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6336093518291532500, guid: 0883910d9ac3a5b45ab09916225adf9e,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 6336093518291532500, guid: 0883910d9ac3a5b45ab09916225adf9e,
+        type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6336093518291532500, guid: 0883910d9ac3a5b45ab09916225adf9e,
+        type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6336093518291532500, guid: 0883910d9ac3a5b45ab09916225adf9e,
+        type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6336093518291532500, guid: 0883910d9ac3a5b45ab09916225adf9e,
+        type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6336093518291532500, guid: 0883910d9ac3a5b45ab09916225adf9e,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6336093518291532500, guid: 0883910d9ac3a5b45ab09916225adf9e,
+        type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6336093518291532500, guid: 0883910d9ac3a5b45ab09916225adf9e,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6336093518291532500, guid: 0883910d9ac3a5b45ab09916225adf9e,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6336093518291532500, guid: 0883910d9ac3a5b45ab09916225adf9e,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6336093518291532500, guid: 0883910d9ac3a5b45ab09916225adf9e,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6336093518291532500, guid: 0883910d9ac3a5b45ab09916225adf9e,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6336093518291532500, guid: 0883910d9ac3a5b45ab09916225adf9e,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6336093518291532500, guid: 0883910d9ac3a5b45ab09916225adf9e,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6336093518291532500, guid: 0883910d9ac3a5b45ab09916225adf9e,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6336093518291532500, guid: 0883910d9ac3a5b45ab09916225adf9e,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6336093518291532500, guid: 0883910d9ac3a5b45ab09916225adf9e,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6336093518291532500, guid: 0883910d9ac3a5b45ab09916225adf9e,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6336093518291532500, guid: 0883910d9ac3a5b45ab09916225adf9e,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 0883910d9ac3a5b45ab09916225adf9e, type: 3}
 --- !u!1 &1019186846
 GameObject:
   m_ObjectHideFlags: 0
@@ -1542,21 +1671,6 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
   delayTime: 0
-  urlVideos:
-  - https://storage.googleapis.com/videosactividades/RincondelaLectura/Chanchitos/chanchitos_1.mp4
-  - https://storage.googleapis.com/videosactividades/RincondelaLectura/Chanchitos/chanchitos_2.mp4
-  - https://storage.googleapis.com/videosactividades/RincondelaLectura/Chanchitos/chanchitos_3.mp4
-  - https://storage.googleapis.com/videosactividades/RincondelaLectura/Chanchitos/chanchitos_4.mp4
-  - https://storage.googleapis.com/videosactividades/RincondelaLectura/Chanchitos/chanchitos_5.mp4
-  - https://storage.googleapis.com/videosactividades/RincondelaLectura/Chanchitos/chanchitos_6.mp4
-  - https://storage.googleapis.com/videosactividades/RincondelaLectura/Chanchitos/chanchitos_7.mp4
-  - https://storage.googleapis.com/videosactividades/RincondelaLectura/Chanchitos/chanchitos_8.mp4
-  - https://storage.googleapis.com/videosactividades/RincondelaLectura/Chanchitos/chanchitos_9.mp4
-  - https://storage.googleapis.com/videosactividades/RincondelaLectura/Chanchitos/chanchitos_10.mp4
-  - https://storage.googleapis.com/videosactividades/RincondelaLectura/Chanchitos/chanchitos_11.mp4
-  - https://storage.googleapis.com/videosactividades/RincondelaLectura/Chanchitos/chanchitos_12.mp4
-  - https://storage.googleapis.com/videosactividades/RincondelaLectura/Chanchitos/chanchitos_13.mp4
-  - https://storage.googleapis.com/videosactividades/RincondelaLectura/Chanchitos/chanchitos_14.mp4
   clips:
   - {fileID: 32900000, guid: 64a6f2feb03c8fc469a9f2977b8ad2ea, type: 3}
   - {fileID: 32900000, guid: b20194f817545e446866819cab813048, type: 3}
@@ -1923,17 +2037,6 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
   delayTime: 0
-  urlVideos:
-  - https://storage.googleapis.com/videosactividades/RincondelaLectura/Caperucita/caperucita_roja_1.mp4
-  - https://storage.googleapis.com/videosactividades/RincondelaLectura/Caperucita/caperucita_roja_2.mp4
-  - https://storage.googleapis.com/videosactividades/RincondelaLectura/Caperucita/caperucita_roja_3.mp4
-  - https://storage.googleapis.com/videosactividades/RincondelaLectura/Caperucita/caperucita_roja_4.mp4
-  - https://storage.googleapis.com/videosactividades/RincondelaLectura/Caperucita/caperucita_roja_5.mp4
-  - https://storage.googleapis.com/videosactividades/RincondelaLectura/Caperucita/caperucita_roja_6.mp4
-  - https://storage.googleapis.com/videosactividades/RincondelaLectura/Caperucita/caperucita_roja_7.mp4
-  - https://storage.googleapis.com/videosactividades/RincondelaLectura/Caperucita/caperucita_roja_8.mp4
-  - https://storage.googleapis.com/videosactividades/RincondelaLectura/Caperucita/caperucita_roja_9.mp4
-  - https://storage.googleapis.com/videosactividades/RincondelaLectura/Caperucita/caperucita_roja_10.mp4
   clips:
   - {fileID: 32900000, guid: 855dff1a0000e0d4b9aa6a56ccc8dbe3, type: 3}
   - {fileID: 32900000, guid: 274fbafb555fcb542baa12445a482bfe, type: 3}
@@ -2203,24 +2306,6 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
   delayTime: 0
-  urlVideos:
-  - https://storage.googleapis.com/videosactividades/RincondelaLectura/tortillacorredora/inicio.mp4
-  - https://storage.googleapis.com/videosactividades/RincondelaLectura/tortillacorredora/02.mp4
-  - https://storage.googleapis.com/videosactividades/RincondelaLectura/tortillacorredora/03.mp4
-  - https://storage.googleapis.com/videosactividades/RincondelaLectura/tortillacorredora/04.mp4
-  - https://storage.googleapis.com/videosactividades/RincondelaLectura/tortillacorredora/05.mp4
-  - https://storage.googleapis.com/videosactividades/RincondelaLectura/tortillacorredora/06.mp4
-  - https://storage.googleapis.com/videosactividades/RincondelaLectura/tortillacorredora/07.mp4
-  - https://storage.googleapis.com/videosactividades/RincondelaLectura/tortillacorredora/08.mp4
-  - https://storage.googleapis.com/videosactividades/RincondelaLectura/tortillacorredora/09.mp4
-  - https://storage.googleapis.com/videosactividades/RincondelaLectura/tortillacorredora/10.mp4
-  - https://storage.googleapis.com/videosactividades/RincondelaLectura/tortillacorredora/11.mp4
-  - https://storage.googleapis.com/videosactividades/RincondelaLectura/tortillacorredora/12.mp4
-  - https://storage.googleapis.com/videosactividades/RincondelaLectura/tortillacorredora/13.mp4
-  - https://storage.googleapis.com/videosactividades/RincondelaLectura/tortillacorredora/14.mp4
-  - https://storage.googleapis.com/videosactividades/RincondelaLectura/tortillacorredora/15.mp4
-  - https://storage.googleapis.com/videosactividades/RincondelaLectura/tortillacorredora/16.mp4
-  - https://storage.googleapis.com/videosactividades/RincondelaLectura/tortillacorredora/17.mp4
   clips:
   - {fileID: 32900000, guid: ac20f7f75d10bf44f871ba0f870150d8, type: 3}
   - {fileID: 32900000, guid: 0b4fda4aa70645647b53665dcc8e80e1, type: 3}
@@ -2559,34 +2644,6 @@ MonoBehaviour:
   cuadroBlanco: {fileID: 5571647218188809819}
   duracionFade: 1.5
   fadeoutOnAwake: 1
---- !u!114 &5571647219734670698
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5571647219734670708}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9ca15e74e0d95094db0ef8208cb963a9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  onLoadScene:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 5571647219734670696}
-        m_TargetAssemblyTypeName: ManagerTransicionCanvas, Assembly-CSharp
-        m_MethodName: FadeInBlanco
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-  debugMode: 0
 --- !u!1 &5571647219734670708
 GameObject:
   m_ObjectHideFlags: 0
@@ -2596,7 +2653,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5571647219734670709}
-  - component: {fileID: 5571647219734670698}
   - component: {fileID: 5571647219734670696}
   - component: {fileID: 1145093646}
   - component: {fileID: 1145093647}

@@ -26,7 +26,7 @@ public class CambiadorEscenas : MonoBehaviour
 
     public void OnButtonPressed()
     {
-        button.interactable = false;
+        //button.interactable = false;
         CambiarDeEscena();
     }
 
