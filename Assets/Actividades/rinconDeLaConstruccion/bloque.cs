@@ -23,6 +23,18 @@ public class bloque : MonoBehaviour
         if (vertical) direccion.y = -1;
     }
 
+
+    private void OnMouseDown()
+    {
+        ResetearRotacion();
+    }
+
+    void ResetearRotacion()
+    {
+        rb.angularVelocity = 0;
+        transform.localEulerAngles = Vector3.zero;
+    }
+
     public void CheckArea()
     {
         if(isInArea)

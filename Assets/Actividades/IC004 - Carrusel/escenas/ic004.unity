@@ -2316,6 +2316,21 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6765435323243308523, guid: da9fa41114dd4e34db9e3f384369a013,
+        type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6765435323243308523, guid: da9fa41114dd4e34db9e3f384369a013,
+        type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6765435323243308523, guid: da9fa41114dd4e34db9e3f384369a013,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6765435323460301405, guid: da9fa41114dd4e34db9e3f384369a013,
         type: 3}
       propertyPath: m_AnchorMax.y
@@ -4776,14 +4791,19 @@ MonoBehaviour:
   objetos:
   - id: amarillo
     clip: {fileID: 8300000, guid: 19daea2fb60b6f143811618db3dca0cc, type: 3}
+    outline: {fileID: 7627095488314087380}
   - id: azul
     clip: {fileID: 8300000, guid: 0480b76ec9a570d44bd11da48609cde7, type: 3}
+    outline: {fileID: 7260034133943366675}
   - id: morado
     clip: {fileID: 8300000, guid: ddc1ef8dd271410439d2a7d0c4396826, type: 3}
+    outline: {fileID: 8772176252276126611}
   - id: rojo
     clip: {fileID: 8300000, guid: 391c8131369dbbd4aad94bd0c8033254, type: 3}
+    outline: {fileID: 7426281205050875147}
   - id: verde
     clip: {fileID: 8300000, guid: 4d0794fd6979cb74e83c03a0ad056807, type: 3}
+    outline: {fileID: 8479663552533802576}
   estrellas:
   - {fileID: 8300000, guid: 65984665825655142863cf5a33f6dbf3, type: 3}
   - {fileID: 8300000, guid: f7cf5cf4ef189f14fa34779075b01d22, type: 3}
@@ -5069,6 +5089,7 @@ GameObject:
   - component: {fileID: 6476192053079843876}
   - component: {fileID: 7426281205050875146}
   - component: {fileID: 7426281205050875145}
+  - component: {fileID: 7426281205050875147}
   m_Layer: 0
   m_Name: caballo6
   m_TagString: Untagged
@@ -5089,6 +5110,7 @@ GameObject:
   - component: {fileID: 3215255747831366741}
   - component: {fileID: 7260034133943366674}
   - component: {fileID: 7260034133943366673}
+  - component: {fileID: 7260034133943366675}
   m_Layer: 0
   m_Name: caballo9
   m_TagString: Untagged
@@ -5240,6 +5262,7 @@ GameObject:
   - component: {fileID: 7627095488314087377}
   - component: {fileID: 7627095488314087379}
   - component: {fileID: 7627095488314087378}
+  - component: {fileID: 7627095488314087380}
   m_Layer: 0
   m_Name: caballo
   m_TagString: Untagged
@@ -7036,6 +7059,7 @@ GameObject:
   - component: {fileID: 2569635296272011690}
   - component: {fileID: 8772176252276126610}
   - component: {fileID: 8772176252276126609}
+  - component: {fileID: 8772176252276126611}
   m_Layer: 0
   m_Name: caballo7
   m_TagString: Untagged
@@ -7193,6 +7217,24 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 2424522716820966361, guid: 1cb5d5ba4f7a7404e84976520b967ddf, type: 3}
+--- !u!114 &7260034133943366675
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 687497452405090303}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5fea29bb7c508c244a1f805a5fd3fc4d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  outlineMode: 0
+  outlineColor: {r: 1, g: 1, b: 1, a: 1}
+  outlineWidth: 5.43
+  precomputeOutline: 0
+  bakeKeys: []
+  bakeValues: []
 --- !u!4 &7420571543196483765
 Transform:
   m_ObjectHideFlags: 0
@@ -7270,6 +7312,24 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: -1725502171380806219, guid: 1cb5d5ba4f7a7404e84976520b967ddf, type: 3}
+--- !u!114 &7426281205050875147
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 649411111952459380}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5fea29bb7c508c244a1f805a5fd3fc4d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  outlineMode: 0
+  outlineColor: {r: 1, g: 1, b: 1, a: 1}
+  outlineWidth: 5.43
+  precomputeOutline: 0
+  bakeKeys: []
+  bakeValues: []
 --- !u!33 &7440671064606957624
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -7435,6 +7495,24 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 5648948808299870184, guid: 1cb5d5ba4f7a7404e84976520b967ddf, type: 3}
+--- !u!114 &7627095488314087380
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1534419294429166203}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5fea29bb7c508c244a1f805a5fd3fc4d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  outlineMode: 0
+  outlineColor: {r: 1, g: 1, b: 1, a: 1}
+  outlineWidth: 5.43
+  precomputeOutline: 0
+  bakeKeys: []
+  bakeValues: []
 --- !u!33 &7648445406618012047
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -7755,6 +7833,7 @@ GameObject:
   - component: {fileID: 2485348734970471820}
   - component: {fileID: 8479663552533802575}
   - component: {fileID: 8479663552533802574}
+  - component: {fileID: 8479663552533802576}
   m_Layer: 0
   m_Name: caballo1
   m_TagString: Untagged
@@ -7812,6 +7891,24 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: -833327414443300549, guid: 1cb5d5ba4f7a7404e84976520b967ddf, type: 3}
+--- !u!114 &8479663552533802576
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8479663552533802573}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5fea29bb7c508c244a1f805a5fd3fc4d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  outlineMode: 0
+  outlineColor: {r: 1, g: 1, b: 1, a: 1}
+  outlineWidth: 6.07
+  precomputeOutline: 0
+  bakeKeys: []
+  bakeValues: []
 --- !u!4 &8522785528059854238
 Transform:
   m_ObjectHideFlags: 0
@@ -7961,6 +8058,24 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: -102396946120550470, guid: 1cb5d5ba4f7a7404e84976520b967ddf, type: 3}
+--- !u!114 &8772176252276126611
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6842626556352548609}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5fea29bb7c508c244a1f805a5fd3fc4d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  outlineMode: 0
+  outlineColor: {r: 1, g: 1, b: 1, a: 1}
+  outlineWidth: 5.43
+  precomputeOutline: 0
+  bakeKeys: []
+  bakeValues: []
 --- !u!1 &8819366192495665975
 GameObject:
   m_ObjectHideFlags: 0

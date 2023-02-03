@@ -9,6 +9,7 @@ public class ObjetoSimple
 {
     public string id;
     public AudioClip clip;
+    public Outline outline;
 }
 
 public class SeleccionAudios : MonoBehaviour
@@ -40,6 +41,7 @@ public class SeleccionAudios : MonoBehaviour
             audioSource.PlayOneShot(estrellas[index]);
             estrellasIcon[index].SetActive(true);
             onRespuestaCorrecta.Invoke();
+            objetosShuffle[index].outline.enabled = true;
             index++;
         }
         else
