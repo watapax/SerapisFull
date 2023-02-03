@@ -135,7 +135,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 20a5cfaf160244c47a8e644222eae8a2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tagPareja: 4
+  tagPareja: 5
   onMatch:
     m_PersistentCalls:
       m_Calls:
@@ -6995,7 +6995,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8163ac4105e9a5c4ca000235054477ee, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  waitTime: 2
+  waitTime: 11
   evento:
     m_PersistentCalls:
       m_Calls:
@@ -7755,7 +7755,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 3930047417217759824}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &569652437524764943
 GameObject:
@@ -8163,7 +8163,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 2735809555556660384}
-  m_RootOrder: 4
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &1647287091512909566
 SpriteRenderer:
@@ -8744,7 +8744,6 @@ Transform:
   m_Children:
   - {fileID: 7868642091779656198}
   - {fileID: 3797183276043056294}
-  - {fileID: 3574781322744899363}
   - {fileID: 9025865524835973103}
   - {fileID: 1612831167338286978}
   m_Father: {fileID: 1156662374}
@@ -8763,7 +8762,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 3930047417217759824}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &3039500143794038880
 SpriteRenderer:
@@ -8940,8 +8939,8 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 2735809555556660384}
-  m_RootOrder: 2
+  m_Father: {fileID: 3930047417217759824}
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &3601772603716709293
 GameObject:
@@ -9044,6 +9043,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
+  - {fileID: 3574781322744899363}
   - {fileID: 2895309065498820686}
   - {fileID: 487667681251766441}
   m_Father: {fileID: 1156662374}
@@ -10648,7 +10648,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 2735809555556660384}
-  m_RootOrder: 3
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &9154528038251596009
 Transform:
