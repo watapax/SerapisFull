@@ -13,6 +13,7 @@ public class ManagerEscenas : MonoBehaviour
     string tipoEscena;
     public UnityEvent onLoadScene;
     float waitTime;
+    public AudioManager audioManager;
 
     public static ManagerEscenas Instance { get; private set; }
 
@@ -38,6 +39,10 @@ public class ManagerEscenas : MonoBehaviour
         waitTime = GetComponent<ManagerTransicionCanvas>().duracionFade +1;
         SceneManager.sceneLoaded += TerminarCarga;
     }
+    private void OnLevelWasLoaded()
+    {
+        audioManager = FindObjectOfType<AudioManager>();
+    }
 
     public void CargarEscena(string nombreEscena, string newIDAnclaEntrada,string newIDAnclaDestino, string newTipoEscena)
     {
@@ -48,6 +53,7 @@ public class ManagerEscenas : MonoBehaviour
         IDAnclaDestino = newIDAnclaDestino;
 
         onLoadScene.Invoke();
+        audioManager.AudioOut();
         Invoke("Cargar", waitTime);
     }
 
@@ -58,7 +64,7 @@ public class ManagerEscenas : MonoBehaviour
 
     void Cargar()
     {   
-        SceneManager.LoadScene(nombreSiguienteEscena);
+        SceneManager.LoadScene(nombreSiguienteEscena);       
     }
 
     public void CargarEscena(string _nombreEscena)
