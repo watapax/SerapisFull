@@ -5,173 +5,173 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 0
+  - enabled: 1
     path: Assets/Templates/login.unity
     guid: d630412b483cfb5408de0ce131cd3c21
-  - enabled: 0
+  - enabled: 1
     path: Assets/Actividades/Rutinas/rutinas.unity
     guid: a49358908843c50458d148c0f3f06433
-  - enabled: 0
+  - enabled: 1
     path: Assets/Ambientes/Escenas/Exteriores/Lobby.unity
     guid: b6e76c41d8506ee46988bbd1fd756d59
-  - enabled: 0
+  - enabled: 1
     path: Assets/Actividades/IC001 - Atrapa Pelotas/escenas/intro atrapa pelotas.unity
     guid: 2dd94602b32bb814bb9ea81783bc7542
-  - enabled: 0
+  - enabled: 1
     path: Assets/Actividades/IC001 - Atrapa Pelotas/escenas/atrapa pelotas.unity
     guid: d1701275b785c9e47a66d0f512886e79
-  - enabled: 0
+  - enabled: 1
     path: Assets/Actividades/bomberos/bomberos.unity
     guid: 6ace2f245891f7a4980b3b59d50487b4
-  - enabled: 0
+  - enabled: 1
     path: Assets/Ambientes/Escenas/Interiores/Interior Casa del Arbol.unity
     guid: e0ecbd6b95cd7144a917dcf02b62a040
-  - enabled: 0
+  - enabled: 1
     path: Assets/Actividades/IB007 - Familia Conejo Piren/ib007 familia conejo piren.unity
     guid: 3cb8059294b9d9a499a00d128891ab20
-  - enabled: 0
+  - enabled: 1
     path: Assets/Actividades/IB018 - Causa y Efecto/ib018 causayefecto.unity
     guid: d98f4612d2348ce4588fa914f5ce55c5
-  - enabled: 0
+  - enabled: 1
     path: Assets/Ambientes/Escenas/Interiores/Interior Casa.unity
     guid: 2fb4806730d158343aa3ffbac1ff1c17
-  - enabled: 0
+  - enabled: 1
     path: Assets/Actividades/hojas/hojas.unity
     guid: 6ed2d8ae36675f64995c7edabf58aa6f
-  - enabled: 0
+  - enabled: 1
     path: Assets/Ambientes/Escenas/Interiores/Interior Estacion Espacial.unity
     guid: 156aada85673e0348baf6d38f6ad0697
-  - enabled: 0
+  - enabled: 1
     path: Assets/Actividades/Rutinas/rutinas2.unity
     guid: 532d8f597dd89bb4d8d3aaeac989fde2
-  - enabled: 0
+  - enabled: 1
     path: Assets/Actividades/IP014 - lenguaje artistico/lenguajeartistico.unity
     guid: 64523e6b4cd96c24888e17fa3304e39b
-  - enabled: 0
+  - enabled: 1
     path: Assets/Actividades/IB008 - Instituciones/ib008 instituciones.unity
     guid: afd17490fc9f6b5479ddab6e30fb399c
-  - enabled: 0
+  - enabled: 1
     path: Assets/Actividades/ICA006 - normas sociales/ica006 normas sociales.unity
     guid: be98fe3b2cb6d5e4f859c8520e989c24
-  - enabled: 0
+  - enabled: 1
     path: Assets/Actividades/alimentacion saludable/alimentacion saludable.unity
     guid: 1fde1a99b708e014f8f1ee62d0fad217
-  - enabled: 0
+  - enabled: 1
     path: Assets/Actividades/cerebro/cerebro.unity
     guid: a97f0a52407e8d84a86ddcb628bd6010
-  - enabled: 0
+  - enabled: 1
     path: Assets/Actividades/sentidos/sentidos.unity
     guid: 162dfabbe11ab8c46b3db084d67c7134
-  - enabled: 0
+  - enabled: 1
     path: Assets/Actividades/IB012 - Figuras Geometricas/ib012 figuras geometricas.unity
     guid: 35c5a8f43fd6a4548bc705216f090863
-  - enabled: 0
+  - enabled: 1
     path: Assets/Actividades/IB011 - Contando manzanas/ib011 contando manzanas.unity
     guid: db2e9e2e34e4f1043bd45b77d9f7459a
-  - enabled: 0
+  - enabled: 1
     path: Assets/Actividades/raport/rapport.unity
     guid: 0c96b288f9c32194dbc0f64f0df8dbc6
-  - enabled: 0
+  - enabled: 1
     path: Assets/Actividades/IB013 - Juego Creando Patrones 1/Escenas/ib013 - Creando
       patrones 1.unity
     guid: 6c506f5455220b24496fe951486b50dc
-  - enabled: 0
+  - enabled: 1
     path: Assets/Actividades/IB014 - Creando Patrones 2/ib014 creando patrones 2.unity
     guid: 17ed7995fb644cc4cac14bfd8eb78c11
-  - enabled: 0
+  - enabled: 1
     path: Assets/Ambientes/Escenas/Exteriores/Isla Estacion Espacial.unity
     guid: 0e0271a03c33ab44f907717ca0020eb8
-  - enabled: 0
+  - enabled: 1
     path: Assets/Actividades/IB020 - Oruga Patron Figura/ib020 oruga patron figura.unity
     guid: efe6565afdb0d4040a4a380d7b66646f
-  - enabled: 0
+  - enabled: 1
     path: Assets/Actividades/IC002 - jabonParlanchin/ic002.unity
     guid: 4c6df9338a076604282f38b4d6ff4f6d
-  - enabled: 0
+  - enabled: 1
     path: Assets/Actividades/IP013 - pueblos originarios/pueblos originarios.unity
     guid: 2004a858567ce27458018e853f7c4594
-  - enabled: 0
+  - enabled: 1
     path: Assets/Actividades/IC003 - Tiro al Blanco/IC003_tiroAlblanco.unity
     guid: 32ec629ccfdcb5a4581594fbd40aad31
-  - enabled: 0
+  - enabled: 1
     path: Assets/Actividades/IB010 - Conejo Piren/IB010 Conejo Piren.unity
     guid: f210f10cb86abd94f9c22ad8720d9d91
-  - enabled: 0
+  - enabled: 1
     path: Assets/Ambientes/Escenas/Exteriores/Isla Bosque.unity
     guid: e519169e575c9df45a31b22ed652b23d
   - enabled: 1
     path: Assets/Ambientes/Escenas/Exteriores/Isla Plaza.unity
     guid: 9c2526c41350d4f458db87121d92d3fc
-  - enabled: 0
+  - enabled: 1
     path: Assets/Ambientes/Escenas/Exteriores/Isla Casa.unity
     guid: 670bcdc494e01344e9c12bb07d2d99a1
-  - enabled: 0
+  - enabled: 1
     path: Assets/Ambientes/Escenas/Exteriores/Isla Casa del Arbol.unity
     guid: c55d97a74e8a03d43a428c388a5f6579
-  - enabled: 0
+  - enabled: 1
     path: Assets/Actividades/vocales/I/_vocalI.unity
     guid: ea0653de70235f343a6b0f33e557b67e
-  - enabled: 0
+  - enabled: 1
     path: Assets/Actividades/vocales/E/_vocalE.unity
     guid: 1c5175e86ce3cdb49bd623033b94cf11
-  - enabled: 0
+  - enabled: 1
     path: Assets/Actividades/IC004 - Carrusel/escenas/ic004.unity
     guid: 55f1a7a5be9542342ac937e49ebbd16f
-  - enabled: 0
+  - enabled: 1
     path: Assets/Actividades/vocales/A/_vocalA.unity
     guid: afd6bd34551403644bd2b2ce5264bfac
-  - enabled: 0
+  - enabled: 1
     path: Assets/Actividades/vocales/O/_vocalO.unity
     guid: aad58e38111b18248af4dd51bad847aa
-  - enabled: 0
+  - enabled: 1
     path: Assets/Actividades/Vak/vak.unity
     guid: 79eedb6801bd3f3488e11f0b1e977965
-  - enabled: 0
+  - enabled: 1
     path: Assets/Actividades/IP005 - silabas animales/silabas animales.unity
     guid: 3b63dae99bc906248b3a6ae07e28495e
-  - enabled: 0
+  - enabled: 1
     path: Assets/Actividades/sonidos finales burbuja/sonidos finales burbuja.unity
     guid: 0e77b1f3858e5234b80d84d5ea73417f
-  - enabled: 0
+  - enabled: 1
     path: Assets/Actividades/recetas/recetas.unity
     guid: 8022d86714c521f4582fda1e6ac6d0e9
-  - enabled: 0
+  - enabled: 1
     path: Assets/Actividades/atletismo/atletismo.unity
     guid: d0c0820e5df69134ba8bc92a4653c6fb
-  - enabled: 0
+  - enabled: 1
     path: Assets/Actividades/IC012 - Fotografias/fotografias.unity
     guid: 1dcd0a4e85517b3428c92889d13ed14f
-  - enabled: 0
+  - enabled: 1
     path: Assets/Actividades/IP006 - Silaba inicial/silaba inicial.unity
     guid: baed7ddf0ea3d5e4180ead43f6ede7d3
-  - enabled: 0
+  - enabled: 1
     path: Assets/Actividades/IP008 - Juanito el Bandolero/juanito el bandolero.unity
     guid: 60c4d2a05310560438a7cb20b76c2947
-  - enabled: 0
+  - enabled: 1
     path: Assets/Actividades/IC006 - Emojis/escena/Actividad Mago.unity
     guid: 5e098a78ea721b44ebc47abc2c69a97c
-  - enabled: 0
+  - enabled: 1
     path: Assets/Actividades/sonidos finales serafin/sonidos finales serafin.unity
     guid: b6986270e280baa4591be63daebaf53a
-  - enabled: 0
+  - enabled: 1
     path: Assets/Actividades/IC008 - Rincon de la Musica/ic008 rincon de la musica.unity
     guid: dda5a600d1830754dbd0f5fb9509173f
-  - enabled: 0
+  - enabled: 1
     path: Assets/Actividades/IC007 - Rincon de la Lectura/ic007.unity
     guid: 68bd610368348894f84267179a7e7389
-  - enabled: 0
+  - enabled: 1
     path: Assets/Actividades/rincon del arte/rincon del arte.unity
     guid: f4e75a1aeefc758418db93ebc367ac6e
-  - enabled: 0
+  - enabled: 1
     path: Assets/Actividades/IP015 - concierto/concierto.unity
     guid: c932730a2a2876c46bd0af604882f362
-  - enabled: 0
+  - enabled: 1
     path: Assets/Actividades/vocales/vocales.unity
     guid: 5e7a47f2fff254d48945765a7f8fdd7c
-  - enabled: 0
+  - enabled: 1
     path: Assets/Actividades/IP003 - Separacion Silabas/separacionSilabas.unity
     guid: 2fbd02c37bbe94446a0f20132096b9ae
-  - enabled: 0
-    path: Assets/Ambientes/Escenas/introduccion.unity
-    guid: e553e5d0743bde94eb6dfd2070783ebe
+  - enabled: 1
+    path: Assets/Actividades/rinconDeLaConstruccion/rinconConstruccion.unity
+    guid: 8e73be43a83f14f4188af7fd67518a5c
   m_configObjects: {}
