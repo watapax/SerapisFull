@@ -68,9 +68,4 @@ public class LanzarObjetoConRaycast : MonoBehaviour
     {
         viajando = false;
     }
-
-
-
-
-
 }

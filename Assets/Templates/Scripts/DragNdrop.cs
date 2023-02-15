@@ -16,7 +16,6 @@ public class DragNdrop : MonoBehaviour
         if(destacador)destacador.SetActive(false);
     }
 
-    
     private void OnMouseDown()
     {
         if (blockComponent) return;
@@ -41,7 +40,6 @@ public class DragNdrop : MonoBehaviour
         mousePos.z = Mathf.Abs(Camera.main.transform.position.z);
         Vector3 worldPos = Camera.main.ScreenToWorldPoint(mousePos);
         transform.position = worldPos + diferencia;
-        
     }
 
     private void OnMouseUp()

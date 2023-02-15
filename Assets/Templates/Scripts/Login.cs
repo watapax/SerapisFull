@@ -141,6 +141,10 @@ public class Login : MonoBehaviour
     private void Update()
     {
         Cursor.visible = true;
+        if (Input.GetKeyDown(KeyCode.Return))
+        {
+            IntentarLogin();
+        }
     }
 
     public string primeraEscena;

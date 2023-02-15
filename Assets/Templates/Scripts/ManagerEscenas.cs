@@ -53,7 +53,10 @@ public class ManagerEscenas : MonoBehaviour
         IDAnclaDestino = newIDAnclaDestino;
 
         onLoadScene.Invoke();
-        audioManager.AudioOut();
+        if (audioManager != null)
+        {
+            audioManager.AudioOut();
+        }      
         Invoke("Cargar", waitTime);
     }
 

@@ -88,5 +88,19 @@ public class Emparejar : MonoBehaviour
     {
         onRange = false;
     }
+    private void OnTriggerStay(Collider other)
+    {
+        if (other.gameObject == pareja.gameObject)
+        {
+            onRange = true;         
+        }
+    }
+    private void OnTriggerExit(Collider other)
+    {
+        if (other.gameObject == pareja.gameObject)
+        {
+            onRange = false;
+        }
+    }
     public bool disableOnMatch;
 }
