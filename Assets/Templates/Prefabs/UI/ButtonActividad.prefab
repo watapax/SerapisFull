@@ -134,7 +134,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: intro atrapa pelotas
+          m_StringArgument: Tangramas
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &9177888137097672725
@@ -209,7 +209,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.4292453, g: 0.65754724, b: 1, a: 1}
+  m_Color: {r: 0.92956036, g: 1, b: 0.36320752, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -305,7 +305,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Atrapa pelotas
+  m_text: Tangramas
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 5fefafd583f33904cae3faaab951a27f, type: 2}
   m_sharedMaterial: {fileID: -1744416156213055293, guid: 5fefafd583f33904cae3faaab951a27f,

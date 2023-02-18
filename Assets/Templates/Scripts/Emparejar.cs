@@ -10,6 +10,8 @@ public class Emparejar : MonoBehaviour
    
     Vector3 startPosition;
 
+    public Transform go; // por si queremos mover otro objeto en vez de el objeto que tenga el scritp
+
     bool emparejado;
     bool onRange;
 
@@ -17,12 +19,17 @@ public class Emparejar : MonoBehaviour
 
     private void Awake()
     {
-        startPosition = transform.position;
+        if (go == null)
+        {
+            go = this.transform;
+        }
+        startPosition = go.position;
+       
     }
 
     public void SetStartPosition()
     {
-        startPosition = transform.position;
+        startPosition = go.position;
     }
 
     public void BuscarPareja()
@@ -46,6 +53,12 @@ public class Emparejar : MonoBehaviour
             if(disableOnMatch)
             {
                 Destroy(gameObject.GetComponent<Collider2D>());
+                Destroy(go.GetComponent<Collider2D>());
+
+                //para 3ds
+
+                Destroy(go.GetComponent<Collider>());
+                Destroy(gameObject.GetComponent<Collider>());
                 //gameObject.GetComponent<Collider2D>().enabled = false;
             }
         }
@@ -59,7 +72,7 @@ public class Emparejar : MonoBehaviour
 
     IEnumerator Interpolar(Vector3 target)
     {
-        Vector3 from = transform.position;
+        Vector3 from = go.position;
         float t = 0;
         float duracion = 0.3f;
         while(t < duracion)
@@ -67,7 +80,7 @@ public class Emparejar : MonoBehaviour
             t += Time.deltaTime;
             float perc = t / duracion;
             perc = Mathf.Sin(perc * Mathf.PI * 0.5f);
-            transform.position = Vector3.Lerp(from, target, perc);
+            go.position = Vector3.Lerp(from, target, perc);
             yield return null;
         }
 

@@ -186,4 +186,11 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Actividades/Bosque/IB015 - Patrones Musicales/patronesSonoros.unity
     guid: 838ab602e8336204993149310aa2e42f
+  - enabled: 1
+    path: Assets/Actividades/InteriorEstacionEspacial/IEE001 - Drag y Drop/Drag y
+      Drop.unity
+    guid: 0e3fdcc3e471abe4bb1513067f68e657
+  - enabled: 1
+    path: Assets/Actividades/InteriorEstacionEspacial/IEE006 - Tangramas/Tangramas.unity
+    guid: 77ab89c7a97aeb54aa65baf7aeb52113
   m_configObjects: {}
