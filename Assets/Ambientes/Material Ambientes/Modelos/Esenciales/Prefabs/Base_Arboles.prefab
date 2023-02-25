@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 7444099969497996811}
   - component: {fileID: 6714163781118656279}
   - component: {fileID: 2641007085472991584}
+  - component: {fileID: 6890816475182704066}
   m_Layer: 0
   m_Name: tronco_2 1
   m_TagString: Untagged
@@ -28,6 +29,7 @@ Transform:
   m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 377.7, y: 13, z: -25.3}
   m_LocalScale: {x: 0.62958544, y: 1.493517, z: 0.62958544}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1190301280929048419}
   m_RootOrder: 0
@@ -51,6 +53,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -82,6 +85,20 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!136 &6890816475182704066
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 728028013770646563}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 123.411705
+  m_Height: 299.07166
+  m_Direction: 1
+  m_Center: {x: 0.00042561584, y: 24.004536, z: -79.610855}
 --- !u!1 &2003851257127091673
 GameObject:
   m_ObjectHideFlags: 0
@@ -108,6 +125,7 @@ Transform:
   m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -0.19, y: 28.602, z: -74.16}
   m_LocalScale: {x: 0.0026420997, y: 0.0026420997, z: 0.0026420997}
+  m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 7444099969497996811}
   m_Father: {fileID: 0}

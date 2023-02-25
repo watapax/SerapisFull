@@ -1,0 +1,57 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+using UnityEngine.Windows.Speech;
+using System.Linq;
+using System;
+using UnityEngine.Events;
+
+public class ControladorPorVoz : MonoBehaviour
+{
+    KeywordRecognizer keywordRecognizer;
+
+    Dictionary<string, Action> wordToAction;
+    public UnityEvent[] eventosPalabras;
+    public string[] palabras;
+    // Start is called before the first frame update
+    void Start()
+    {
+        wordToAction = new Dictionary<string, Action>();
+        //wordToAction.Add("aliwen", Palabra1);
+        //wordToAction.Add("ko", Palabra2);
+        //wordToAction.Add("rayen", Palabra3);
+        wordToAction.Add(palabras[0], Palabra1);
+        wordToAction.Add(palabras[1], Palabra2);
+        wordToAction.Add(palabras[2], Palabra3);
+        keywordRecognizer = new KeywordRecognizer(wordToAction.Keys.ToArray());
+        keywordRecognizer.OnPhraseRecognized += WordReconized;
+        keywordRecognizer.Start();
+    }
+   
+
+    // Update is called once per frame
+    void Update()
+    {
+        
+    }
+    private void WordReconized(PhraseRecognizedEventArgs word)
+    {
+        wordToAction[word.text].Invoke();
+        
+    }
+    public void Palabra1()
+    {
+        eventosPalabras[0].Invoke();
+        print("Dijo la palabra");
+    }
+    public void Palabra2()
+    {
+        eventosPalabras[1].Invoke();
+        print("Dijo la palabra");
+    }
+    public void Palabra3()
+    {
+        eventosPalabras[2].Invoke();
+        print("Dijo la palabra");
+    }
+}

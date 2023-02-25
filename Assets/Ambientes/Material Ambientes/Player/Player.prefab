@@ -978,6 +978,7 @@ GameObject:
   - component: {fileID: 4041088059084900499}
   - component: {fileID: 4041088059084900496}
   - component: {fileID: 4041088059084900497}
+  - component: {fileID: 8053820521036374094}
   m_Layer: 3
   m_Name: player Controller
   m_TagString: Player
@@ -1090,6 +1091,14 @@ CharacterController:
   m_SkinWidth: 0.08
   m_MinMoveDistance: 0.001
   m_Center: {x: 0, y: 0.22, z: 0}
+--- !u!81 &8053820521036374094
+AudioListener:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4041088059084900511}
+  m_Enabled: 1
 --- !u!1 &5291717858697210948
 GameObject:
   m_ObjectHideFlags: 0

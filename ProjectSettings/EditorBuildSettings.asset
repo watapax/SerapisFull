@@ -9,11 +9,14 @@ EditorBuildSettings:
     path: Assets/Templates/login.unity
     guid: d630412b483cfb5408de0ce131cd3c21
   - enabled: 1
-    path: Assets/Actividades/Interior Casa/Rutinas/rutinas.unity
-    guid: a49358908843c50458d148c0f3f06433
+    path: Assets/CinematicasIntros/PresentacionIbis.unity
+    guid: 6ac10397dfed8274699a388aa341743d
   - enabled: 1
     path: Assets/Ambientes/Escenas/introduccion.unity
     guid: e553e5d0743bde94eb6dfd2070783ebe
+  - enabled: 1
+    path: Assets/Actividades/Interior Casa/Rutinas/rutinas.unity
+    guid: a49358908843c50458d148c0f3f06433
   - enabled: 1
     path: Assets/Ambientes/Escenas/Exteriores/Lobby.unity
     guid: b6e76c41d8506ee46988bbd1fd756d59
@@ -193,4 +196,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Actividades/InteriorEstacionEspacial/IEE006 - Tangramas/Tangramas.unity
     guid: 77ab89c7a97aeb54aa65baf7aeb52113
+  - enabled: 1
+    path: Assets/Actividades/Plaza/IP012 - duolingo/Duolingo Pueblo Originarios.unity
+    guid: 0c57ac2601cb04947ba1193dfce2f5fb
   m_configObjects: {}

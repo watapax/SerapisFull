@@ -21,6 +21,8 @@ public class Login : MonoBehaviour
 
     public TextMeshProUGUI mensajeError;
 
+    public AudioSource errorSound;
+
     string errorServer = "Error al tratar de conectarse al servidor";
     string errorUsuario = "El nombre de usuario o la password no coinciden";
     string errorLimite = "Se ha completado el limite de usuarios activos para esta cuenta";
@@ -41,12 +43,14 @@ public class Login : MonoBehaviour
         {
             inputClave.GetComponent<Animator>().Play("emptyInput");
             emptyInput = true;
+            errorSound.Play();
         }
 
         if (inputUser.text != _user)
         {
             inputUser.GetComponent<Animator>().Play("emptyInput");
             emptyInput = true;
+            errorSound.Play();
         }
 
         if (!emptyInput)
