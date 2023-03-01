@@ -1390,6 +1390,41 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &116375114 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4770394899073323800, guid: 852a05e9e01badb418ff80945681c003,
+    type: 3}
+  m_PrefabInstance: {fileID: 300499501}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &116375117
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 116375114}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5cdf518e79036a84eb166043d684c33e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  videoPlayer: {fileID: 0}
+  onVideoEnd:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 476426050}
+        m_TargetAssemblyTypeName: Transition, Assembly-CSharp
+        m_MethodName: CargarTransicion
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  esteVideo: 1
 --- !u!1 &126716123
 GameObject:
   m_ObjectHideFlags: 0
@@ -1421,7 +1456,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 771680524}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &126716125
 MonoBehaviour:
@@ -2605,6 +2640,126 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1001 &300499501
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 771680524}
+    m_Modifications:
+    - target: {fileID: 1529168415196248936, guid: 852a05e9e01badb418ff80945681c003,
+        type: 3}
+      propertyPath: m_TargetCamera
+      value: 
+      objectReference: {fileID: 961739752}
+    - target: {fileID: 2026130555600195754, guid: 852a05e9e01badb418ff80945681c003,
+        type: 3}
+      propertyPath: m_TargetCamera
+      value: 
+      objectReference: {fileID: 961739752}
+    - target: {fileID: 3087096886502642698, guid: 852a05e9e01badb418ff80945681c003,
+        type: 3}
+      propertyPath: m_Name
+      value: emocionesnuevo
+      objectReference: {fileID: 0}
+    - target: {fileID: 5330665114373661542, guid: 852a05e9e01badb418ff80945681c003,
+        type: 3}
+      propertyPath: m_TargetCamera
+      value: 
+      objectReference: {fileID: 961739752}
+    - target: {fileID: 6886506218019322640, guid: 852a05e9e01badb418ff80945681c003,
+        type: 3}
+      propertyPath: m_TargetCamera
+      value: 
+      objectReference: {fileID: 961739752}
+    - target: {fileID: 7772076065857599856, guid: 852a05e9e01badb418ff80945681c003,
+        type: 3}
+      propertyPath: m_TargetCamera
+      value: 
+      objectReference: {fileID: 961739752}
+    - target: {fileID: 7811313818528964154, guid: 852a05e9e01badb418ff80945681c003,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7811313818528964154, guid: 852a05e9e01badb418ff80945681c003,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.23986
+      objectReference: {fileID: 0}
+    - target: {fileID: 7811313818528964154, guid: 852a05e9e01badb418ff80945681c003,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.23986
+      objectReference: {fileID: 0}
+    - target: {fileID: 7811313818528964154, guid: 852a05e9e01badb418ff80945681c003,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.23986
+      objectReference: {fileID: 0}
+    - target: {fileID: 7811313818528964154, guid: 852a05e9e01badb418ff80945681c003,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7811313818528964154, guid: 852a05e9e01badb418ff80945681c003,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7811313818528964154, guid: 852a05e9e01badb418ff80945681c003,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -10
+      objectReference: {fileID: 0}
+    - target: {fileID: 7811313818528964154, guid: 852a05e9e01badb418ff80945681c003,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7811313818528964154, guid: 852a05e9e01badb418ff80945681c003,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7811313818528964154, guid: 852a05e9e01badb418ff80945681c003,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7811313818528964154, guid: 852a05e9e01badb418ff80945681c003,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7811313818528964154, guid: 852a05e9e01badb418ff80945681c003,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7811313818528964154, guid: 852a05e9e01badb418ff80945681c003,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7811313818528964154, guid: 852a05e9e01badb418ff80945681c003,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7927737117625515142, guid: 852a05e9e01badb418ff80945681c003,
+        type: 3}
+      propertyPath: m_TargetCamera
+      value: 
+      objectReference: {fileID: 961739752}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 852a05e9e01badb418ff80945681c003, type: 3}
+--- !u!4 &300499502 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7811313818528964154, guid: 852a05e9e01badb418ff80945681c003,
+    type: 3}
+  m_PrefabInstance: {fileID: 300499501}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &303868591
 GameObject:
   m_ObjectHideFlags: 0
@@ -2689,6 +2844,41 @@ Transform:
   m_Father: {fileID: 1258085016}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &308625397 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2741323798855699524, guid: 852a05e9e01badb418ff80945681c003,
+    type: 3}
+  m_PrefabInstance: {fileID: 300499501}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &308625400
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 308625397}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5cdf518e79036a84eb166043d684c33e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  videoPlayer: {fileID: 0}
+  onVideoEnd:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 476426050}
+        m_TargetAssemblyTypeName: Transition, Assembly-CSharp
+        m_MethodName: CargarTransicion
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  esteVideo: 1
 --- !u!1 &332123129 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7120729081675727609, guid: 9cd9220ad37c3244ea415d2ed32a3d21,
@@ -3499,6 +3689,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
+  esteVideo: 0
 --- !u!328 &389476007
 VideoPlayer:
   m_ObjectHideFlags: 0
@@ -3938,7 +4129,7 @@ PrefabInstance:
     - target: {fileID: 8100903444121992171, guid: 0883910d9ac3a5b45ab09916225adf9e,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -4.8078995
+      value: -3
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 5362757902948386211, guid: 0883910d9ac3a5b45ab09916225adf9e, type: 3}
@@ -4394,6 +4585,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
+  esteVideo: 0
 --- !u!4 &435482450
 Transform:
   m_ObjectHideFlags: 0
@@ -4410,6 +4602,51 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &476426049 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3087096886502642698, guid: 852a05e9e01badb418ff80945681c003,
+    type: 3}
+  m_PrefabInstance: {fileID: 300499501}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &476426050
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 476426049}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2ab4f7fd748b2b44ca1996f246fbe82c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  evento:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 389476004}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 476426049}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &483072779 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -2035757159524993632, guid: 9cd9220ad37c3244ea415d2ed32a3d21,
@@ -4944,6 +5181,41 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   useLocalTransform: 1
+--- !u!1 &497447328 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 20508780849025887, guid: 852a05e9e01badb418ff80945681c003,
+    type: 3}
+  m_PrefabInstance: {fileID: 300499501}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &497447331
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 497447328}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5cdf518e79036a84eb166043d684c33e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  videoPlayer: {fileID: 0}
+  onVideoEnd:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 476426050}
+        m_TargetAssemblyTypeName: Transition, Assembly-CSharp
+        m_MethodName: CargarTransicion
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  esteVideo: 1
 --- !u!1 &503959263 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 8086546420123600847, guid: 9cd9220ad37c3244ea415d2ed32a3d21,
@@ -6107,6 +6379,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
+  esteVideo: 0
 --- !u!328 &664323098
 VideoPlayer:
   m_ObjectHideFlags: 0
@@ -6115,7 +6388,7 @@ VideoPlayer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 664323096}
   m_Enabled: 1
-  m_VideoClip: {fileID: 32900000, guid: b9c76bcd796a9bc4084fe6c7cb4a230f, type: 3}
+  m_VideoClip: {fileID: 32900000, guid: 9e061d934804cc845a800e1f9b2e1ef3, type: 3}
   m_TargetCameraAlpha: 1
   m_TargetCamera3DLayout: 0
   m_TargetCamera: {fileID: 961739752}
@@ -6218,6 +6491,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
+  esteVideo: 0
 --- !u!328 &676501726
 VideoPlayer:
   m_ObjectHideFlags: 0
@@ -7211,6 +7485,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
+  - {fileID: 300499502}
   - {fileID: 1746883429}
   - {fileID: 784455366}
   - {fileID: 126716124}
@@ -7731,7 +8006,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &784455366
 Transform:
   m_ObjectHideFlags: 0
@@ -7750,7 +8025,7 @@ Transform:
   - {fileID: 345127927}
   - {fileID: 67589696}
   m_Father: {fileID: 771680524}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &819867276 stripped
 GameObject:
@@ -8875,6 +9150,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
+  esteVideo: 0
 --- !u!328 &888940954
 VideoPlayer:
   m_ObjectHideFlags: 0
@@ -12155,6 +12431,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+  esteVideo: 0
 --- !u!328 &1174235589
 VideoPlayer:
   m_ObjectHideFlags: 0
@@ -12349,12 +12626,12 @@ PrefabInstance:
     - target: {fileID: -8653719598885068355, guid: d4dc4ace0c8204c4f8a62d30459e1fd8,
         type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -7552582706839291426, guid: d4dc4ace0c8204c4f8a62d30459e1fd8,
         type: 3}
       propertyPath: m_RootOrder
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: -7552582706839291426, guid: d4dc4ace0c8204c4f8a62d30459e1fd8,
         type: 3}
@@ -13351,6 +13628,41 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 1
   m_SpriteSortPoint: 0
+--- !u!1 &1363636282 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8596495026126911023, guid: 852a05e9e01badb418ff80945681c003,
+    type: 3}
+  m_PrefabInstance: {fileID: 300499501}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1363636285
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1363636282}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5cdf518e79036a84eb166043d684c33e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  videoPlayer: {fileID: 0}
+  onVideoEnd:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 476426050}
+        m_TargetAssemblyTypeName: Transition, Assembly-CSharp
+        m_MethodName: CargarTransicion
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  esteVideo: 1
 --- !u!1 &1394651741
 GameObject:
   m_ObjectHideFlags: 0
@@ -13397,6 +13709,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
+  esteVideo: 0
 --- !u!328 &1394651744
 VideoPlayer:
   m_ObjectHideFlags: 0
@@ -14849,6 +15162,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+  esteVideo: 0
 --- !u!328 &1664209198
 VideoPlayer:
   m_ObjectHideFlags: 0
@@ -15200,6 +15514,41 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   useLocalTransform: 1
+--- !u!1 &1723899612 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 9034978420243303716, guid: 852a05e9e01badb418ff80945681c003,
+    type: 3}
+  m_PrefabInstance: {fileID: 300499501}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1723899615
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1723899612}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5cdf518e79036a84eb166043d684c33e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  videoPlayer: {fileID: 0}
+  onVideoEnd:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 476426050}
+        m_TargetAssemblyTypeName: Transition, Assembly-CSharp
+        m_MethodName: CargarTransicion
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  esteVideo: 1
 --- !u!4 &1746883429 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -7552582706839291426, guid: d4dc4ace0c8204c4f8a62d30459e1fd8,
@@ -15292,6 +15641,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
+  esteVideo: 0
 --- !u!328 &1758595408
 VideoPlayer:
   m_ObjectHideFlags: 0
@@ -20414,6 +20764,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
+  esteVideo: 0
 --- !u!4 &1967971067
 Transform:
   m_ObjectHideFlags: 0
@@ -20430,6 +20781,41 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1997145230 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2932066189272920034, guid: 852a05e9e01badb418ff80945681c003,
+    type: 3}
+  m_PrefabInstance: {fileID: 300499501}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1997145233
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1997145230}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5cdf518e79036a84eb166043d684c33e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  videoPlayer: {fileID: 0}
+  onVideoEnd:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 476426050}
+        m_TargetAssemblyTypeName: Transition, Assembly-CSharp
+        m_MethodName: CargarTransicion
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  esteVideo: 1
 --- !u!1 &2002846365 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -7679124881533510634, guid: d4dc4ace0c8204c4f8a62d30459e1fd8,

@@ -10,13 +10,20 @@ public class MenuAnclas:MonoBehaviour
     public Scrollbar scrollbar;
     bool is_open = false;
     float key_press_time = 0;
+    public MenuSalir menuSalir;
 
     CursorLockMode prevMouseLockMode;
     bool prevMouseVisibleState;
 
     private void Start()
     {
-        ApagarMenu();        
+        ApagarMenu();
+        menuSalir = FindObjectOfType<MenuSalir>();
+    }
+
+    private void OnLevelWasLoaded()
+    {
+        menuSalir = FindObjectOfType<MenuSalir>();
     }
 
     // Update is called once per frame
@@ -39,23 +46,38 @@ public class MenuAnclas:MonoBehaviour
                     Cursor.lockState = CursorLockMode.Confined;
                     Cursor.visible = true;
                     */
-
+                    if (menuSalir.activarMouse != null)
+                    {
+                        menuSalir.activarMouse.mouseBlockeado = false;
+                        print("cursor visible true");
+                    }
+                    else
+                    {
+                        menuSalir.blockearMouse = false;
+                    }                  
                 }
             }
             else if(Input.GetKeyUp(KeyCode.F10) || Input.GetKeyUp(KeyCode.P))
             {
                 key_press_time = 0;
             }
-        } else
+        } 
+        else
         {
             if (Input.GetKeyDown(KeyCode.F10) || Input.GetKeyDown(KeyCode.P))
             {
                 key_press_time = 0;
                 is_open = false;
                 menu.SetActive(false);
+                
+                if (menuSalir.activarMouse != null)
+                {
+                    menuSalir.activarMouse.mouseBlockeado = true;
+                    print("cursor visible false");
+                }
                 //graphicRaycaster.enabled = false;
 
-               // Cursor.lockState = prevMouseLockMode;
+                // Cursor.lockState = prevMouseLockMode;
                 //Cursor.visible = prevMouseVisibleState;
             }
         }

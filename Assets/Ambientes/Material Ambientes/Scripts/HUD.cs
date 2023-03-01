@@ -13,11 +13,15 @@ public class HUD:MonoBehaviour
     public Image previewImage;
     public GameObject preview;
     public bool isShowing;
+    public MenuSalir menuSalir;
+
+   
 
     //Singleton stuff
     public static HUD Instance { get; private set; }
     private void Awake()
     {
+        menuSalir = FindObjectOfType<MenuSalir>();
         // If there is an instance, and it's not me, delete myself.
         if (Instance != null && Instance != this)
         {
@@ -27,7 +31,6 @@ public class HUD:MonoBehaviour
             Instance = this;
         }
     }
-
     public void ShowAnclaInfo()
     {
         //InfoGameObject.SetActive(true);
@@ -35,6 +38,8 @@ public class HUD:MonoBehaviour
         InfoGameObject.GetComponent<Animator>().SetBool("IsShowing", true);
         InfoGameObject.GetComponent<Animator>().Play("Show");
         isShowing = true;
+        menuSalir.activarMouse.mouseBlockeado = false;
+        print("cursor visible true");
     }
 
     public void HideAnclaInfo()
@@ -43,6 +48,8 @@ public class HUD:MonoBehaviour
         InfoGameObject.GetComponent<Animator>().SetBool("IsShowing", false);
         //InfoGameObject.GetComponent<Animator>().Play("Hide");
         isShowing = false;
+        menuSalir.activarMouse.mouseBlockeado = true;
+        print("cursor visible false");
     }
 
     public void SetAnclaInfo(string newType, string newName, Sprite newSprite)
@@ -64,9 +71,4 @@ public class HUD:MonoBehaviour
             
         }
     }
-
-
-    
-
-
 }

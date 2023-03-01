@@ -7,6 +7,7 @@ public class VideoEvents : MonoBehaviour
 {
     public VideoPlayer videoPlayer;
     public UnityEvent onVideoEnd;
+    public bool esteVideo;
 
     //bool videoEnd;
 
@@ -18,6 +19,10 @@ public class VideoEvents : MonoBehaviour
 
     void EndVideo(VideoPlayer vp)
     {
+        if (vp == null & esteVideo == true)
+        {
+            vp = this.gameObject.GetComponent<VideoPlayer>();
+        }
         onVideoEnd.Invoke();
     }
 

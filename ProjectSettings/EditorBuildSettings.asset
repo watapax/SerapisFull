@@ -199,4 +199,20 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Actividades/Plaza/IP012 - duolingo/Duolingo Pueblo Originarios.unity
     guid: 0c57ac2601cb04947ba1193dfce2f5fb
+  - enabled: 1
+    path: Assets/Actividades/InteriorEstacionEspacial/IEE 004- Algoritmos Vida Diaria/Algoritmos
+      Vida Diaria.unity
+    guid: 130729f68f351744bad37baf40aa52a3
+  - enabled: 1
+    path: Assets/Actividades/Rutinas/RepetirRutinas.unity
+    guid: 600c935849dc1ab4fb8ef9dcf61e7fa5
+  - enabled: 1
+    path: Assets/Actividades/Rutinas/Calendario.unity
+    guid: 4b6de40d3ae2b5a4bbac057fff6ff4a9
+  - enabled: 1
+    path: Assets/Actividades/Rutinas/Clima.unity
+    guid: 1af1120726682d9489a8300253dee0b6
+  - enabled: 1
+    path: Assets/Actividades/Rutinas/Estado de Animo.unity
+    guid: fdef0351b88374449a7a754c870cb8a0
   m_configObjects: {}

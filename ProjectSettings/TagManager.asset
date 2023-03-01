@@ -17,6 +17,7 @@ TagManager:
   - 4
   - 5
   - area
+  - usado
   layers:
   - Default
   - TransparentFX
@@ -49,7 +50,7 @@ TagManager:
   - 
   - 
   - 
-  - 
+  - IconosMinimapa
   m_SortingLayers:
   - name: Default
     uniqueID: 0
