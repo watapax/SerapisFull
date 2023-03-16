@@ -8,6 +8,7 @@ public class VideoEvents : MonoBehaviour
     public VideoPlayer videoPlayer;
     public UnityEvent onVideoEnd;
     public bool esteVideo;
+    public bool disableVideoOnEnd = false;
 
     //bool videoEnd;
 
@@ -22,6 +23,10 @@ public class VideoEvents : MonoBehaviour
         if (vp == null & esteVideo == true)
         {
             vp = this.gameObject.GetComponent<VideoPlayer>();
+        }
+        if (disableVideoOnEnd == true)
+        {
+            this.gameObject.SetActive(false);
         }
         onVideoEnd.Invoke();
     }

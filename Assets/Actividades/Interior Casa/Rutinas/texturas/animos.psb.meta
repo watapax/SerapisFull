@@ -91,48 +91,6 @@ ScriptedImporter:
     uvTransform: {x: 0, y: 0}
   mosaicSpriteImportData: []
   rigSpriteImportData:
-  - name: flechaIz
-    originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 763
-      y: 1092
-      width: 367
-      height: 346
-    spriteID: f964c0bac3289cf469e5ef715dcad65a
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    parentGroupIndex: -1
-    uvTransform: {x: 643, y: 727}
-  - name: flechaDe
-    originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 1138
-      y: 1092
-      width: 367
-      height: 346
-    spriteID: b35a6c5c84f7e224d89dcad68ad0e3cc
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    parentGroupIndex: -1
-    uvTransform: {x: -311, y: 726}
   - name: marco
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -141,7 +99,7 @@ ScriptedImporter:
     rect:
       serializedVersion: 2
       x: 4
-      y: 1092
+      y: 4
       width: 751
       height: 751
     spriteID: 28d857ac4dfd70c4dbcecf4a818f7153
@@ -153,28 +111,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: -582, y: 927}
-  - name: fondo
-    originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 4
-      y: 4
-      width: 1920
-      height: 1080
-    spriteID: a8097430623ef2444bdab0059653c490
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    parentGroupIndex: -1
-    uvTransform: {x: 4, y: 4}
+    uvTransform: {x: -582, y: -161}
   characterData:
     bones: []
     parts: []
@@ -213,8 +150,8 @@ ScriptedImporter:
     layerID: 6
     mosaicPosition: {x: 763, y: 1092}
     flatten: 0
-    isImported: 1
-    isVisible: 1
+    isImported: 0
+    isVisible: 0
   - name: flechaDe
     spriteName: flechaDe
     isGroup: 0
@@ -223,15 +160,15 @@ ScriptedImporter:
     layerID: 3
     mosaicPosition: {x: 1138, y: 1092}
     flatten: 0
-    isImported: 1
-    isVisible: 1
+    isImported: 0
+    isVisible: 0
   - name: marco
     spriteName: marco
     isGroup: 0
     parentIndex: -1
     spriteID: 28d857ac4dfd70c4dbcecf4a818f7153
     layerID: 5
-    mosaicPosition: {x: 4, y: 1092}
+    mosaicPosition: {x: 4, y: 4}
     flatten: 0
     isImported: 1
     isVisible: 1
@@ -243,8 +180,8 @@ ScriptedImporter:
     layerID: 2
     mosaicPosition: {x: 4, y: 4}
     flatten: 0
-    isImported: 1
-    isVisible: 1
+    isImported: 0
+    isVisible: 0
   sharedRigPSDLayers: []
   pSDLayerImportSetting: []
   generateGOHierarchy: 0

@@ -52,7 +52,7 @@ EditorBuildSettings:
     path: Assets/Actividades/Interior Casa/Rutinas/rutinas2.unity
     guid: 532d8f597dd89bb4d8d3aaeac989fde2
   - enabled: 1
-    path: Assets/Actividades/Plaza/IP014 - lenguaje artistico/lenguajeartistico.unity
+    path: Assets/Actividades/Plaza/IP014 - lenguaje artistico Esculturas/lenguajeartistico.unity
     guid: 64523e6b4cd96c24888e17fa3304e39b
   - enabled: 1
     path: Assets/Actividades/Bosque/IB008 - Instituciones/ib008 instituciones.unity
@@ -68,7 +68,7 @@ EditorBuildSettings:
     path: Assets/Actividades/Casa del Arbol/cerebro/cerebro.unity
     guid: a97f0a52407e8d84a86ddcb628bd6010
   - enabled: 1
-    path: Assets/Actividades/Bosque/sentidos/sentidos.unity
+    path: Assets/Actividades/Bosque/IB004 -Los Sentidos/sentidos.unity
     guid: 162dfabbe11ab8c46b3db084d67c7134
   - enabled: 1
     path: Assets/Actividades/Bosque/IB012 - Figuras Geometricas/ib012 figuras geometricas.unity
@@ -200,7 +200,7 @@ EditorBuildSettings:
     path: Assets/Actividades/Plaza/IP012 - duolingo/Duolingo Pueblo Originarios.unity
     guid: 0c57ac2601cb04947ba1193dfce2f5fb
   - enabled: 1
-    path: Assets/Actividades/InteriorEstacionEspacial/IEE 004- Algoritmos Vida Diaria/Algoritmos
+    path: Assets/Actividades/InteriorEstacionEspacial/IEE004- Algoritmos Vida Diaria/Algoritmos
       Vida Diaria.unity
     guid: 130729f68f351744bad37baf40aa52a3
   - enabled: 1
@@ -215,4 +215,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Actividades/Rutinas/Estado de Animo.unity
     guid: fdef0351b88374449a7a754c870cb8a0
+  - enabled: 1
+    path: Assets/Actividades/Plaza/IP018 - Los Regalos de Dios/Los Regalos de Dios.unity
+    guid: 7763e09f52630474da17399cc6e7349d
   m_configObjects: {}

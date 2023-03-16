@@ -9,6 +9,7 @@ public class MenuSalir : MonoBehaviour
 {
     public GameObject menu;
     bool toggleMenu;
+    [SerializeField]
     VideoPlayer[] videoPlayers;
     public bool acelerarVideos = false;
     public bool blockearMouse = false;
@@ -82,26 +83,41 @@ public class MenuSalir : MonoBehaviour
         {
             blockearMouse = false;
         }
+        for (int i = 0; i < videoPlayers.Length; i++)
+        {
+            videoPlayers = FindObjectsOfType<VideoPlayer>();
+        }
+        
         //playerCamera = FindObjectOfType<PlayerCamera>();
     }
     private void Update()
     {
+        if (videoPlayers != null)
+        {
+            for (int i = 0; i < videoPlayers.Length; i++)
+            {
+                videoPlayers[i].SetDirectAudioVolume(0, sliderVolumenValue);
+            }
+        }       
+        OcultarMouse();
+        print(Cursor.visible.ToString());
         Cursor.lockState = CursorLockMode.Confined;
         if (blockearMouse == true)
         {
             Cursor.visible = false;
-            print("cursor visible false");
+            Cursor.lockState = CursorLockMode.Locked;
+           // print("cursor visible false");
         }
         if (blockearMouse == false)
         {
             Cursor.visible = true;
-            print("cursor visible true");
+            Cursor.lockState = CursorLockMode.Confined;
+            //print("cursor visible true");
         }
         if (Input.GetKeyDown(KeyCode.Escape))
         {
             toggleMenu = !toggleMenu;         
-        }
-        OcultarMouse();
+        }      
         menu.SetActive(toggleMenu);
         if (toggleMenu)
         {
@@ -120,7 +136,7 @@ public class MenuSalir : MonoBehaviour
                 blockearMouse = activarMouse.mouseBlockeado;
             }
         }
-        if (Input.GetKey(KeyCode.LeftAlt) && Input.GetKey(KeyCode.UpArrow))
+        if (Input.GetKeyDown(KeyCode.LeftAlt) && Input.GetKeyDown(KeyCode.UpArrow))
         {
             acelerarVideos = !acelerarVideos;
         }
@@ -169,6 +185,11 @@ public class MenuSalir : MonoBehaviour
         PlayerPrefs.SetFloat("volumenAudio", sliderVolumenValue);
         AudioListener.volume = sliderVolumenValue;
         RevisarSiEstoyMuted();
+        videoPlayers = FindObjectsOfType<VideoPlayer>();
+        //for (int i = 0; i < videoPlayers.Length; i++)
+        //{
+        //    videoPlayers[i].SetDirectAudioVolume(0,sliderVolumenValue);
+        //}
     }
     public void RevisarSiEstoyMuted()
     {
@@ -186,6 +207,7 @@ public class MenuSalir : MonoBehaviour
         sliderBrilloValue = valor;
         PlayerPrefs.SetFloat("brillo", sliderBrilloValue);
         panelBrillo.color = new Color(panelBrillo.color.r, panelBrillo.color.g, panelBrillo.color.b, sliderBrillo.value);
+        FindObjectsOfType<VideoPlayer>();
     }
     public void AjustarCalidad()
     {
@@ -199,18 +221,29 @@ public class MenuSalir : MonoBehaviour
         resolucionesDropdown.ClearOptions();
         List<string> opciones = new List<string>();
         int resoluconActual = 0;
-
-        for (int i = 0; i < resoluciones.Length; i++)
+        opciones.Add(1920 + " x "+ 1080);
+        opciones.Add(1280 + " x " + 720);
+        opciones.Add(854 + " x " + 480);
+        opciones.Add(640 + " x " + 360);
+        for (int i = 0; i < opciones.Count; i++)
         {
-            string opcion = resoluciones[i].width + " x " + resoluciones[i].height;
-            opciones.Add(opcion);
-
-            if (Screen.fullScreen && resoluciones[i].width == Screen.currentResolution.width && resoluciones[i].height == Screen.currentResolution.height)
+            if (resoluciones[i].width == Screen.currentResolution.width && resoluciones[i].height == Screen.currentResolution.height)
             {
                 resoluconActual = i;
             }
         }
-        resolucionesDropdown.AddOptions(opciones);
+      
+            //for (int i = 0; i < resoluciones.Length; i++)
+            //{
+            //    string opcion = resoluciones[i].width + " x " + resoluciones[i].height;
+            //    opciones.Add(opcion);
+
+            //    if (Screen.fullScreen && resoluciones[i].width == Screen.currentResolution.width && resoluciones[i].height == Screen.currentResolution.height)
+            //    {
+            //        resoluconActual = i;
+            //    }
+            //}
+            resolucionesDropdown.AddOptions(opciones);
         resolucionesDropdown.value = resoluconActual;
         resolucionesDropdown.RefreshShownValue();
     }
@@ -226,7 +259,7 @@ public class MenuSalir : MonoBehaviour
             Cursor.lockState = CursorLockMode.Locked;
             Cursor.visible = false;
         }
-        else
+        else if (blockearMouse == false)
         {
             Cursor.lockState = CursorLockMode.Confined;
             Cursor.visible = true;

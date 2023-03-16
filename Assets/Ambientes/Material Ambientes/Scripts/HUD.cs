@@ -9,6 +9,7 @@ public class HUD:MonoBehaviour
     public GameObject InfoGameObject;
     public TextMeshProUGUI sceneTypeText;
     public TextMeshProUGUI sceneNametext;
+    public TextMeshProUGUI sceneInforElement;
     public RectTransform background;
     public Image previewImage;
     public GameObject preview;
@@ -39,7 +40,7 @@ public class HUD:MonoBehaviour
         InfoGameObject.GetComponent<Animator>().Play("Show");
         isShowing = true;
         menuSalir.activarMouse.mouseBlockeado = false;
-        print("cursor visible true");
+       // print("cursor visible true");
     }
 
     public void HideAnclaInfo()
@@ -49,10 +50,10 @@ public class HUD:MonoBehaviour
         //InfoGameObject.GetComponent<Animator>().Play("Hide");
         isShowing = false;
         menuSalir.activarMouse.mouseBlockeado = true;
-        print("cursor visible false");
+       // print("cursor visible false");
     }
 
-    public void SetAnclaInfo(string newType, string newName, Sprite newSprite)
+    public void SetAnclaInfo(string newType, string newName, Sprite newSprite,string newInfo)
     {
         sceneTypeText.SetText(newType);
         sceneNametext.SetText(newName);
@@ -63,7 +64,16 @@ public class HUD:MonoBehaviour
             sceneNametext.color = new Color(1, 0.950f, 0.350f);
             preview.SetActive(false);
             background.localPosition = new Vector3(background.localPosition.x, 600, background.localPosition.z);
-        } else
+        }
+        else if (newType == "ELEMENTO")
+        {
+            sceneTypeText.SetText("Flora y Fauna");
+            sceneNametext.color = new Color(0.55f, 0.85f, 1f);
+            preview.SetActive(true);
+            background.localPosition = new Vector3(background.localPosition.x, 375, background.localPosition.z);
+            sceneInforElement.SetText(newInfo);
+        }
+        else
         {
             sceneNametext.color = new Color(0.55f, 0.85f, 1f);
             preview.SetActive(true);

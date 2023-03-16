@@ -141,7 +141,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d728cafc87b4db34484f5536610ff1e0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxVol: 0.2
+  maxVol: 1
   minVol: 0.02
   audioSources: []
   fadeIn: 1

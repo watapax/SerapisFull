@@ -5,7 +5,7 @@ using UnityEngine;
 
 public class ZonaAncla:MonoBehaviour
 {
-    public enum AnclaTypes { ZONA, ACTIVIDAD };
+    public enum AnclaTypes { ZONA, ACTIVIDAD,ELEMENTO };
     public AnclaTypes tipoAncla;
     public string IDAncla;
     public string IDAnclaDestino;
@@ -17,6 +17,9 @@ public class ZonaAncla:MonoBehaviour
     [Header("Informacion UI")]
     public string nombreAncla;
     public Sprite previewAncla;
+    [TextArea(10,10)]
+    public string informacionElemento;
+    public GameObject goInfo;
 
     private bool playerCanClick = false;
     private bool isEnteringWorld = false;
@@ -24,6 +27,8 @@ public class ZonaAncla:MonoBehaviour
     [HideInInspector] public Transform returnPosHelper;
 
     private GameObject player;
+
+    public GameObject Desactrivar;//elemento que desactivamos si es un elemento
 
 
     private void Awake()
@@ -34,6 +39,8 @@ public class ZonaAncla:MonoBehaviour
 
     private void Start()
     {
+        goInfo = GameObject.FindGameObjectWithTag("SceneInfo");
+        //goInfo.SetActive(false);
         if (AnclaMeshOutline != null)
         {
             AnclaMeshOutline.enabled = false;
@@ -47,7 +54,8 @@ public class ZonaAncla:MonoBehaviour
 
     void Update()
     {
-        if (playerCanClick && !isEnteringWorld && Input.GetMouseButtonDown(0))
+        print("Player can click" + playerCanClick);
+        if (playerCanClick && !isEnteringWorld && Input.GetMouseButtonDown(0) && tipoAncla != AnclaTypes.ELEMENTO)
         {
             ManagerEscenas.Instance.CargarEscena(nombreEscena, IDAncla, IDAnclaDestino, tipoAncla.ToString());
             playerCanClick = false;
@@ -85,20 +93,42 @@ public class ZonaAncla:MonoBehaviour
 
     void ActivateAnclaInfo()
     {
-        HUD.Instance.ShowAnclaInfo();
-        HUD.Instance.SetAnclaInfo(tipoAncla.ToString(), nombreAncla, previewAncla);
+        
+       HUD.Instance.ShowAnclaInfo();
+        if (tipoAncla != AnclaTypes.ELEMENTO)
+        {
+            HUD.Instance.SetAnclaInfo(tipoAncla.ToString(), nombreAncla, previewAncla,null);
+            goInfo.SetActive(false);
+            
+        }
+        if (tipoAncla == AnclaTypes.ELEMENTO)
+        {
+            
+            HUD.Instance.SetAnclaInfo(tipoAncla.ToString(), nombreAncla, previewAncla,informacionElemento);
+            goInfo.SetActive(true);
+        }
         StartCoroutine(WaitAndEnableClick(0.4f, true)); //Waits for animation to end before enabling teleport
-        //Cursor.lockState = CursorLockMode.Confined;
-        //Cursor.visible = true;
+                                                        //Cursor.lockState = CursorLockMode.Confined;
+                                                        //Cursor.visible = true;
+        if (tipoAncla == AnclaTypes.ELEMENTO)
+        {
+            Desactrivar.SetActive(false);
+            playerCanClick = false;
+        }
     }
 
     void DeactivateAnclaInfo()
     {
         HUD.Instance.HideAnclaInfo();
         playerCanClick = false;
-        
+
         //Cursor.lockState = CursorLockMode.Locked;
         //Cursor.visible = false;
+        if (tipoAncla == AnclaTypes.ELEMENTO)
+        {
+            goInfo.SetActive(false);
+            Desactrivar.SetActive(true);
+        }
     }
 
     private void OnTriggerEnter(Collider other)
@@ -127,7 +157,7 @@ public class ZonaAncla:MonoBehaviour
     {
         yield return new WaitForSeconds(waitTime);
 
-        if (player != null)
+        if (player != null && tipoAncla != AnclaTypes.ELEMENTO)
         {
             playerCanClick = newValue;
         }
