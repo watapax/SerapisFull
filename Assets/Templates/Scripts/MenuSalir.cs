@@ -221,29 +221,29 @@ public class MenuSalir : MonoBehaviour
         resolucionesDropdown.ClearOptions();
         List<string> opciones = new List<string>();
         int resoluconActual = 0;
-        opciones.Add(1920 + " x "+ 1080);
-        opciones.Add(1280 + " x " + 720);
-        opciones.Add(854 + " x " + 480);
-        opciones.Add(640 + " x " + 360);
-        for (int i = 0; i < opciones.Count; i++)
+        //opciones.Add(1920 + " x "+ 1080);
+        //opciones.Add(1280 + " x " + 720);
+        //opciones.Add(854 + " x " + 480);
+        //opciones.Add(640 + " x " + 360);
+        //for (int i = 0; i < opciones.Count; i++)
+        //{
+        //    if (resoluciones[i].width == Screen.currentResolution.width && resoluciones[i].height == Screen.currentResolution.height)
+        //    {
+        //        resoluconActual = i;
+        //    }
+        //}
+
+        for (int i = 0; i < resoluciones.Length; i++)
         {
-            if (resoluciones[i].width == Screen.currentResolution.width && resoluciones[i].height == Screen.currentResolution.height)
+            string opcion = resoluciones[i].width + " x " + resoluciones[i].height;
+            opciones.Add(opcion);
+
+            if (Screen.fullScreen && resoluciones[i].width == Screen.currentResolution.width && resoluciones[i].height == Screen.currentResolution.height)
             {
                 resoluconActual = i;
             }
         }
-      
-            //for (int i = 0; i < resoluciones.Length; i++)
-            //{
-            //    string opcion = resoluciones[i].width + " x " + resoluciones[i].height;
-            //    opciones.Add(opcion);
-
-            //    if (Screen.fullScreen && resoluciones[i].width == Screen.currentResolution.width && resoluciones[i].height == Screen.currentResolution.height)
-            //    {
-            //        resoluconActual = i;
-            //    }
-            //}
-            resolucionesDropdown.AddOptions(opciones);
+        resolucionesDropdown.AddOptions(opciones);
         resolucionesDropdown.value = resoluconActual;
         resolucionesDropdown.RefreshShownValue();
     }
