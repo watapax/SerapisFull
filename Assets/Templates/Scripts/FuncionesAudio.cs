@@ -22,8 +22,8 @@ public class FuncionesAudio : MonoBehaviour
         audioSource.clip = _clip;
         audioSource.Play();
         onStartAudioPlay.Invoke();
-        StartCoroutine(EndAudioCheck());
-
+        StartCoroutine(EndAudioCheckCorrecto());
+        StartCoroutine(EndAudioCheckIncorrecto());
     }
 
     public void PlayFromStart()
@@ -32,10 +32,20 @@ public class FuncionesAudio : MonoBehaviour
         audioSource.Play();
     }
 
-    IEnumerator EndAudioCheck()
+    IEnumerator EndAudioCheckIncorrecto()
     {
  
         while(audioSource.isPlaying)
+        {
+            yield return null;
+        }
+
+        onEndAudioPlay.Invoke();
+    }
+    IEnumerator EndAudioCheckCorrecto()
+    {
+
+        while (audioSource.isPlaying)
         {
             yield return null;
         }
