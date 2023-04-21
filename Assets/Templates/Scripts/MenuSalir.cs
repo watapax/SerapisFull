@@ -100,7 +100,7 @@ public class MenuSalir : MonoBehaviour
             }
         }       
         OcultarMouse();
-        print(Cursor.visible.ToString());
+        //print(Cursor.visible.ToString());
         Cursor.lockState = CursorLockMode.Confined;
         if (blockearMouse == true)
         {
@@ -111,8 +111,15 @@ public class MenuSalir : MonoBehaviour
         if (blockearMouse == false)
         {
             Cursor.visible = true;
-            Cursor.lockState = CursorLockMode.Confined;
+            if (toggle)
+            {
+                Cursor.lockState = CursorLockMode.Confined;
+            }       
             //print("cursor visible true");
+        }
+        if (toggle == false)
+        {
+            Cursor.lockState = CursorLockMode.None;
         }
         if (Input.GetKeyDown(KeyCode.Escape))
         {
@@ -136,7 +143,7 @@ public class MenuSalir : MonoBehaviour
                 blockearMouse = activarMouse.mouseBlockeado;
             }
         }
-        if (Input.GetKeyDown(KeyCode.LeftAlt) && Input.GetKeyDown(KeyCode.UpArrow))
+        if (Input.GetKey(KeyCode.LeftAlt) && Input.GetKeyDown(KeyCode.UpArrow))
         {
             acelerarVideos = !acelerarVideos;
         }
