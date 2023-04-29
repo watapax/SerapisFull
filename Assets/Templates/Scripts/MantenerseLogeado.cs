@@ -10,8 +10,8 @@ public class MantenerseLogeado : MonoBehaviour
 
     WaitForSeconds espera = new WaitForSeconds(15);    // cada 5 minutos actualiza el Token
 
-    string urlLogout = "http://localhost:8000/api/logout/";
-    string urlLogged = "http://localhost:8000/api/logged/";
+    string urlLogout = "http://137.184.20.244:8000/api/logout/";
+    string urlLogged = "http://137.184.20.244:8000/api/logged/";
 
     public string token;
 

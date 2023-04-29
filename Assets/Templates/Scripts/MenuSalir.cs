@@ -16,6 +16,7 @@ public class MenuSalir : MonoBehaviour
 
     //activar o desactivar fullscream
     public Toggle toggle;
+    public bool pantallaCompleta = true;
 
     //subir o bajar volumen
     public Slider sliderVolumen;
@@ -101,26 +102,45 @@ public class MenuSalir : MonoBehaviour
         }       
         OcultarMouse();
         //print(Cursor.visible.ToString());
-        Cursor.lockState = CursorLockMode.Confined;
-        if (blockearMouse == true)
+        print(Cursor.lockState);
+        
+        //Cursor.lockState = CursorLockMode.Confined;
+        if (toggle.isOn)
         {
-            Cursor.visible = false;
-            Cursor.lockState = CursorLockMode.Locked;
-           // print("cursor visible false");
-        }
-        if (blockearMouse == false)
-        {
-            Cursor.visible = true;
-            if (toggle)
+            print("togle true");
+            if (blockearMouse == true)
             {
+                Cursor.visible = false;
+               
+                Cursor.lockState = CursorLockMode.Locked;         
+            }
+            if (blockearMouse == false)
+            {
+                Cursor.visible = true;
                 Cursor.lockState = CursorLockMode.Confined;
-            }       
-            //print("cursor visible true");
+                //print("cursor visible true");
+            }
         }
-        if (toggle == false)
+        else if(!toggle.isOn)
         {
-            Cursor.lockState = CursorLockMode.None;
-        }
+            print("togle false");
+            if (blockearMouse == true)
+            {
+                Cursor.visible = false;
+
+                Cursor.lockState = CursorLockMode.Locked;
+            }
+            if (blockearMouse == false)
+            {
+                Cursor.visible = true;
+                Cursor.lockState = CursorLockMode.None;
+                //print("cursor visible true");
+            }
+        }    
+        //if (toggle == false)
+        //{
+        //    Cursor.lockState = CursorLockMode.None;
+        //}
         if (Input.GetKeyDown(KeyCode.Escape))
         {
             toggleMenu = !toggleMenu;         
@@ -263,12 +283,12 @@ public class MenuSalir : MonoBehaviour
     {
         if (blockearMouse == true)
         {
-            Cursor.lockState = CursorLockMode.Locked;
+            //Cursor.lockState = CursorLockMode.Locked;
             Cursor.visible = false;
         }
         else if (blockearMouse == false)
         {
-            Cursor.lockState = CursorLockMode.Confined;
+            //Cursor.lockState = CursorLockMode.Confined;
             Cursor.visible = true;
         }
     }

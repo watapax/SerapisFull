@@ -207,6 +207,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: flor
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: cfd8e6745adf9154aab50129b3dabab6,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cfd8e6745adf9154aab50129b3dabab6, type: 3}
 --- !u!1 &809247187
@@ -410,6 +415,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: casa_conejo
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 23b9dd29513ca5f4a8678c489d5f90c6,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 23b9dd29513ca5f4a8678c489d5f90c6, type: 3}
@@ -1009,6 +1019,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: hongo
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 63d83d348a2ee9f499dc824158e826b1,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 63d83d348a2ee9f499dc824158e826b1, type: 3}
 --- !u!1 &1820127924
@@ -1210,6 +1225,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: zanahoria (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 43fb5b94cde343a41af3f32ad40c3e0f,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 43fb5b94cde343a41af3f32ad40c3e0f, type: 3}

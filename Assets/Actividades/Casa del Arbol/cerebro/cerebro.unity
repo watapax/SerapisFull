@@ -296,6 +296,8 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+  esteVideo: 0
+  disableVideoOnEnd: 0
 --- !u!328 &269261139
 VideoPlayer:
   m_ObjectHideFlags: 0
@@ -1045,6 +1047,8 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+  esteVideo: 0
+  disableVideoOnEnd: 0
 --- !u!328 &1265691516
 VideoPlayer:
   m_ObjectHideFlags: 0
@@ -1053,7 +1057,7 @@ VideoPlayer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1265691512}
   m_Enabled: 1
-  m_VideoClip: {fileID: 32900000, guid: 0b55e10a0d8be5945a545db7b811cc7c, type: 3}
+  m_VideoClip: {fileID: 32900000, guid: 633150c917ea4d44294a2bc8dfd0d5c5, type: 3}
   m_TargetCameraAlpha: 1
   m_TargetCamera3DLayout: 0
   m_TargetCamera: {fileID: 961739752}

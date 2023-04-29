@@ -218,4 +218,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Actividades/Plaza/IP018 - Los Regalos de Dios/Los Regalos de Dios.unity
     guid: 7763e09f52630474da17399cc6e7349d
+  - enabled: 1
+    path: Assets/Actividades/Bosque/instrumentos mapuches/instrumentos mapuches.unity
+    guid: e37f77e6b1c02c24c82ea86b9714e6e3
+  - enabled: 1
+    path: Assets/Actividades/Bosque/Mapa Museos de Chile/Mapa Museos de Chile.unity
+    guid: 6b896efaa4049f74c9937f02d4148696
   m_configObjects: {}

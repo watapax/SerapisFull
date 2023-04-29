@@ -12,8 +12,8 @@ public class MenuAnclas:MonoBehaviour
     float key_press_time = 0;
     public MenuSalir menuSalir;
 
-    CursorLockMode prevMouseLockMode;
-    bool prevMouseVisibleState;
+    //CursorLockMode prevMouseLockMode;
+    //bool prevMouseVisibleState;
 
     private void Start()
     {
@@ -49,7 +49,7 @@ public class MenuAnclas:MonoBehaviour
                     if (menuSalir.activarMouse != null)
                     {
                         menuSalir.activarMouse.mouseBlockeado = false;
-                        print("cursor visible true");
+                       // print("cursor visible true");
                     }
                     else
                     {
@@ -73,7 +73,7 @@ public class MenuAnclas:MonoBehaviour
                 if (menuSalir.activarMouse != null)
                 {
                     menuSalir.activarMouse.mouseBlockeado = true;
-                    print("cursor visible false");
+                    //print("cursor visible false");
                 }
                 //graphicRaycaster.enabled = false;
 
