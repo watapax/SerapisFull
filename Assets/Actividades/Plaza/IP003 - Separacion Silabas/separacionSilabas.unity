@@ -2638,6 +2638,8 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
+  esteVideo: 0
+  disableVideoOnEnd: 0
 --- !u!328 &1043986504
 VideoPlayer:
   m_ObjectHideFlags: 0
@@ -2646,7 +2648,7 @@ VideoPlayer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1043986502}
   m_Enabled: 1
-  m_VideoClip: {fileID: 32900000, guid: 4e373c26b6f5b7b458113576ed7857d2, type: 3}
+  m_VideoClip: {fileID: 32900000, guid: 89e8a48c2611ef94c8c8602b98fd79e1, type: 3}
   m_TargetCameraAlpha: 1
   m_TargetCamera3DLayout: 0
   m_TargetCamera: {fileID: 961739752}

@@ -13,6 +13,7 @@ public class ControladorPorVoz : MonoBehaviour
     Dictionary<string, Action> wordToAction;
     public UnityEvent[] eventosPalabras;
     public string[] palabras;
+    private bool activo;
     // Start is called before the first frame update
     void Start()
     {
@@ -27,8 +28,15 @@ public class ControladorPorVoz : MonoBehaviour
         keywordRecognizer.OnPhraseRecognized += WordReconized;
         keywordRecognizer.Start();
     }
-   
 
+    private void OnEnable()
+    {
+        activo = true;
+    }
+    private void OnDisable()
+    {
+        activo = false;
+    }
     // Update is called once per frame
     void Update()
     {
@@ -41,17 +49,39 @@ public class ControladorPorVoz : MonoBehaviour
     }
     public void Palabra1()
     {
-        eventosPalabras[0].Invoke();
+        if (activo)
+        {
+            eventosPalabras[0].Invoke();
+        }
+        else
+        {
+            print("No estoy activo");
+        }
         print("Dijo la palabra");
     }
     public void Palabra2()
     {
-        eventosPalabras[1].Invoke();
+        if (activo)
+        {
+            eventosPalabras[1].Invoke();
+        }
+        else
+        {
+            print("No estoy activo");
+        }
         print("Dijo la palabra");
     }
     public void Palabra3()
     {
-        eventosPalabras[2].Invoke();
+        if (activo)
+        {
+            eventosPalabras[2].Invoke();
+        }
+        else
+        {
+            print("No estoy activo");
+        }
+        
         print("Dijo la palabra");
     }
 }
