@@ -486,6 +486,7 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
   esteVideo: 0
+  disableVideoOnEnd: 0
 --- !u!114 &33875343
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1002,6 +1003,7 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
   esteVideo: 0
+  disableVideoOnEnd: 0
 --- !u!114 &95871626
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1265,6 +1267,7 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
   esteVideo: 0
+  disableVideoOnEnd: 0
 --- !u!114 &107199363
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1665,6 +1668,7 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
   esteVideo: 0
+  disableVideoOnEnd: 0
 --- !u!114 &166546114
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1945,6 +1949,7 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
   esteVideo: 0
+  disableVideoOnEnd: 0
 --- !u!328 &226147525
 VideoPlayer:
   m_ObjectHideFlags: 0
@@ -2125,6 +2130,7 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
   esteVideo: 0
+  disableVideoOnEnd: 0
 --- !u!328 &277776685
 VideoPlayer:
   m_ObjectHideFlags: 0
@@ -2510,7 +2516,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
   m_PlayOnAwake: 0
-  m_Volume: 1
+  m_Volume: 0.52
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -2950,6 +2956,7 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
   esteVideo: 0
+  disableVideoOnEnd: 0
 --- !u!114 &499521735
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4589,6 +4596,7 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
   esteVideo: 0
+  disableVideoOnEnd: 0
 --- !u!114 &791280901
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5771,6 +5779,7 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
   esteVideo: 0
+  disableVideoOnEnd: 0
 --- !u!114 &1127247183
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5991,6 +6000,7 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
   esteVideo: 0
+  disableVideoOnEnd: 0
 --- !u!114 &1168936264
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6587,6 +6597,7 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
   esteVideo: 0
+  disableVideoOnEnd: 0
 --- !u!114 &1324811676
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7363,6 +7374,7 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
   esteVideo: 0
+  disableVideoOnEnd: 0
 --- !u!114 &1570864192
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7912,6 +7924,7 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
   esteVideo: 0
+  disableVideoOnEnd: 0
 --- !u!114 &1637217486
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14055,6 +14068,7 @@ MonoBehaviour:
           m_BoolArgument: 1
         m_CallState: 2
   esteVideo: 0
+  disableVideoOnEnd: 0
 --- !u!328 &1912421403
 VideoPlayer:
   m_ObjectHideFlags: 0
@@ -14848,6 +14862,7 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
   esteVideo: 0
+  disableVideoOnEnd: 0
 --- !u!114 &2092230073
 MonoBehaviour:
   m_ObjectHideFlags: 0

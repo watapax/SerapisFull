@@ -224,4 +224,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Actividades/Bosque/Mapa Museos de Chile/Mapa Museos de Chile.unity
     guid: 6b896efaa4049f74c9937f02d4148696
+  - enabled: 1
+    path: Assets/Actividades/Plaza/vocales/U/Vocal U.unity
+    guid: 8563615043cb6b344b2d774a8950b9cc
   m_configObjects: {}

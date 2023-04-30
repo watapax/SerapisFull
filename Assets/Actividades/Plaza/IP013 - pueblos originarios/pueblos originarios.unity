@@ -868,6 +868,8 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
+  esteVideo: 0
+  disableVideoOnEnd: 0
 --- !u!4 &578839753
 Transform:
   m_ObjectHideFlags: 0
@@ -1312,6 +1314,8 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+  esteVideo: 0
+  disableVideoOnEnd: 0
 --- !u!328 &764875144
 VideoPlayer:
   m_ObjectHideFlags: 0
@@ -1620,7 +1624,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: https://roundme.com/tour/357840/view/1213340/
+          m_StringArgument: https://www.youtube.com/watch?v=K9ChonvLepM&ab_channel=MarcaChile
           m_BoolArgument: 0
         m_CallState: 2
       - m_Target: {fileID: 839743302}
@@ -1635,6 +1639,8 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
+  esteVideo: 0
+  disableVideoOnEnd: 0
 --- !u!4 &923687478
 Transform:
   m_ObjectHideFlags: 0
@@ -2145,6 +2151,8 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+  esteVideo: 0
+  disableVideoOnEnd: 0
 --- !u!1 &1419926605 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -735985239012028135, guid: 214d3e82dadc1a94db73ae6ec94d1c35,
@@ -5508,6 +5516,8 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
+  esteVideo: 0
+  disableVideoOnEnd: 0
 --- !u!4 &1929937580
 Transform:
   m_ObjectHideFlags: 0
@@ -5709,6 +5719,8 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
+  esteVideo: 0
+  disableVideoOnEnd: 0
 --- !u!4 &1932922064
 Transform:
   m_ObjectHideFlags: 0
@@ -5910,6 +5922,8 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
+  esteVideo: 0
+  disableVideoOnEnd: 0
 --- !u!4 &1956474999
 Transform:
   m_ObjectHideFlags: 0
