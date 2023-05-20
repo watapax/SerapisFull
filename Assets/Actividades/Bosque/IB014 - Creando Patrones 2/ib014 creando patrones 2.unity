@@ -1206,6 +1206,8 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
+  esteVideo: 0
+  disableVideoOnEnd: 0
 --- !u!328 &87806694
 VideoPlayer:
   m_ObjectHideFlags: 0
@@ -1214,7 +1216,7 @@ VideoPlayer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 87806692}
   m_Enabled: 1
-  m_VideoClip: {fileID: 32900000, guid: 6af7bf9887406294894dbc4fe3ab821b, type: 3}
+  m_VideoClip: {fileID: 32900000, guid: b33a53fd4ee424a4f867d04a01077b3d, type: 3}
   m_TargetCameraAlpha: 1
   m_TargetCamera3DLayout: 0
   m_TargetCamera: {fileID: 961739752}
@@ -1743,6 +1745,8 @@ MonoBehaviour:
           m_StringArgument: EscenaDummy
           m_BoolArgument: 1
         m_CallState: 2
+  esteVideo: 0
+  disableVideoOnEnd: 0
 --- !u!328 &221245863
 VideoPlayer:
   m_ObjectHideFlags: 0
@@ -1751,7 +1755,7 @@ VideoPlayer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 221245861}
   m_Enabled: 1
-  m_VideoClip: {fileID: 32900000, guid: 765ed5fb50979cd42948727a6122b2b4, type: 3}
+  m_VideoClip: {fileID: 32900000, guid: 70dba7601961f3a4bac14dbb7674ad8e, type: 3}
   m_TargetCameraAlpha: 1
   m_TargetCamera3DLayout: 0
   m_TargetCamera: {fileID: 961739752}
@@ -9013,6 +9017,8 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
+  esteVideo: 0
+  disableVideoOnEnd: 0
 --- !u!328 &1283486109
 VideoPlayer:
   m_ObjectHideFlags: 0
@@ -9021,7 +9027,7 @@ VideoPlayer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1283486107}
   m_Enabled: 1
-  m_VideoClip: {fileID: 32900000, guid: 6898e7187cb1f2447aa20b8c27f733a4, type: 3}
+  m_VideoClip: {fileID: 32900000, guid: 530518f05973e964094d5ad5b32a1597, type: 3}
   m_TargetCameraAlpha: 1
   m_TargetCamera3DLayout: 0
   m_TargetCamera: {fileID: 961739752}
@@ -10998,6 +11004,8 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
+  esteVideo: 0
+  disableVideoOnEnd: 0
 --- !u!328 &1647470636
 VideoPlayer:
   m_ObjectHideFlags: 0
@@ -11006,7 +11014,7 @@ VideoPlayer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1647470634}
   m_Enabled: 1
-  m_VideoClip: {fileID: 32900000, guid: ae87722abc9be994d9b76a1fa0954a5c, type: 3}
+  m_VideoClip: {fileID: 32900000, guid: dcd0daa2acfc8b444bf77d503f9a67a6, type: 3}
   m_TargetCameraAlpha: 1
   m_TargetCamera3DLayout: 0
   m_TargetCamera: {fileID: 961739752}
@@ -12860,6 +12868,8 @@ MonoBehaviour:
           m_StringArgument: EscenaDummy
           m_BoolArgument: 1
         m_CallState: 2
+  esteVideo: 0
+  disableVideoOnEnd: 0
 --- !u!328 &1948674736
 VideoPlayer:
   m_ObjectHideFlags: 0

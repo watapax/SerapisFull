@@ -365,6 +365,12 @@ PrefabInstance:
       propertyPath: onMouseEnter.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
       value: Play
       objectReference: {fileID: 0}
+    - target: {fileID: 292728899220111477, guid: c812b756e04ab824bb2126f5c5018d88,
+        type: 3}
+      propertyPath: onMouseUp.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgument
+      value: 
+      objectReference: {fileID: 32900000, guid: 5c466a774a1f76b438b3addc53f380e5,
+        type: 3}
     - target: {fileID: 292728899423928333, guid: c812b756e04ab824bb2126f5c5018d88,
         type: 3}
       propertyPath: onMouseEnter.m_PersistentCalls.m_Calls.Array.data[1].m_Target
@@ -375,6 +381,12 @@ PrefabInstance:
       propertyPath: onMouseEnter.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
       value: Play
       objectReference: {fileID: 0}
+    - target: {fileID: 292728899423928333, guid: c812b756e04ab824bb2126f5c5018d88,
+        type: 3}
+      propertyPath: onMouseUp.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgument
+      value: 
+      objectReference: {fileID: 32900000, guid: 5d41dcd468c69fe4fadeba4a7e605158,
+        type: 3}
     - target: {fileID: 292728899553509089, guid: c812b756e04ab824bb2126f5c5018d88,
         type: 3}
       propertyPath: onMouseEnter.m_PersistentCalls.m_Calls.Array.data[1].m_Target
@@ -385,6 +397,12 @@ PrefabInstance:
       propertyPath: onMouseEnter.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
       value: Play
       objectReference: {fileID: 0}
+    - target: {fileID: 292728899553509089, guid: c812b756e04ab824bb2126f5c5018d88,
+        type: 3}
+      propertyPath: onMouseUp.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgument
+      value: 
+      objectReference: {fileID: 32900000, guid: 027c484012a97f844ba5610f7f5e331a,
+        type: 3}
     - target: {fileID: 292728899766251440, guid: c812b756e04ab824bb2126f5c5018d88,
         type: 3}
       propertyPath: onMouseEnter.m_PersistentCalls.m_Calls.Array.data[1].m_Target
@@ -395,6 +413,12 @@ PrefabInstance:
       propertyPath: onMouseEnter.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
       value: Play
       objectReference: {fileID: 0}
+    - target: {fileID: 292728899766251440, guid: c812b756e04ab824bb2126f5c5018d88,
+        type: 3}
+      propertyPath: onMouseUp.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgument
+      value: 
+      objectReference: {fileID: 32900000, guid: f25e588234493f04191d02f32ebb843e,
+        type: 3}
     - target: {fileID: 292728900416303018, guid: c812b756e04ab824bb2126f5c5018d88,
         type: 3}
       propertyPath: onMouseEnter.m_PersistentCalls.m_Calls.Array.data[1].m_Target
@@ -405,6 +429,12 @@ PrefabInstance:
       propertyPath: onMouseEnter.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
       value: Play
       objectReference: {fileID: 0}
+    - target: {fileID: 292728900416303018, guid: c812b756e04ab824bb2126f5c5018d88,
+        type: 3}
+      propertyPath: onMouseUp.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgument
+      value: 
+      objectReference: {fileID: 32900000, guid: ec2dad8d5503f8044a6366d9d4368d50,
+        type: 3}
     - target: {fileID: 292728900633886372, guid: c812b756e04ab824bb2126f5c5018d88,
         type: 3}
       propertyPath: m_TargetCamera
@@ -619,6 +649,12 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7932992354251727315, guid: dffc5afd150e7664885ec2aeebf7f243,
+        type: 3}
+      propertyPath: m_VideoClip
+      value: 
+      objectReference: {fileID: 32900000, guid: befa1d78b36ee11408f16ca7d0169861,
+        type: 3}
     - target: {fileID: 7932992354251727315, guid: dffc5afd150e7664885ec2aeebf7f243,
         type: 3}
       propertyPath: m_RenderMode

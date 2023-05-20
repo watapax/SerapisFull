@@ -4495,7 +4495,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_VideoClip
       value: 
-      objectReference: {fileID: 32900000, guid: 9e061d934804cc845a800e1f9b2e1ef3,
+      objectReference: {fileID: 32900000, guid: 2d0e53d0be319844899afaafe4299a75,
         type: 3}
     - target: {fileID: 7349213836697288620, guid: 4f3d604ef4543074c92d2049a23e7781,
         type: 3}
@@ -5351,7 +5351,7 @@ MonoBehaviour:
     ModeOverride: 0
     LensShift: {x: 0, y: 0}
     GateFit: 2
-    m_SensorSize: {x: 1.7777778, y: 1}
+    m_SensorSize: {x: 1.7744681, y: 1}
   m_Transitions:
     m_BlendHint: 0
     m_InheritPosition: 0

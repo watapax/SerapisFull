@@ -966,7 +966,7 @@ MonoBehaviour:
     ModeOverride: 0
     LensShift: {x: 0, y: 0}
     GateFit: 2
-    m_SensorSize: {x: 1.7777778, y: 1}
+    m_SensorSize: {x: 1.7744681, y: 1}
   m_Transitions:
     m_BlendHint: 0
     m_InheritPosition: 0
@@ -5432,7 +5432,7 @@ VideoPlayer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 435482447}
   m_Enabled: 1
-  m_VideoClip: {fileID: 32900000, guid: 0771e535d0e0afd44aed39cc2e39057e, type: 3}
+  m_VideoClip: {fileID: 32900000, guid: 8c4e441fd24f1324f8e5f7bfe36eeb89, type: 3}
   m_TargetCameraAlpha: 1
   m_TargetCamera3DLayout: 0
   m_TargetCamera: {fileID: 961739752}
@@ -8121,7 +8121,7 @@ VideoPlayer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 664323096}
   m_Enabled: 1
-  m_VideoClip: {fileID: 32900000, guid: 9e061d934804cc845a800e1f9b2e1ef3, type: 3}
+  m_VideoClip: {fileID: 32900000, guid: 2d0e53d0be319844899afaafe4299a75, type: 3}
   m_TargetCameraAlpha: 1
   m_TargetCamera3DLayout: 0
   m_TargetCamera: {fileID: 961739752}
@@ -8234,7 +8234,7 @@ VideoPlayer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 676501723}
   m_Enabled: 1
-  m_VideoClip: {fileID: 32900000, guid: 1e75e169df7041c44954c28c28317f2a, type: 3}
+  m_VideoClip: {fileID: 32900000, guid: ba9fa5cddcb367b46b7f265774c6efba, type: 3}
   m_TargetCameraAlpha: 1
   m_TargetCamera3DLayout: 0
   m_TargetCamera: {fileID: 961739752}
@@ -11477,7 +11477,7 @@ VideoPlayer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 888940952}
   m_Enabled: 1
-  m_VideoClip: {fileID: 32900000, guid: b432417d66ad52d42b05df69079a8b4c, type: 3}
+  m_VideoClip: {fileID: 32900000, guid: befa1d78b36ee11408f16ca7d0169861, type: 3}
   m_TargetCameraAlpha: 1
   m_TargetCamera3DLayout: 0
   m_TargetCamera: {fileID: 961739752}
@@ -17587,7 +17587,7 @@ VideoPlayer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1394651741}
   m_Enabled: 1
-  m_VideoClip: {fileID: 32900000, guid: 9e5b0bf05ab5d5949a7165a3129eca36, type: 3}
+  m_VideoClip: {fileID: 32900000, guid: fc3fe72092a3652439f7a5198b3ab144, type: 3}
   m_TargetCameraAlpha: 1
   m_TargetCamera3DLayout: 0
   m_TargetCamera: {fileID: 961739752}
@@ -19970,7 +19970,7 @@ VideoPlayer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1758595405}
   m_Enabled: 1
-  m_VideoClip: {fileID: 32900000, guid: 814c9bc5371696343962d92c29e3952e, type: 3}
+  m_VideoClip: {fileID: 32900000, guid: e065c55048b1f6e4da3b49cf755c5d46, type: 3}
   m_TargetCameraAlpha: 1
   m_TargetCamera3DLayout: 0
   m_TargetCamera: {fileID: 961739752}
