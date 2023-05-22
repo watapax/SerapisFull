@@ -11807,6 +11807,11 @@ PrefabInstance:
       propertyPath: m_audioClip
       value: 
       objectReference: {fileID: 8300000, guid: b7da48c15e710a741842583fac3307c7, type: 3}
+    - target: {fileID: 3499451365280016900, guid: f55b1cd0233825243b7542963f047ce2,
+        type: 3}
+      propertyPath: maxVol
+      value: 0.409
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f55b1cd0233825243b7542963f047ce2, type: 3}
 --- !u!1001 &844497796
@@ -28737,11 +28742,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 961739753, guid: b88d641e298e3df4e8e48bd8c4667bc3, type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0.03762631
+      value: -0.037626274
       objectReference: {fileID: 0}
     - target: {fileID: 961739753, guid: b88d641e298e3df4e8e48bd8c4667bc3, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0.0035805895
+      value: 0.0035805851
       objectReference: {fileID: 0}
     - target: {fileID: 101622144520722877, guid: b88d641e298e3df4e8e48bd8c4667bc3,
         type: 3}
@@ -29006,12 +29011,12 @@ PrefabInstance:
     - target: {fileID: 4041088058104152307, guid: b88d641e298e3df4e8e48bd8c4667bc3,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0.10129717
+      value: -0.10129713
       objectReference: {fileID: 0}
     - target: {fileID: 4041088058104152307, guid: b88d641e298e3df4e8e48bd8c4667bc3,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0.004908566
+      value: 0.004908564
       objectReference: {fileID: 0}
     - target: {fileID: 4041088058158218106, guid: b88d641e298e3df4e8e48bd8c4667bc3,
         type: 3}
@@ -29106,12 +29111,12 @@ PrefabInstance:
     - target: {fileID: 4041088059068408101, guid: b88d641e298e3df4e8e48bd8c4667bc3,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0.101191446
+      value: -0.1011914
       objectReference: {fileID: 0}
     - target: {fileID: 4041088059068408101, guid: b88d641e298e3df4e8e48bd8c4667bc3,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0.006745435
+      value: 0.006745432
       objectReference: {fileID: 0}
     - target: {fileID: 4041088059084900511, guid: b88d641e298e3df4e8e48bd8c4667bc3,
         type: 3}

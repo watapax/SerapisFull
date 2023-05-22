@@ -34734,7 +34734,7 @@ PrefabInstance:
     - target: {fileID: 4041088059068408101, guid: b88d641e298e3df4e8e48bd8c4667bc3,
         type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0.013719488
+      value: -0.013719486
       objectReference: {fileID: 0}
     - target: {fileID: 4041088059068408101, guid: b88d641e298e3df4e8e48bd8c4667bc3,
         type: 3}
@@ -99994,6 +99994,11 @@ PrefabInstance:
       propertyPath: m_audioClip
       value: 
       objectReference: {fileID: 8300000, guid: 10ea0c6ecdfbe594d85161c221bce875, type: 3}
+    - target: {fileID: 3499451365280016900, guid: f55b1cd0233825243b7542963f047ce2,
+        type: 3}
+      propertyPath: maxVol
+      value: 0.415
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f55b1cd0233825243b7542963f047ce2, type: 3}
 --- !u!1 &2138093637

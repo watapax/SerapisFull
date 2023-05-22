@@ -11014,7 +11014,7 @@ VideoPlayer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1647470634}
   m_Enabled: 1
-  m_VideoClip: {fileID: 32900000, guid: dcd0daa2acfc8b444bf77d503f9a67a6, type: 3}
+  m_VideoClip: {fileID: 32900000, guid: fb77dda72ed94844ba42b9044ef1ab05, type: 3}
   m_TargetCameraAlpha: 1
   m_TargetCamera3DLayout: 0
   m_TargetCamera: {fileID: 961739752}
@@ -11030,7 +11030,7 @@ VideoPlayer:
   m_TargetAudioSources:
   - {fileID: 0}
   m_DirectAudioVolumes:
-  - 1
+  - 0.75
   m_Url: https://storage.googleapis.com/videosactividades/Patrones2/introPatrones.mp4
   m_EnabledAudioTracks: 01
   m_DirectAudioMutes: 00
