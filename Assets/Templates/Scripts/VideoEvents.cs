@@ -9,6 +9,7 @@ public class VideoEvents : MonoBehaviour
     public UnityEvent onVideoEnd;
     public bool esteVideo;
     public bool disableVideoOnEnd = false;
+    public bool agregarEstrella = false;
 
     //bool videoEnd;
 
@@ -28,10 +29,18 @@ public class VideoEvents : MonoBehaviour
         {
             this.gameObject.SetActive(false);
         }
+        if (agregarEstrella == true && ManagerEscenas.Instance.sceneStatusArray[UnityEngine.SceneManagement.SceneManager.GetActiveScene().buildIndex] == false)
+        {
+            AgregarEstrella();
+            ManagerEscenas.Instance.sceneStatusArray[UnityEngine.SceneManagement.SceneManager.GetActiveScene().buildIndex] = true;
+        }
         onVideoEnd.Invoke();
     }
 
-
+    void AgregarEstrella()
+    {
+        ManagerEscenas.Instance.AddStar();
+    }
 
 
 

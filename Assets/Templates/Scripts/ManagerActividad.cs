@@ -6,7 +6,7 @@ public class ManagerActividad : MonoBehaviour
 
     public int cantidadDeRespuestas;
     int respuestasAsignadas = 0;
-
+    public bool agregarEstrella = true;
     public void AgregarRespuestaCorrecta()
     {
         respuestasAsignadas++;
@@ -15,6 +15,11 @@ public class ManagerActividad : MonoBehaviour
         {
             print("Completo Actividad");
             onCompletarActividad.Invoke();
+            if (agregarEstrella)
+            {
+                ManagerEscenas.Instance.sceneStatusArray[UnityEngine.SceneManagement.SceneManager.GetActiveScene().buildIndex] = true;
+                ManagerEscenas.Instance.AddStar();
+            }   
         }
 
     }
@@ -23,8 +28,5 @@ public class ManagerActividad : MonoBehaviour
     {
         respuestasAsignadas--;
     }
-
-
-
 
 }
