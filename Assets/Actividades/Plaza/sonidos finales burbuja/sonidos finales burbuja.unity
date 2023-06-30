@@ -11062,6 +11062,7 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
   cantidadDeRespuestas: 0
+  agregarEstrella: 1
 --- !u!4 &537588097
 Transform:
   m_ObjectHideFlags: 0
@@ -17211,7 +17212,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 3791ec06db5b81741a37caba019729d6, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 9c10ffd899c380d4b8ca42e97a9354b0, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
@@ -17912,6 +17913,7 @@ MonoBehaviour:
         m_CallState: 2
   esteVideo: 0
   disableVideoOnEnd: 0
+  agregarEstrella: 0
 --- !u!328 &1021028179
 VideoPlayer:
   m_ObjectHideFlags: 0
@@ -23668,6 +23670,7 @@ MonoBehaviour:
         m_CallState: 2
   esteVideo: 0
   disableVideoOnEnd: 0
+  agregarEstrella: 0
 --- !u!328 &1247620871
 VideoPlayer:
   m_ObjectHideFlags: 0

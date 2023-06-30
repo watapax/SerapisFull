@@ -831,6 +831,9 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+  esteVideo: 0
+  disableVideoOnEnd: 0
+  agregarEstrella: 0
 --- !u!328 &1567851701
 VideoPlayer:
   m_ObjectHideFlags: 0
@@ -1103,6 +1106,9 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+  esteVideo: 0
+  disableVideoOnEnd: 0
+  agregarEstrella: 0
 --- !u!328 &1816284946
 VideoPlayer:
   m_ObjectHideFlags: 0
@@ -1453,6 +1459,7 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
   cantidadDeRespuestas: 5
+  agregarEstrella: 1
 --- !u!82 &1670789330972432053
 AudioSource:
   m_ObjectHideFlags: 0
@@ -2172,7 +2179,7 @@ MonoBehaviour:
         m_MethodName: PlayOneShot
         m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 8300000, guid: f3728cf59fefc744494549a8af9cabfb,
+          m_ObjectArgument: {fileID: 8300000, guid: 4a845201cb6eb4c458c2c51b9d2762c9,
             type: 3}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.AudioClip, UnityEngine
           m_IntArgument: 0
@@ -2184,6 +2191,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   moveToMatchPosition: 1
+  go: {fileID: 0}
   disableOnMatch: 0
 --- !u!114 &4184759915789607821
 MonoBehaviour:
@@ -2846,7 +2854,7 @@ MonoBehaviour:
         m_MethodName: PlayOneShot
         m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 8300000, guid: f3728cf59fefc744494549a8af9cabfb,
+          m_ObjectArgument: {fileID: 8300000, guid: 4a845201cb6eb4c458c2c51b9d2762c9,
             type: 3}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.AudioClip, UnityEngine
           m_IntArgument: 0
@@ -2858,6 +2866,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   moveToMatchPosition: 1
+  go: {fileID: 0}
   disableOnMatch: 0
 --- !u!114 &7035041152413847939
 MonoBehaviour:
@@ -3004,7 +3013,7 @@ MonoBehaviour:
         m_MethodName: PlayOneShot
         m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 8300000, guid: f3728cf59fefc744494549a8af9cabfb,
+          m_ObjectArgument: {fileID: 8300000, guid: 4a845201cb6eb4c458c2c51b9d2762c9,
             type: 3}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.AudioClip, UnityEngine
           m_IntArgument: 0
@@ -3016,6 +3025,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   moveToMatchPosition: 1
+  go: {fileID: 0}
   disableOnMatch: 0
 --- !u!114 &7623019049056239517
 MonoBehaviour:
@@ -3177,7 +3187,7 @@ MonoBehaviour:
         m_MethodName: PlayOneShot
         m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 8300000, guid: f3728cf59fefc744494549a8af9cabfb,
+          m_ObjectArgument: {fileID: 8300000, guid: 4a845201cb6eb4c458c2c51b9d2762c9,
             type: 3}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.AudioClip, UnityEngine
           m_IntArgument: 0
@@ -3189,6 +3199,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   moveToMatchPosition: 1
+  go: {fileID: 0}
   disableOnMatch: 0
 --- !u!114 &7873967861400984758
 MonoBehaviour:
@@ -3373,7 +3384,7 @@ MonoBehaviour:
         m_MethodName: PlayOneShot
         m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 8300000, guid: f3728cf59fefc744494549a8af9cabfb,
+          m_ObjectArgument: {fileID: 8300000, guid: 4a845201cb6eb4c458c2c51b9d2762c9,
             type: 3}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.AudioClip, UnityEngine
           m_IntArgument: 0
@@ -3385,6 +3396,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   moveToMatchPosition: 1
+  go: {fileID: 0}
   disableOnMatch: 0
 --- !u!114 &8199647099397031277
 MonoBehaviour:

@@ -305,6 +305,7 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
   cantidadDeRespuestas: 4
+  agregarEstrella: 1
 --- !u!4 &8362280 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8502190913228571134, guid: f616a09210a604648a5fbcb25aeeb1a8,
@@ -497,7 +498,7 @@ MonoBehaviour:
         m_MethodName: PlayOneShot
         m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 8300000, guid: 37a08420045baab40bd9100532837abf,
+          m_ObjectArgument: {fileID: 8300000, guid: 4c2d1089c11d0304496c751306b971bc,
             type: 3}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.AudioClip, UnityEngine
           m_IntArgument: 0
@@ -1331,7 +1332,7 @@ MonoBehaviour:
         m_MethodName: PlayOneShot
         m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 8300000, guid: 37a08420045baab40bd9100532837abf,
+          m_ObjectArgument: {fileID: 8300000, guid: 4c2d1089c11d0304496c751306b971bc,
             type: 3}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.AudioClip, UnityEngine
           m_IntArgument: 0
@@ -1451,6 +1452,7 @@ MonoBehaviour:
         m_CallState: 2
   esteVideo: 0
   disableVideoOnEnd: 0
+  agregarEstrella: 0
 --- !u!328 &1764584676
 VideoPlayer:
   m_ObjectHideFlags: 0
@@ -1662,6 +1664,7 @@ MonoBehaviour:
         m_CallState: 2
   esteVideo: 0
   disableVideoOnEnd: 0
+  agregarEstrella: 0
 --- !u!328 &1814102077
 VideoPlayer:
   m_ObjectHideFlags: 0
@@ -1785,7 +1788,7 @@ MonoBehaviour:
         m_MethodName: PlayOneShot
         m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 8300000, guid: 37a08420045baab40bd9100532837abf,
+          m_ObjectArgument: {fileID: 8300000, guid: 4c2d1089c11d0304496c751306b971bc,
             type: 3}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.AudioClip, UnityEngine
           m_IntArgument: 0
@@ -1929,7 +1932,7 @@ MonoBehaviour:
         m_MethodName: PlayOneShot
         m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 8300000, guid: 37a08420045baab40bd9100532837abf,
+          m_ObjectArgument: {fileID: 8300000, guid: 4c2d1089c11d0304496c751306b971bc,
             type: 3}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.AudioClip, UnityEngine
           m_IntArgument: 0
