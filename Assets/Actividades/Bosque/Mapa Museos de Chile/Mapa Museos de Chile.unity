@@ -2198,6 +2198,7 @@ MonoBehaviour:
           m_BoolArgument: 1
         m_CallState: 2
   cantidadDeRespuestas: 5
+  agregarEstrella: 1
 --- !u!4 &815262956
 Transform:
   m_ObjectHideFlags: 0
@@ -2533,6 +2534,7 @@ MonoBehaviour:
         m_CallState: 2
   esteVideo: 1
   disableVideoOnEnd: 1
+  agregarEstrella: 0
 --- !u!4 &1150755399 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1493265562392235133, guid: 2422effe03725c1488a26b96024b68d2,

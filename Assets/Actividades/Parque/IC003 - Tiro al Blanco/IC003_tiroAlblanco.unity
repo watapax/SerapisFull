@@ -1963,7 +1963,7 @@ VideoPlayer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 226147521}
   m_Enabled: 1
-  m_VideoClip: {fileID: 32900000, guid: 0ba8c0ea155440e48840268f324b2224, type: 3}
+  m_VideoClip: {fileID: 32900000, guid: 952890018df642e4a99033548c69e8d4, type: 3}
   m_TargetCameraAlpha: 1
   m_TargetCamera3DLayout: 0
   m_TargetCamera: {fileID: 8503022638186354235}
@@ -6834,6 +6834,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   cantidadDeRespuestas: 6
+  agregarEstrella: 1
 --- !u!4 &1451076728
 Transform:
   m_ObjectHideFlags: 0
@@ -15684,7 +15685,7 @@ MonoBehaviour:
     ModeOverride: 0
     LensShift: {x: 0, y: 0}
     GateFit: 2
-    m_SensorSize: {x: 1.7777778, y: 1}
+    m_SensorSize: {x: 1.7760814, y: 1}
   m_Transitions:
     m_BlendHint: 0
     m_InheritPosition: 0
