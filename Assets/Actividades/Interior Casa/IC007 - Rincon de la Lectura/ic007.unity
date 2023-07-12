@@ -1337,7 +1337,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 7eb47fb8bfda29b44874e6a459dba190, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 0.04
+  m_Volume: 0.013
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -1847,6 +1847,7 @@ MonoBehaviour:
         m_CallState: 2
   esteVideo: 0
   disableVideoOnEnd: 0
+  agregarEstrella: 0
 --- !u!82 &1362414478
 AudioSource:
   m_ObjectHideFlags: 0
@@ -2253,6 +2254,7 @@ MonoBehaviour:
         m_CallState: 2
   esteVideo: 0
   disableVideoOnEnd: 0
+  agregarEstrella: 0
 --- !u!114 &1548146638
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2748,6 +2750,7 @@ MonoBehaviour:
         m_CallState: 2
   esteVideo: 0
   disableVideoOnEnd: 0
+  agregarEstrella: 0
 --- !u!114 &1684300619
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3019,6 +3022,7 @@ MonoBehaviour:
         m_CallState: 2
   esteVideo: 0
   disableVideoOnEnd: 0
+  agregarEstrella: 0
 --- !u!114 &1984981268
 MonoBehaviour:
   m_ObjectHideFlags: 0
