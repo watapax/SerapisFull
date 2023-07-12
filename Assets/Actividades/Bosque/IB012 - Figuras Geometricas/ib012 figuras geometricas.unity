@@ -775,7 +775,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 04e1543512cfc1b4cab031620aab0739, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 0.295
+  m_Volume: 0.088
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -922,6 +922,7 @@ MonoBehaviour:
         m_CallState: 2
   esteVideo: 0
   disableVideoOnEnd: 0
+  agregarEstrella: 0
 --- !u!328 &1647470636
 VideoPlayer:
   m_ObjectHideFlags: 0
@@ -1117,6 +1118,7 @@ MonoBehaviour:
         m_CallState: 2
   esteVideo: 0
   disableVideoOnEnd: 0
+  agregarEstrella: 0
 --- !u!328 &1948674736
 VideoPlayer:
   m_ObjectHideFlags: 0

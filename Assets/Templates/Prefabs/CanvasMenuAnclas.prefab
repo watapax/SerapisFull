@@ -1732,7 +1732,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 551.5, y: 0}
+  m_AnchoredPosition: {x: 551.1946, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &3566590215289452132
@@ -1932,7 +1932,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 551.5, y: 0}
+  m_AnchoredPosition: {x: 551.1946, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1323987718601511019
@@ -8040,7 +8040,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 551.5, y: 0}
+  m_AnchoredPosition: {x: 551.1946, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2274781928129383749
@@ -10376,7 +10376,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 551.5, y: 0}
+  m_AnchoredPosition: {x: 551.1946, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &5484009424663373986
@@ -10577,7 +10577,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 551.5, y: 0}
+  m_AnchoredPosition: {x: 551.1946, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &9010750826076869198
@@ -11193,7 +11193,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Isla Estacion Espacial / Interior Estacion Espacial
+  m_text: "Isla Estaci\xF3n Espacial / Interior Estacion Espacial"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 5fefafd583f33904cae3faaab951a27f, type: 2}
   m_sharedMaterial: {fileID: -1744416156213055293, guid: 5fefafd583f33904cae3faaab951a27f,
@@ -11904,7 +11904,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 551.5, y: 0}
+  m_AnchoredPosition: {x: 551.1946, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &3860948050979946055
@@ -12820,8 +12820,8 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 8864082186436556635}
   m_HandleRect: {fileID: 8864082186436556634}
   m_Direction: 2
-  m_Value: 1
-  m_Size: 0.11456628
+  m_Value: 0.5
+  m_Size: 0.11463661
   m_NumberOfSteps: 11
   m_OnValueChanged:
     m_PersistentCalls:
@@ -13464,7 +13464,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 551.5, y: 0}
+  m_AnchoredPosition: {x: 551.1946, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &8864082185687975992
@@ -13772,7 +13772,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: -2164}
+  m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &8864082186495088523
@@ -17454,7 +17454,7 @@ PrefabInstance:
     - target: {fileID: 7423832372945231382, guid: 81d4a0e33cbf72742bd6e492349c582c,
         type: 3}
       propertyPath: m_text
-      value: Silabas Animales
+      value: "S\xEDlabas Animales"
       objectReference: {fileID: 0}
     - target: {fileID: 7423832372945231382, guid: 81d4a0e33cbf72742bd6e492349c582c,
         type: 3}
@@ -17644,7 +17644,9 @@ PrefabInstance:
     - target: {fileID: 7423832372945231382, guid: 81d4a0e33cbf72742bd6e492349c582c,
         type: 3}
       propertyPath: m_text
-      value: fotografias
+      value: 'Fotografias
+
+'
       objectReference: {fileID: 0}
     - target: {fileID: 7423832372945231382, guid: 81d4a0e33cbf72742bd6e492349c582c,
         type: 3}
@@ -20578,7 +20580,7 @@ PrefabInstance:
     - target: {fileID: 7423832372945231382, guid: 81d4a0e33cbf72742bd6e492349c582c,
         type: 3}
       propertyPath: m_text
-      value: Rincon de la Lectura
+      value: "Rinc\xF3n de la Lectura"
       objectReference: {fileID: 0}
     - target: {fileID: 7423832372945231382, guid: 81d4a0e33cbf72742bd6e492349c582c,
         type: 3}
@@ -23962,14 +23964,12 @@ PrefabInstance:
     - target: {fileID: 7423832372945231382, guid: 81d4a0e33cbf72742bd6e492349c582c,
         type: 3}
       propertyPath: m_text
-      value: 'Oruga patron figura
-
-'
+      value: "Oruga \rpatr\xF3n figura\n"
       objectReference: {fileID: 0}
     - target: {fileID: 7423832372945231382, guid: 81d4a0e33cbf72742bd6e492349c582c,
         type: 3}
       propertyPath: m_fontSize
-      value: 27.85
+      value: 28
       objectReference: {fileID: 0}
     - target: {fileID: 7423832372945231382, guid: 81d4a0e33cbf72742bd6e492349c582c,
         type: 3}
@@ -25794,7 +25794,7 @@ PrefabInstance:
     - target: {fileID: 7423832372945231382, guid: 81d4a0e33cbf72742bd6e492349c582c,
         type: 3}
       propertyPath: m_text
-      value: Silaba Inicial
+      value: "S\xEDlaba Inicial"
       objectReference: {fileID: 0}
     - target: {fileID: 7423832372945231382, guid: 81d4a0e33cbf72742bd6e492349c582c,
         type: 3}
@@ -29651,9 +29651,7 @@ PrefabInstance:
     - target: {fileID: 7423832372945231382, guid: 81d4a0e33cbf72742bd6e492349c582c,
         type: 3}
       propertyPath: m_text
-      value: 'Clasificacion de Hojas
-
-'
+      value: "Clasificaci\xF3n de Hojas\n"
       objectReference: {fileID: 0}
     - target: {fileID: 7423832372945231382, guid: 81d4a0e33cbf72742bd6e492349c582c,
         type: 3}
