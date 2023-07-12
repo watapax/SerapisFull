@@ -2798,6 +2798,9 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
+  esteVideo: 0
+  disableVideoOnEnd: 0
+  agregarEstrella: 0
 --- !u!328 &473821711
 VideoPlayer:
   m_ObjectHideFlags: 0
@@ -6022,6 +6025,7 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
   audioSource: {fileID: 1095117424}
+  agregarEstrella: 1
 --- !u!82 &1095117424
 AudioSource:
   m_ObjectHideFlags: 0
@@ -6147,6 +6151,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nombreEscenaDestino: Isla Plaza
   IDAnclaDestino: TEATRO
+  agregarEstrella: 0
 --- !u!1 &1107028957
 GameObject:
   m_ObjectHideFlags: 0
@@ -6205,6 +6210,9 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
+  esteVideo: 0
+  disableVideoOnEnd: 0
+  agregarEstrella: 0
 --- !u!328 &1107028959
 VideoPlayer:
   m_ObjectHideFlags: 0
@@ -8868,6 +8876,9 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+  esteVideo: 0
+  disableVideoOnEnd: 0
+  agregarEstrella: 0
 --- !u!328 &1521331327
 VideoPlayer:
   m_ObjectHideFlags: 0
@@ -11107,6 +11118,7 @@ MonoBehaviour:
           m_BoolArgument: 1
         m_CallState: 2
   cantidadDeRespuestas: 8
+  agregarEstrella: 0
 --- !u!4 &2047319513756928631
 Transform:
   m_ObjectHideFlags: 0

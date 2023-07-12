@@ -1031,6 +1031,7 @@ MonoBehaviour:
           m_BoolArgument: 1
         m_CallState: 2
   cantidadDeRespuestas: 4
+  agregarEstrella: 0
 --- !u!4 &350948936
 Transform:
   m_ObjectHideFlags: 0
@@ -1623,6 +1624,9 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+  esteVideo: 0
+  disableVideoOnEnd: 0
+  agregarEstrella: 0
 --- !u!328 &440989009
 VideoPlayer:
   m_ObjectHideFlags: 0
@@ -1865,6 +1869,9 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+  esteVideo: 0
+  disableVideoOnEnd: 0
+  agregarEstrella: 0
 --- !u!328 &497276870
 VideoPlayer:
   m_ObjectHideFlags: 0
@@ -6595,6 +6602,9 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+  esteVideo: 0
+  disableVideoOnEnd: 0
+  agregarEstrella: 1
 --- !u!328 &1619869461
 VideoPlayer:
   m_ObjectHideFlags: 0
@@ -8557,6 +8567,7 @@ MonoBehaviour:
           m_BoolArgument: 1
         m_CallState: 2
   cantidadDeRespuestas: 4
+  agregarEstrella: 0
 --- !u!1 &2002818009
 GameObject:
   m_ObjectHideFlags: 0
@@ -9199,6 +9210,7 @@ MonoBehaviour:
           m_BoolArgument: 1
         m_CallState: 2
   cantidadDeRespuestas: 4
+  agregarEstrella: 0
 --- !u!1 &5289413941618958947
 GameObject:
   m_ObjectHideFlags: 0

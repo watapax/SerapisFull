@@ -150,7 +150,7 @@ public class ManagerEscenas : MonoBehaviour
     {
         textStar.text = estrellas + "/50";
         int nivel = UnityEngine.SceneManagement.SceneManager.GetActiveScene().buildIndex;
-        if (nivel >= 3 && nivel <= 12)
+        if (nivel >= 4 && nivel <= 12)
         {
             objStar.SetActive(true);
         }

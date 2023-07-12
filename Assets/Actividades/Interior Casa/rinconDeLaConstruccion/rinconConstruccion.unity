@@ -308,6 +308,7 @@ MonoBehaviour:
         m_CallState: 2
   esteVideo: 0
   disableVideoOnEnd: 0
+  agregarEstrella: 0
 --- !u!328 &132658595
 VideoPlayer:
   m_ObjectHideFlags: 0
@@ -821,6 +822,7 @@ MonoBehaviour:
           m_BoolArgument: 1
         m_CallState: 2
   cantidadDeRespuestas: 1
+  agregarEstrella: 0
 --- !u!4 &281511457
 Transform:
   m_ObjectHideFlags: 0
@@ -2556,6 +2558,7 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
   cantidadDeRespuestas: 1
+  agregarEstrella: 0
 --- !u!4 &908747418
 Transform:
   m_ObjectHideFlags: 0
@@ -2594,6 +2597,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nombreEscenaDestino: Interior Casa
   IDAnclaDestino: SILLON
+  agregarEstrella: 1
 --- !u!114 &908747420
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4834,6 +4838,7 @@ MonoBehaviour:
         m_CallState: 2
   esteVideo: 0
   disableVideoOnEnd: 0
+  agregarEstrella: 0
 --- !u!328 &1254729532
 VideoPlayer:
   m_ObjectHideFlags: 0
@@ -5674,6 +5679,7 @@ MonoBehaviour:
           m_BoolArgument: 1
         m_CallState: 2
   cantidadDeRespuestas: 1
+  agregarEstrella: 0
 --- !u!4 &1441072425
 Transform:
   m_ObjectHideFlags: 0
@@ -6524,6 +6530,7 @@ MonoBehaviour:
         m_CallState: 2
   esteVideo: 0
   disableVideoOnEnd: 0
+  agregarEstrella: 0
 --- !u!328 &1881725621
 VideoPlayer:
   m_ObjectHideFlags: 0
@@ -6759,6 +6766,7 @@ MonoBehaviour:
         m_CallState: 2
   esteVideo: 0
   disableVideoOnEnd: 0
+  agregarEstrella: 0
 --- !u!328 &2012441873
 VideoPlayer:
   m_ObjectHideFlags: 0

@@ -366,6 +366,9 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
+  esteVideo: 0
+  disableVideoOnEnd: 0
+  agregarEstrella: 0
 --- !u!328 &57555893
 VideoPlayer:
   m_ObjectHideFlags: 0
@@ -483,6 +486,7 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
   cantidadDeRespuestas: 4
+  agregarEstrella: 0
 --- !u!4 &153670195
 Transform:
   m_ObjectHideFlags: 0
@@ -1411,6 +1415,9 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
+  esteVideo: 0
+  disableVideoOnEnd: 0
+  agregarEstrella: 0
 --- !u!328 &715619946
 VideoPlayer:
   m_ObjectHideFlags: 0
@@ -2119,6 +2126,9 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
+  esteVideo: 0
+  disableVideoOnEnd: 0
+  agregarEstrella: 0
 --- !u!328 &1276696916
 VideoPlayer:
   m_ObjectHideFlags: 0
@@ -2979,6 +2989,9 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
+  esteVideo: 0
+  disableVideoOnEnd: 0
+  agregarEstrella: 0
 --- !u!328 &1609832166
 VideoPlayer:
   m_ObjectHideFlags: 0
@@ -3298,6 +3311,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nombreEscenaDestino: Interior Casa
   IDAnclaDestino: VAK
+  agregarEstrella: 0
 --- !u!114 &1749144345
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3326,6 +3340,9 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+  esteVideo: 0
+  disableVideoOnEnd: 0
+  agregarEstrella: 1
 --- !u!114 &1749144346
 MonoBehaviour:
   m_ObjectHideFlags: 0

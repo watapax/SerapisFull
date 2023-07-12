@@ -1165,6 +1165,9 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+  esteVideo: 0
+  disableVideoOnEnd: 0
+  agregarEstrella: 0
 --- !u!328 &130660494
 VideoPlayer:
   m_ObjectHideFlags: 0
@@ -3190,6 +3193,9 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+  esteVideo: 0
+  disableVideoOnEnd: 0
+  agregarEstrella: 0
 --- !u!328 &332899225
 VideoPlayer:
   m_ObjectHideFlags: 0
@@ -3285,6 +3291,7 @@ MonoBehaviour:
           m_BoolArgument: 1
         m_CallState: 2
   cantidadDeRespuestas: 5
+  agregarEstrella: 0
 --- !u!4 &371678628
 Transform:
   m_ObjectHideFlags: 0
@@ -4958,6 +4965,7 @@ MonoBehaviour:
           m_BoolArgument: 1
         m_CallState: 2
   cantidadDeRespuestas: 5
+  agregarEstrella: 0
 --- !u!4 &622827292
 Transform:
   m_ObjectHideFlags: 0
@@ -7176,6 +7184,9 @@ MonoBehaviour:
           m_StringArgument: EscenaDummy
           m_BoolArgument: 0
         m_CallState: 2
+  esteVideo: 0
+  disableVideoOnEnd: 0
+  agregarEstrella: 1
 --- !u!328 &1120688599
 VideoPlayer:
   m_ObjectHideFlags: 0
@@ -10318,6 +10329,7 @@ MonoBehaviour:
           m_BoolArgument: 1
         m_CallState: 2
   cantidadDeRespuestas: 5
+  agregarEstrella: 0
 --- !u!4 &1623826958
 Transform:
   m_ObjectHideFlags: 0
@@ -10967,6 +10979,9 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+  esteVideo: 0
+  disableVideoOnEnd: 0
+  agregarEstrella: 0
 --- !u!328 &1679869058
 VideoPlayer:
   m_ObjectHideFlags: 0
@@ -11177,6 +11192,9 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+  esteVideo: 0
+  disableVideoOnEnd: 0
+  agregarEstrella: 0
 --- !u!328 &1773496806
 VideoPlayer:
   m_ObjectHideFlags: 0
@@ -11871,6 +11889,7 @@ MonoBehaviour:
           m_BoolArgument: 1
         m_CallState: 2
   cantidadDeRespuestas: 6
+  agregarEstrella: 0
 --- !u!212 &2100211738 stripped
 SpriteRenderer:
   m_CorrespondingSourceObject: {fileID: 8944244368965638450, guid: a215027f5dfd836489ccbd7c9df3d055,

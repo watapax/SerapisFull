@@ -330,6 +330,9 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
+  esteVideo: 0
+  disableVideoOnEnd: 0
+  agregarEstrella: 0
 --- !u!328 &130660494
 VideoPlayer:
   m_ObjectHideFlags: 0
@@ -556,6 +559,9 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
+  esteVideo: 0
+  disableVideoOnEnd: 0
+  agregarEstrella: 0
 --- !u!328 &247209247
 VideoPlayer:
   m_ObjectHideFlags: 0
@@ -803,6 +809,9 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
+  esteVideo: 0
+  disableVideoOnEnd: 0
+  agregarEstrella: 0
 --- !u!328 &1045898644
 VideoPlayer:
   m_ObjectHideFlags: 0
@@ -1075,6 +1084,7 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
   audioSource: {fileID: 1334947317}
+  agregarEstrella: 1
 --- !u!82 &1334947317
 AudioSource:
   m_ObjectHideFlags: 0
@@ -1327,6 +1337,9 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
+  esteVideo: 0
+  disableVideoOnEnd: 0
+  agregarEstrella: 0
 --- !u!328 &1856485733
 VideoPlayer:
   m_ObjectHideFlags: 0

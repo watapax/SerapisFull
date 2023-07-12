@@ -6,7 +6,7 @@ public class ManagerActividad : MonoBehaviour
 
     public int cantidadDeRespuestas;
     int respuestasAsignadas = 0;
-    public bool agregarEstrella = true;
+    public bool agregarEstrella = false;
     public void AgregarRespuestaCorrecta()
     {
         respuestasAsignadas++;

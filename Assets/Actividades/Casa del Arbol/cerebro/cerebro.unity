@@ -298,6 +298,7 @@ MonoBehaviour:
         m_CallState: 2
   esteVideo: 0
   disableVideoOnEnd: 0
+  agregarEstrella: 0
 --- !u!328 &269261139
 VideoPlayer:
   m_ObjectHideFlags: 0
@@ -1049,6 +1050,7 @@ MonoBehaviour:
         m_CallState: 2
   esteVideo: 0
   disableVideoOnEnd: 0
+  agregarEstrella: 1
 --- !u!328 &1265691516
 VideoPlayer:
   m_ObjectHideFlags: 0

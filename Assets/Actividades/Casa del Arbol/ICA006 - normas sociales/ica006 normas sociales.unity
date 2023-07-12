@@ -730,6 +730,7 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
   audioSource: {fileID: 207909622}
+  agregarEstrella: 1
 --- !u!114 &207909625
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1018,6 +1019,7 @@ MonoBehaviour:
           m_BoolArgument: 1
         m_CallState: 2
   cantidadDeRespuestas: 4
+  agregarEstrella: 0
 --- !u!4 &350948936
 Transform:
   m_ObjectHideFlags: 0
@@ -1478,6 +1480,8 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+  returnInitialPosition: 0
+  startPosition: {fileID: 0}
 --- !u!114 &508384406
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2177,6 +2181,8 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+  returnInitialPosition: 0
+  startPosition: {fileID: 0}
 --- !u!114 &904516663
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2559,6 +2565,9 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+  esteVideo: 0
+  disableVideoOnEnd: 0
+  agregarEstrella: 0
 --- !u!328 &1163583719
 VideoPlayer:
   m_ObjectHideFlags: 0
@@ -3427,6 +3436,8 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+  returnInitialPosition: 0
+  startPosition: {fileID: 0}
 --- !u!114 &1373676723
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3882,6 +3893,7 @@ MonoBehaviour:
           m_BoolArgument: 1
         m_CallState: 2
   audioSource: {fileID: 1643381404}
+  agregarEstrella: 0
 --- !u!82 &1643381404
 AudioSource:
   m_ObjectHideFlags: 0
@@ -4274,6 +4286,8 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+  returnInitialPosition: 0
+  startPosition: {fileID: 0}
 --- !u!114 &1662297898
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5218,6 +5232,8 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+  returnInitialPosition: 0
+  startPosition: {fileID: 0}
 --- !u!114 &5289413941418514165
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5477,6 +5493,7 @@ MonoBehaviour:
           m_BoolArgument: 1
         m_CallState: 2
   cantidadDeRespuestas: 4
+  agregarEstrella: 0
 --- !u!1 &5289413941618958947
 GameObject:
   m_ObjectHideFlags: 0
@@ -6063,6 +6080,8 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+  returnInitialPosition: 0
+  startPosition: {fileID: 0}
 --- !u!4 &5289413942840702292
 Transform:
   m_ObjectHideFlags: 0
@@ -6395,6 +6414,8 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+  returnInitialPosition: 0
+  startPosition: {fileID: 0}
 --- !u!114 &5289413942999442659
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6756,6 +6777,8 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+  returnInitialPosition: 0
+  startPosition: {fileID: 0}
 --- !u!114 &5289413943203430091
 MonoBehaviour:
   m_ObjectHideFlags: 0

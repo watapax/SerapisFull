@@ -2299,6 +2299,7 @@ MonoBehaviour:
   - {fileID: 32900000, guid: 98b5c090382792941a9adedace993ce9, type: 3}
   - {fileID: 32900000, guid: 0e3fcfdde8965c24ba159504b0ad9531, type: 3}
   - {fileID: 32900000, guid: 5463cd425bac79445aa7c649b5172d25, type: 3}
+  agregarEstrella: 1
 --- !u!328 &1548146639
 VideoPlayer:
   m_ObjectHideFlags: 0
@@ -2791,6 +2792,7 @@ MonoBehaviour:
   - {fileID: 32900000, guid: a210cdfbbf6c9b246891f2b0f2c0c626, type: 3}
   - {fileID: 32900000, guid: e496245a4e3d2244986654145e56316a, type: 3}
   - {fileID: 32900000, guid: 69b2c9ca08a81234ab4474efd57744a4, type: 3}
+  agregarEstrella: 0
 --- !u!328 &1684300620
 VideoPlayer:
   m_ObjectHideFlags: 0
@@ -3070,6 +3072,7 @@ MonoBehaviour:
   - {fileID: 32900000, guid: 32773616470c4ea4e8b7838bba891c45, type: 3}
   - {fileID: 32900000, guid: 4330afd6abba42c4986f9caab219932e, type: 3}
   - {fileID: 32900000, guid: 5d971c7a1abe04849ada5bd4153ba7e7, type: 3}
+  agregarEstrella: 0
 --- !u!328 &1984981269
 VideoPlayer:
   m_ObjectHideFlags: 0

@@ -12,7 +12,7 @@ public class CambiadorEscenas : MonoBehaviour
 
     public string nombreEscenaDestino;
     public string IDAnclaDestino;
-
+    public bool agregarEstrella = false;
     Button button;
 
     private void Start()
@@ -33,5 +33,14 @@ public class CambiadorEscenas : MonoBehaviour
     public void CambiarDeEscena()
     {
         ManagerEscenas.Instance.CargarEscena(nombreEscenaDestino, "", IDAnclaDestino, "ZONA");
+        if (agregarEstrella == true && ManagerEscenas.Instance.sceneStatusArray[UnityEngine.SceneManagement.SceneManager.GetActiveScene().buildIndex] == false)
+        {
+            AgregarEstrella();
+            ManagerEscenas.Instance.sceneStatusArray[UnityEngine.SceneManagement.SceneManager.GetActiveScene().buildIndex] = true;
+        }
+    }
+    void AgregarEstrella()
+    {
+        ManagerEscenas.Instance.AddStar();
     }
 }

@@ -306,6 +306,7 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
   cantidadDeRespuestas: 24
+  agregarEstrella: 0
 --- !u!114 &6650775
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3899,6 +3900,7 @@ MonoBehaviour:
         m_CallState: 2
   esteVideo: 0
   disableVideoOnEnd: 0
+  agregarEstrella: 0
 --- !u!328 &1609848316
 VideoPlayer:
   m_ObjectHideFlags: 0
@@ -4082,6 +4084,7 @@ MonoBehaviour:
         m_CallState: 2
   esteVideo: 0
   disableVideoOnEnd: 0
+  agregarEstrella: 1
 --- !u!328 &1840454840
 VideoPlayer:
   m_ObjectHideFlags: 0

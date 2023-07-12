@@ -870,6 +870,7 @@ MonoBehaviour:
         m_CallState: 2
   esteVideo: 0
   disableVideoOnEnd: 0
+  agregarEstrella: 0
 --- !u!4 &578839753
 Transform:
   m_ObjectHideFlags: 0
@@ -913,6 +914,7 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
   cantidadDeRespuestas: 1
+  agregarEstrella: 0
 --- !u!1 &617764985 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 558580837604631819, guid: 214d3e82dadc1a94db73ae6ec94d1c35,
@@ -1316,6 +1318,7 @@ MonoBehaviour:
         m_CallState: 2
   esteVideo: 0
   disableVideoOnEnd: 0
+  agregarEstrella: 1
 --- !u!328 &764875144
 VideoPlayer:
   m_ObjectHideFlags: 0
@@ -1380,6 +1383,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nombreEscenaDestino: Isla Plaza
   IDAnclaDestino: BANDERAS
+  agregarEstrella: 0
 --- !u!1 &839743302
 GameObject:
   m_ObjectHideFlags: 0
@@ -1641,6 +1645,7 @@ MonoBehaviour:
         m_CallState: 2
   esteVideo: 0
   disableVideoOnEnd: 0
+  agregarEstrella: 0
 --- !u!4 &923687478
 Transform:
   m_ObjectHideFlags: 0
@@ -1684,6 +1689,7 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
   cantidadDeRespuestas: 1
+  agregarEstrella: 0
 --- !u!1 &927355009 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -7595413430563298066, guid: 214d3e82dadc1a94db73ae6ec94d1c35,
@@ -2016,6 +2022,7 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
   cantidadDeRespuestas: 5
+  agregarEstrella: 0
 --- !u!4 &1127719308
 Transform:
   m_ObjectHideFlags: 0
@@ -2153,6 +2160,7 @@ MonoBehaviour:
         m_CallState: 2
   esteVideo: 0
   disableVideoOnEnd: 0
+  agregarEstrella: 0
 --- !u!1 &1419926605 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -735985239012028135, guid: 214d3e82dadc1a94db73ae6ec94d1c35,
@@ -5518,6 +5526,7 @@ MonoBehaviour:
         m_CallState: 2
   esteVideo: 0
   disableVideoOnEnd: 0
+  agregarEstrella: 0
 --- !u!4 &1929937580
 Transform:
   m_ObjectHideFlags: 0
@@ -5561,6 +5570,7 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
   cantidadDeRespuestas: 1
+  agregarEstrella: 0
 --- !u!1 &1932922060
 GameObject:
   m_ObjectHideFlags: 0
@@ -5721,6 +5731,7 @@ MonoBehaviour:
         m_CallState: 2
   esteVideo: 0
   disableVideoOnEnd: 0
+  agregarEstrella: 0
 --- !u!4 &1932922064
 Transform:
   m_ObjectHideFlags: 0
@@ -5764,6 +5775,7 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
   cantidadDeRespuestas: 1
+  agregarEstrella: 0
 --- !u!1 &1956474995
 GameObject:
   m_ObjectHideFlags: 0
@@ -5924,6 +5936,7 @@ MonoBehaviour:
         m_CallState: 2
   esteVideo: 0
   disableVideoOnEnd: 0
+  agregarEstrella: 0
 --- !u!4 &1956474999
 Transform:
   m_ObjectHideFlags: 0
@@ -5967,6 +5980,7 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
   cantidadDeRespuestas: 1
+  agregarEstrella: 0
 --- !u!1 &2072076350 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7751269498262281042, guid: 214d3e82dadc1a94db73ae6ec94d1c35,

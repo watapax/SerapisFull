@@ -494,6 +494,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nombreEscenaDestino: Isla Plaza
   IDAnclaDestino: Vocal U
+  agregarEstrella: 0
 --- !u!114 &309838837
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -524,6 +525,7 @@ MonoBehaviour:
         m_CallState: 2
   esteVideo: 0
   disableVideoOnEnd: 0
+  agregarEstrella: 1
 --- !u!328 &309838838
 VideoPlayer:
   m_ObjectHideFlags: 0
@@ -775,6 +777,7 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
   audioSource: {fileID: 375369934}
+  agregarEstrella: 0
 --- !u!82 &375369934
 AudioSource:
   m_ObjectHideFlags: 0
@@ -944,6 +947,7 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
   audioSource: {fileID: 420401341}
+  agregarEstrella: 0
 --- !u!82 &420401341
 AudioSource:
   m_ObjectHideFlags: 0
@@ -1113,6 +1117,7 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
   audioSource: {fileID: 537952946}
+  agregarEstrella: 0
 --- !u!82 &537952946
 AudioSource:
   m_ObjectHideFlags: 0
@@ -1827,6 +1832,7 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
   audioSource: {fileID: 961891847}
+  agregarEstrella: 0
 --- !u!82 &961891847
 AudioSource:
   m_ObjectHideFlags: 0
@@ -2106,6 +2112,7 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
   audioSource: {fileID: 1008607770}
+  agregarEstrella: 0
 --- !u!82 &1008607770
 AudioSource:
   m_ObjectHideFlags: 0
@@ -2275,6 +2282,7 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
   audioSource: {fileID: 1012397219}
+  agregarEstrella: 0
 --- !u!82 &1012397219
 AudioSource:
   m_ObjectHideFlags: 0
@@ -2444,6 +2452,7 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
   audioSource: {fileID: 1098933954}
+  agregarEstrella: 0
 --- !u!82 &1098933954
 AudioSource:
   m_ObjectHideFlags: 0
@@ -2821,6 +2830,7 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
   audioSource: {fileID: 1321878082}
+  agregarEstrella: 0
 --- !u!82 &1321878082
 AudioSource:
   m_ObjectHideFlags: 0
@@ -2977,6 +2987,7 @@ MonoBehaviour:
         m_CallState: 2
   esteVideo: 0
   disableVideoOnEnd: 0
+  agregarEstrella: 0
 --- !u!328 &1428906976
 VideoPlayer:
   m_ObjectHideFlags: 0
@@ -3112,6 +3123,7 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
   audioSource: {fileID: 1568411791}
+  agregarEstrella: 0
 --- !u!82 &1568411791
 AudioSource:
   m_ObjectHideFlags: 0
@@ -3293,6 +3305,7 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
   audioSource: {fileID: 1778964880}
+  agregarEstrella: 0
 --- !u!82 &1778964880
 AudioSource:
   m_ObjectHideFlags: 0
@@ -3474,6 +3487,7 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
   audioSource: {fileID: 1905552930}
+  agregarEstrella: 0
 --- !u!82 &1905552930
 AudioSource:
   m_ObjectHideFlags: 0
@@ -5925,6 +5939,7 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
   cantidadDeRespuestas: 6
+  agregarEstrella: 0
 --- !u!114 &8730273376038255712
 MonoBehaviour:
   m_ObjectHideFlags: 0

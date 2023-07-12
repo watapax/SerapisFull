@@ -233,6 +233,9 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+  esteVideo: 0
+  disableVideoOnEnd: 0
+  agregarEstrella: 0
 --- !u!114 &73119177
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -384,6 +387,9 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+  esteVideo: 0
+  disableVideoOnEnd: 0
+  agregarEstrella: 0
 --- !u!114 &130544085
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -657,6 +663,9 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
+  esteVideo: 0
+  disableVideoOnEnd: 0
+  agregarEstrella: 0
 --- !u!328 &225916886
 VideoPlayer:
   m_ObjectHideFlags: 0
@@ -753,6 +762,9 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+  esteVideo: 0
+  disableVideoOnEnd: 0
+  agregarEstrella: 0
 --- !u!328 &320472791
 VideoPlayer:
   m_ObjectHideFlags: 0
@@ -849,6 +861,9 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
+  esteVideo: 0
+  disableVideoOnEnd: 0
+  agregarEstrella: 0
 --- !u!328 &869295804
 VideoPlayer:
   m_ObjectHideFlags: 0
@@ -1078,6 +1093,9 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+  esteVideo: 0
+  disableVideoOnEnd: 0
+  agregarEstrella: 1
 --- !u!328 &1057601243
 VideoPlayer:
   m_ObjectHideFlags: 0
@@ -1259,6 +1277,9 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+  esteVideo: 0
+  disableVideoOnEnd: 0
+  agregarEstrella: 0
 --- !u!328 &1082093068
 VideoPlayer:
   m_ObjectHideFlags: 0
@@ -2236,6 +2257,9 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+  esteVideo: 0
+  disableVideoOnEnd: 0
+  agregarEstrella: 0
 --- !u!114 &2091612074
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2309,6 +2333,9 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
+  esteVideo: 0
+  disableVideoOnEnd: 0
+  agregarEstrella: 0
 --- !u!328 &2112756302
 VideoPlayer:
   m_ObjectHideFlags: 0

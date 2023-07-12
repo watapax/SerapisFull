@@ -12,7 +12,7 @@ public class SecuenciaVideos : MonoBehaviour
     //public string[] urlVideos;
     public VideoClip[] clips;
     int index = 0;
-
+    public bool agregarEstrella = false;
     private void Start()
     {
         videoPlayer.prepareCompleted += Prepared;
@@ -62,7 +62,16 @@ public class SecuenciaVideos : MonoBehaviour
         if (index == clips.Length)
         {
             onEndSequence.Invoke();
+            if (agregarEstrella == true && ManagerEscenas.Instance.sceneStatusArray[UnityEngine.SceneManagement.SceneManager.GetActiveScene().buildIndex] == false)
+            {
+                AgregarEstrella();
+                ManagerEscenas.Instance.sceneStatusArray[UnityEngine.SceneManagement.SceneManager.GetActiveScene().buildIndex] = true;
+            }
             return;
         }
+    }
+    void AgregarEstrella()
+    {
+        ManagerEscenas.Instance.AddStar();
     }
 }
