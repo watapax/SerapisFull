@@ -6,12 +6,12 @@ public class AgrandarBoton : MonoBehaviour
 {
     public float multiplicar;
 
-    public void Agrandar()
+    public void Agrandar(GameObject boton)
     {
-        transform.localScale = this.transform.localScale * multiplicar;
+        boton.transform.localScale = boton.transform.localScale * multiplicar;
     }
-    public void VolverAlaNormalidad()
+    public void VolverAlaNormalidad(GameObject boton)
     {
-        transform.localScale = this.transform.localScale / multiplicar;
+       boton.transform.localScale = boton.transform.localScale / multiplicar;
     }
 }
