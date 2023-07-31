@@ -8,6 +8,7 @@ public class OnEndAudio : MonoBehaviour
 
     public AudioSource audioSource;
     public bool agregarEstrella = false;
+    public bool PlayOnAwake = true;
 
     IEnumerator Start()
     {

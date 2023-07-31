@@ -33,20 +33,47 @@ public class DesactivarCollidersEnChild : MonoBehaviour
         
         if (modelos3d)
         {
-            print("Activando");
-            Collider[] colliders = parent.GetComponentsInChildren<Collider>();
-            for (int i = 0; i < colliders.Length; i++)
+            if (parent == null)
             {
-                colliders[i].enabled = true;
+                print("Activando");
+                Collider[] colliders = this.gameObject.GetComponentsInChildren<Collider>();
+                for (int i = 0; i < colliders.Length; i++)
+                {
+                    colliders[i].enabled = true;
+                }
             }
+            else
+            {
+                print("Activando");
+                Collider[] colliders = parent.GetComponentsInChildren<Collider>();
+                for (int i = 0; i < colliders.Length; i++)
+                {
+                    colliders[i].enabled = true;
+                }
+            }
+
         }
         else
         {
-            Collider2D[] colliders = parent.GetComponentsInChildren<Collider2D>();
-            for (int i = 0; i < colliders.Length; i++)
+            if (parent == null)
             {
-                colliders[i].enabled = true;
+                print("Desactivando");
+                Collider2D[] colliders = this.gameObject.GetComponentsInChildren<Collider2D>();
+                for (int i = 0; i < colliders.Length; i++)
+                {
+                    colliders[i].enabled = true;
+                }
             }
+            else
+            {
+                print("Desactivando");
+                Collider2D[] colliders = parent.GetComponentsInChildren<Collider2D>();
+                for (int i = 0; i < colliders.Length; i++)
+                {
+                    colliders[i].enabled = true;
+                }
+            }
+           
         }      
     }
 }
