@@ -11,13 +11,22 @@ public class EmparejarConTag : MonoBehaviour
     public bool moveToMatchPosition;
    
     Vector3 startPosition;
-
+    public bool tieneParent = false;
+    public Transform parentTransform;
     bool emparejado;
     bool onRange;
     
     private void Awake()
     {
-        startPosition = transform.position;
+        if(tieneParent == false)
+        {
+            startPosition = transform.position;
+        }
+        else
+        {
+            startPosition = parentTransform.position;
+        }
+        
     }
 
 
@@ -60,9 +69,16 @@ public class EmparejarConTag : MonoBehaviour
             if (!onRange)
                 onTry.Invoke();
         }
-
-
-        Vector3 from = transform.position;
+        Vector3 from;
+        if (tieneParent == false)
+        {
+            from = transform.position;
+        }
+        else
+        {
+             from = parentTransform.position;
+        }
+       
         float t = 0;
         float duracion = 0.3f;
         while(t < duracion)

@@ -19,6 +19,7 @@ TagManager:
   - area
   - usado
   - SceneInfo
+  - Caja
   layers:
   - Default
   - TransparentFX
