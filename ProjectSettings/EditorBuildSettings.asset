@@ -230,4 +230,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Actividades/InteriorEstacionEspacial/Fabrica/Fabrica.unity
     guid: 2614d01173f89704087d690d8bfbaa60
+  - enabled: 1
+    path: Assets/Actividades/Casa del Arbol/MicroCuentos/MicroCuentos.unity
+    guid: e99173abdc674124f873c9bfbbb1f115
   m_configObjects: {}

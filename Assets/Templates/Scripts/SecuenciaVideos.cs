@@ -62,6 +62,7 @@ public class SecuenciaVideos : MonoBehaviour
         if (index == clips.Length)
         {
             onEndSequence.Invoke();
+            print("TermineSecuencia");
             if (agregarEstrella == true && ManagerEscenas.Instance.sceneStatusArray[UnityEngine.SceneManagement.SceneManager.GetActiveScene().buildIndex] == false)
             {
                 AgregarEstrella();
