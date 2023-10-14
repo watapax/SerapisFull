@@ -47,6 +47,7 @@ ScriptedImporter:
     flipbookRows: 0
     flipbookColumns: 0
     ignorePngGamma: 0
+    cookieMode: 0
     filterMode: 1
     aniso: 1
     mipBias: 0
@@ -89,6 +90,7 @@ ScriptedImporter:
     tessellationDetail: 0
     parentGroupIndex: -1
     uvTransform: {x: 0, y: 0}
+    spritePosition: {x: 0, y: 0}
   mosaicSpriteImportData: []
   rigSpriteImportData:
   - name: canasto
@@ -111,7 +113,8 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: -688, y: 1092}
+    uvTransform: {x: 4, y: 1092}
+    spritePosition: {x: 692, y: 0}
   - name: Layer 12
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -132,7 +135,8 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: -1043, y: 722}
+    uvTransform: {x: 278, y: 1555}
+    spritePosition: {x: 1321, y: 833}
   - name: platano
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -153,7 +157,8 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: -217, y: 585}
+    uvTransform: {x: 1122, y: 1092}
+    spritePosition: {x: 1339, y: 507}
   - name: jardin
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -174,7 +179,8 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: 88, y: 333}
+    uvTransform: {x: 579, y: 1092}
+    spritePosition: {x: 491, y: 759}
   - name: jabali
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -195,7 +201,8 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: -195, y: 589}
+    uvTransform: {x: 855, y: 1092}
+    spritePosition: {x: 1050, y: 503}
   - name: calcetin
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -216,7 +223,8 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: 838, y: 567}
+    uvTransform: {x: 1617, y: 1092}
+    spritePosition: {x: 779, y: 525}
   - name: bailarin
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -237,7 +245,8 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: -1042, y: 576}
+    uvTransform: {x: 4, y: 1385}
+    spritePosition: {x: 1046, y: 809}
   - name: aji
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -258,7 +267,8 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: -164, y: 1063}
+    uvTransform: {x: 141, y: 1555}
+    spritePosition: {x: 305, y: 492}
   - name: violin
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -279,7 +289,8 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: -816, y: 796}
+    uvTransform: {x: 4, y: 1555}
+    spritePosition: {x: 820, y: 759}
   - name: delfin
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -300,7 +311,8 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: 1574, y: 326}
+    uvTransform: {x: 1868, y: 1092}
+    spritePosition: {x: 294, y: 766}
   - name: cojin
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -321,7 +333,8 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: 876, y: 590}
+    uvTransform: {x: 1381, y: 1092}
+    spritePosition: {x: 505, y: 502}
   - name: fondo
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -343,6 +356,7 @@ ScriptedImporter:
     tessellationDetail: 0
     parentGroupIndex: -1
     uvTransform: {x: 4, y: 4}
+    spritePosition: {x: 0, y: 0}
   characterData:
     bones: []
     parts: []

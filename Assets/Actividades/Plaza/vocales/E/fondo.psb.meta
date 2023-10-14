@@ -47,6 +47,7 @@ ScriptedImporter:
     flipbookRows: 0
     flipbookColumns: 0
     ignorePngGamma: 0
+    cookieMode: 0
     filterMode: 1
     aniso: 1
     mipBias: 0
@@ -89,6 +90,7 @@ ScriptedImporter:
     tessellationDetail: 0
     parentGroupIndex: -1
     uvTransform: {x: 0, y: 0}
+    spritePosition: {x: 0, y: 0}
   mosaicSpriteImportData: []
   rigSpriteImportData:
   - name: elefante
@@ -111,7 +113,8 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: 1042, y: 103}
+    uvTransform: {x: 1932, y: 248}
+    spritePosition: {x: 890, y: 145}
   - name: escalera
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -132,7 +135,8 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: 690, y: 208}
+    uvTransform: {x: 1932, y: 363}
+    spritePosition: {x: 1242, y: 155}
   - name: erizo
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -153,7 +157,8 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: 814, y: 750}
+    uvTransform: {x: 1932, y: 930}
+    spritePosition: {x: 1118, y: 180}
   - name: esquimal
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -174,7 +179,8 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: 1247, y: 543}
+    uvTransform: {x: 1932, y: 696}
+    spritePosition: {x: 685, y: 153}
   - name: espejo
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -195,7 +201,8 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: 812, y: 76}
+    uvTransform: {x: 1932, y: 124}
+    spritePosition: {x: 1120, y: 48}
   - name: escorpion
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -216,7 +223,8 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: 1244, y: -33}
+    uvTransform: {x: 1932, y: 4}
+    spritePosition: {x: 688, y: 37}
   - name: escoba
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -237,7 +245,8 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: 1046, y: 775}
+    uvTransform: {x: 1932, y: 805}
+    spritePosition: {x: 886, y: 30}
   - name: embudo
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -258,7 +267,8 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: 932, y: 327}
+    uvTransform: {x: 1932, y: 475}
+    spritePosition: {x: 1000, y: 148}
   - name: botella
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -279,7 +289,8 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: -1021, y: 1169}
+    uvTransform: {x: 4, y: 1209}
+    spritePosition: {x: 1025, y: 40}
   - name: oso
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -300,7 +311,8 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: 681, y: 531}
+    uvTransform: {x: 1932, y: 582}
+    spritePosition: {x: 1251, y: 51}
   - name: "u\xF1a"
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -321,7 +333,8 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: -797, y: 949}
+    uvTransform: {x: 4, y: 1092}
+    spritePosition: {x: 801, y: 143}
   - name: fondo
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -343,6 +356,7 @@ ScriptedImporter:
     tessellationDetail: 0
     parentGroupIndex: -1
     uvTransform: {x: 4, y: 4}
+    spritePosition: {x: 0, y: 0}
   characterData:
     bones: []
     parts: []

@@ -47,6 +47,7 @@ ScriptedImporter:
     flipbookRows: 0
     flipbookColumns: 0
     ignorePngGamma: 0
+    cookieMode: 0
     filterMode: 1
     aniso: 1
     mipBias: 0
@@ -89,6 +90,7 @@ ScriptedImporter:
     tessellationDetail: 0
     parentGroupIndex: -1
     uvTransform: {x: 0, y: 0}
+    spritePosition: {x: 0, y: 0}
   mosaicSpriteImportData: []
   rigSpriteImportData:
   - name: radio
@@ -111,7 +113,8 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: -18, y: 642}
+    uvTransform: {x: 1229, y: 1092}
+    spritePosition: {x: 1247, y: 450}
   - name: mariposa
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -132,7 +135,8 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: 389, y: 1060}
+    uvTransform: {x: 1631, y: 1092}
+    spritePosition: {x: 1242, y: 32}
   - name: limon
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -153,7 +157,8 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: -221, y: 444}
+    uvTransform: {x: 1027, y: 1092}
+    spritePosition: {x: 1248, y: 648}
   - name: helado
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -174,7 +179,8 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: -1055, y: 448}
+    uvTransform: {x: 417, y: 1092}
+    spritePosition: {x: 1472, y: 644}
   - name: gato
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -195,7 +201,8 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: -1264, y: 238}
+    uvTransform: {x: 211, y: 1092}
+    spritePosition: {x: 1475, y: 854}
   - name: flor
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -216,7 +223,8 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: -34, y: 1063}
+    uvTransform: {x: 1430, y: 1092}
+    spritePosition: {x: 1464, y: 29}
   - name: celular
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -237,7 +245,8 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: -1244, y: 238}
+    uvTransform: {x: 4, y: 1092}
+    spritePosition: {x: 1248, y: 854}
   - name: cactus
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -258,7 +267,8 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: -848, y: 646}
+    uvTransform: {x: 621, y: 1092}
+    spritePosition: {x: 1469, y: 446}
   - name: arcoiris
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -279,7 +289,8 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: -641, y: 866}
+    uvTransform: {x: 824, y: 1092}
+    spritePosition: {x: 1465, y: 226}
   - name: perfume
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -300,7 +311,8 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: 584, y: 859}
+    uvTransform: {x: 1830, y: 1092}
+    spritePosition: {x: 1246, y: 233}
   - name: fondo
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -322,6 +334,7 @@ ScriptedImporter:
     tessellationDetail: 0
     parentGroupIndex: -1
     uvTransform: {x: 4, y: 4}
+    spritePosition: {x: 0, y: 0}
   characterData:
     bones: []
     parts: []

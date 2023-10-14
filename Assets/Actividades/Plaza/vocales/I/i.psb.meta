@@ -47,6 +47,7 @@ ScriptedImporter:
     flipbookRows: 0
     flipbookColumns: 0
     ignorePngGamma: 0
+    cookieMode: 0
     filterMode: 1
     aniso: 1
     mipBias: 0
@@ -89,6 +90,7 @@ ScriptedImporter:
     tessellationDetail: 0
     parentGroupIndex: -1
     uvTransform: {x: 0, y: 0}
+    spritePosition: {x: 0, y: 0}
   mosaicSpriteImportData: []
   rigSpriteImportData:
   - name: embudo
@@ -111,7 +113,8 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: 992, y: 136}
+    uvTransform: {x: 1932, y: 346}
+    spritePosition: {x: 940, y: 210}
   - name: alfiler
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -132,7 +135,8 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: 846, y: 614}
+    uvTransform: {x: 1932, y: 826}
+    spritePosition: {x: 1086, y: 212}
   - name: uno
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -153,7 +157,8 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: 1000, y: 462}
+    uvTransform: {x: 1932, y: 541}
+    spritePosition: {x: 932, y: 79}
   - name: oveja
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -174,7 +179,8 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: 1271, y: 237}
+    uvTransform: {x: 1932, y: 446}
+    spritePosition: {x: 661, y: 209}
   - name: palmera
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -195,7 +201,8 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: 726, y: 56}
+    uvTransform: {x: 1932, y: 136}
+    spritePosition: {x: 1206, y: 80}
   - name: indio
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -216,7 +223,8 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: 1133, y: -70}
+    uvTransform: {x: 1932, y: 4}
+    spritePosition: {x: 799, y: 74}
   - name: iguana
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -237,7 +245,8 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: -895, y: 975}
+    uvTransform: {x: 143, y: 1092}
+    spritePosition: {x: 1038, y: 117}
   - name: iglu
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -258,7 +267,8 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: 732, y: 527}
+    uvTransform: {x: 1932, y: 755}
+    spritePosition: {x: 1200, y: 228}
   - name: iglesia
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -279,7 +289,8 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: 1142, y: 31}
+    uvTransform: {x: 1932, y: 251}
+    spritePosition: {x: 790, y: 220}
   - name: abeja
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -300,7 +311,8 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: 1394, y: 445}
+    uvTransform: {x: 1932, y: 653}
+    spritePosition: {x: 538, y: 208}
   - name: Erizo
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -321,7 +333,8 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: -619, y: 1001}
+    uvTransform: {x: 4, y: 1092}
+    spritePosition: {x: 623, y: 91}
   - name: fondo
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -343,6 +356,7 @@ ScriptedImporter:
     tessellationDetail: 0
     parentGroupIndex: -1
     uvTransform: {x: 4, y: 4}
+    spritePosition: {x: 0, y: 0}
   characterData:
     bones: []
     parts: []

@@ -47,6 +47,7 @@ ScriptedImporter:
     flipbookRows: 0
     flipbookColumns: 0
     ignorePngGamma: 0
+    cookieMode: 0
     filterMode: 1
     aniso: 1
     mipBias: 0
@@ -89,6 +90,7 @@ ScriptedImporter:
     tessellationDetail: 0
     parentGroupIndex: -1
     uvTransform: {x: 0, y: 0}
+    spritePosition: {x: 0, y: 0}
   mosaicSpriteImportData: []
   rigSpriteImportData:
   - name: uva
@@ -111,7 +113,8 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: -1562, y: 658}
+    uvTransform: {x: 4, y: 1092}
+    spritePosition: {x: 1566, y: 434}
   - name: frutilla
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -132,7 +135,8 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: -166, y: 658}
+    uvTransform: {x: 178, y: 1092}
+    spritePosition: {x: 344, y: 434}
   - name: hoja
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -153,7 +157,8 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: -240, y: 658}
+    uvTransform: {x: 352, y: 1092}
+    spritePosition: {x: 592, y: 434}
   - name: platano
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -174,7 +179,8 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: -329, y: 658}
+    uvTransform: {x: 526, y: 1092}
+    spritePosition: {x: 855, y: 434}
   - name: mandarina
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -195,7 +201,8 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: -634, y: 658}
+    uvTransform: {x: 700, y: 1092}
+    spritePosition: {x: 1334, y: 434}
   - name: arandano
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -216,7 +223,8 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: -215, y: 658}
+    uvTransform: {x: 874, y: 1092}
+    spritePosition: {x: 1089, y: 434}
   - name: rojo
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -237,7 +245,8 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: -172, y: 789}
+    uvTransform: {x: 1162, y: 1092}
+    spritePosition: {x: 1334, y: 303}
   - name: naranjo
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -258,7 +267,8 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: 186, y: 789}
+    uvTransform: {x: 1393, y: 1092}
+    spritePosition: {x: 1207, y: 303}
   - name: verde
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -279,7 +289,8 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: 436, y: 789}
+    uvTransform: {x: 1507, y: 1092}
+    spritePosition: {x: 1071, y: 303}
   - name: azul
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -300,7 +311,8 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: 678, y: 789}
+    uvTransform: {x: 1620, y: 1092}
+    spritePosition: {x: 942, y: 303}
   - name: morado
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -321,7 +333,8 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: 471, y: 789}
+    uvTransform: {x: 1278, y: 1092}
+    spritePosition: {x: 807, y: 303}
   - name: amarillo
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -342,7 +355,8 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: 377, y: 790}
+    uvTransform: {x: 1048, y: 1092}
+    spritePosition: {x: 671, y: 302}
   - name: Layer 1
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -364,6 +378,7 @@ ScriptedImporter:
     tessellationDetail: 0
     parentGroupIndex: -1
     uvTransform: {x: 4, y: 4}
+    spritePosition: {x: 0, y: 0}
   characterData:
     bones: []
     parts: []
